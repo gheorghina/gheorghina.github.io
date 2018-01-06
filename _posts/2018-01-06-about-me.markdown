@@ -7,14 +7,9 @@ author: Gheorghina
 description: Just a few words about me.
 ---
 
-Gligor Gheorghina
-============
+Hi everyone
 
-* [github](https://github.com/gheorghina)
-* [twitter](https://twitter.com/gheorghinab)
-* [linkedin](https://www.linkedin.com/in/gheorghina-gligor-2000a148/)
-* [my own blog](https://gheorghina.github.io/gheorghina.github.io/)
-* [instagram](https://www.instagram.com/gheorghina/)
+For those who don't know me, my name is Gheorghina.
 
 I am passionate .net technical lead and coach with over nine years of experience in creating integration, backend and web enterprise software applications while helping other colleagues grow. 
 
@@ -27,3 +22,11 @@ So in this blog I will mainly keep my notes but I will also try to write advices
 
 
 Thank you!
+
+============
+
+* [github](https://github.com/gheorghina)
+* [twitter](https://twitter.com/gheorghinab)
+* [linkedin](https://www.linkedin.com/in/gheorghina-gligor-2000a148/)
+* [my own blog](https://gheorghina.github.io/gheorghina.github.io/)
+* [instagram](https://www.instagram.com/gheorghina/)
