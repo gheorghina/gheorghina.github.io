@@ -10,10 +10,11 @@ description: Just a few words about me.
 Gligor Gheorghina
 ============
 
-* [github](https://github.com/gheorghina).
-* [twitter](https://twitter.com/gheorghinab).
-* [instagram](https://www.instagram.com/gheorghina/).
-* [my own blog](https://gheorghina.github.io/gheorghina.github.io/).
+* [github](https://github.com/gheorghina)
+* [twitter](https://twitter.com/gheorghinab)
+* [linkedin](https://www.linkedin.com/in/gheorghina-gligor-2000a148/)
+* [my own blog](https://gheorghina.github.io/gheorghina.github.io/)
+* [instagram](https://www.instagram.com/gheorghina/)
 
 I am passionate .net technical lead and coach with over nine years of experience in creating integration, backend and web enterprise software applications while helping other colleagues grow. 
 
@@ -22,6 +23,7 @@ I have expertise in Microsoft.Net, JavaScript and MS SQL technologies that were 
 In the last couple of years I focused my activities also in the Solution Architecture area.
 
 So in this blog I will mainly keep my notes but I will also try to write advices and recommendations that might also help you.
+
 
 
 Thank you!
