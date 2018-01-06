@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "About Me"
+categories: Other
+tags: Other
+author: Gheorghina
+description: Just a few words about me.
+---
+
+Gligor Gheorghina
+============
+
+* Get it from [github](https://github.com/gheorghina).
+* See the [twitter](https://twitter.com/gheorghinab).
+* See the [instagram](https://www.instagram.com/gheorghina/).
+* See it [in action on my own blog](https://gheorghina.github.io/gheorghina.github.io/).
+
+I am passionate .net technical lead and coach with over nine years of experience in creating integration, backend and web enterprise software applications while helping other colleagues grow. 
+
+I have expertise in Microsoft.Net, JavaScript and MS SQL technologies that were used in the home automation and in the pharmaceutical businesses.
+
+In the last couple of years I focused my activities also in the Solution Architecture area.
+
+So in this blog I will mainly keep my notes but I will also try to write advices and recommendations that might also help you.
+
+
+Thank you!
