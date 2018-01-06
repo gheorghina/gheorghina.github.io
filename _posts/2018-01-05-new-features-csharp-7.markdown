@@ -12,22 +12,22 @@ This summary was made mainly for myself as a go to place in case I want to remem
 
 The resources I recommend for having each item described in detail are the following:
 
-   [Pluralsight course on  C# 7: First Look][Pluralsight-Csharp-7] by mister [Jesse Liberty][Jesse-Liberty] 
+   1. [Pluralsight course on  C# 7: First Look][Pluralsight-Csharp-7] by mister [Jesse Liberty][Jesse-Liberty] 
 
-   [MSDN][MSDN]
+   2. [MSDN][MSDN]
 
 
 ## Static Using
 
 Before:
 
-    ![]({{ site.baseurl }}//assets/images/new-features-c-7/before-static-using.png)
+  ![w]({{ site.baseurl }}//assets/images/new-features-c-7/before-static-using.png)
 
 
 Now:
 
-    ![]({{ site.baseurl }}//assets/images/new-features-c-7/static-using1.png)
-    ![]({{ site.baseurl }}//assets/images/new-features-c-7/static-using2.png)
+  ![w]({{ site.baseurl }}//assets/images/new-features-c-7/static-using1.png)
+  ![w]({{ site.baseurl }}//assets/images/new-features-c-7/static-using2.png)
 
 ## Tuples
 
