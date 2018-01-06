@@ -110,15 +110,6 @@ The value types can be converted into reference values by using the “ref” ke
 
  
 
-
-
-
-
-
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-
 [Pluralsight-Csharp-7]: https://www.pluralsight.com/courses/csharp-7-first-look 
 [Jesse-Liberty]: https://app.pluralsight.com/profile/author/jesse-liberty 
 [MSDN]: https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-7
