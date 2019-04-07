@@ -1,29 +1,55 @@
-# Jekyll configuration
+title: Coding
+description: My Personal Coding Problems
+author: Gheorghina Gligor
+github: https://github.com/gheorghina
+about: I am a Software Engineer in .NET, JS & Elixir. I love science, coffee & to travel
+disqus_shortname: stackproblems
+google_analytics: UA-XXXXXXXX-Y
+avatar_url: /static/img/avatar.jpg
 
-name: Gheorghina's Blog
-description: Welcome to Gheorghina's Blog！
+enableTags: true
+tagarray: []
 
-# url is currently only used only for the RSS feed in feed.xml
-url: https://github.com/zxixia/jekyll-xixia
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
 
-# baseurl will often be '', but for a project page on gh-pages, it needs to
-# be the project name.
-# *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
-#     run it like so: jekyll serve --baseurl=''
-baseurl: '/gheorghina.github.io'
-## default date_format
-date_format: 
-  title: "%B-%-d-%Y"
-  archive: "%b"
-  categories: "%b-%Y"
-  tag: "%b-%Y"
-# Language
-lan: "en" 
+social:
+    - icon: fa-twitter
+      link: "https://twitter.com/gheorghinab"
+    - icon: fa-linkedin
+      link: "https://www.linkedin.com/in/gheorghina-gligor-2000a148/"
+    - icon: fa-stack-exchange
+      link: "#"
+    - icon: fa-github
+      link: "https://github.com/gheorghina"
 
-paginate: 10
+share:
+  twitter_username: github.io
+  fb_appid: 1749788565247320
 
-highlighter: rouge
+urls:
+    - text: About Me
+      url: /about/
+    # - text: My Projects
+    #   url: /projects/
+    - text: XML Feed
+      url: /feed.xml
+
+url: "https://gheorghina.github.io"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
 markdown: kramdown
-gems: ['jekyll-paginate']
+gems:
+  - jekyll-paginate
+  - jekyll-gist
 
-exclude: ['README.md', 'LICENSE', "*.bak"]
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']

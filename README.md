@@ -1,54 +1,72 @@
-Jekyll Xixia
-============
+## My Stack Problems
 
-* Get it from [github](https://github.com/zxixia/jekyll-xixia).
-* See the [live demo](http://zxixia.github.io/jekyll-xixia/).
-* See it [in action on my own blog](http://xixia.info/).
+> This project forked and has been modified from [A simple grey theme for Jekyll](https://github.com/liamsymonds/simplygrey-jekyll),
+> and the search posts using [Super Search](https://github.com/chinchang/super-search)
 
-A simple and clean Jekyll theme using [bootstrap](http://getbootstrap.com)
-(not to be confused with jekyll-bootstrap) that's easy to modify and very
-modular in component and element reuse.
+### Demo
+* [https://agusmakmun.github.io](https://agusmakmun.github.io)
 
-The theme works well on mobile phones, using a collapsable nav bar and hiding the
-sidebar. The links pane in the sidebar is available on mobile through the nav menu,
-and you can do the same thing for any other sections added to the sidebar.
+#### Features
 
-Don't forget to occassionally merge against my upstream repository so you can get
-the latest changes. Pull requests are encouraged and accepted!
+* Sitemap and XML Feed
+* Pagination in homepage
+* Posts under category
+* Realtime Search Posts _(title & description)_ by query.
+* Related Posts
+* Highlight pre
+* Next & Previous Post
+* Disqus comment
+* Projects page & Detail Project page
+* Share on social media
+* Google analytics
+* HTML Minify _(Compress HTML)_ using [Jekyll Compress HTML](https://github.com/penibelst/jekyll-compress-html)
 
-Preview
-=======
-![Xixia](/assets/images/preview.png)
+#### Screenshot
 
-License
-=======
+![Screenshot Post Page](https://raw.githubusercontent.com/agusmakmun/agusmakmun.github.io/master/static/img/screenshot-post-page.png  "Screenshot Post Page")
 
-The content of this theme is distributed and licensed under a
-![License Badge](assets/images/cc_by_88x31.png)
-[Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/legalcode)
+### Install & Configuration
 
-    This license lets others distribute, remix, tweak, and build upon your work,
-    even commercially, as long as they credit you for the original creation. This
-    is the most accommodating of licenses offered. Recommended for maximum
-    dissemination and use of licensed materials.
+1. Fork this repository
+2. Edit site settings inside file of `_config.yml`
+3. Edit your projects at file of `projects.md`, `_data/projects.json` and inside path of `_project/` _(for detail project)_.
+4. Edit about yourself inside file of `about.md`
 
-In other words: you can do anything you want with this theme on any site, just please
-provide a link to [the original theme on github](https://github.com/zxixia/jekyll-xixia)
-so I get credit for the original design. Beyond that, have at it!
+### How to Use?
 
-Thanks
-======
+**a. Add new Category**
 
-1，[Jekyll][jekyll-url]
+All categories saved inside path of `category/`, you can see the existed categories.
 
-2，[Bootstrap][bootstrap-url]
+**b. Add new Posts**
 
-3，[Github][github-url]
+* All posts bassed on markdown syntax _(please googling)_. allowed extensions is `*.markdown` or `*.md`.
+* This files can found at the path of `_posts/`.
+* and the name of files are following `<date:%Y-%m-%d>-<slug>.<extension>`, for example:
 
-4，[Jekyll Clean Theme][Jekyll-Clean-Theme-url]
+```
+2013-09-23-welcome-to-jekyll.md
 
-[jekyll-url]: http://jekyllrb.com/
-[bootstrap-url]: http://getbootstrap.com/
-[github-url]: https://github.com/
-[Jekyll-Clean-Theme-url]: https://github.com/scotte/jekyll-clean
-[xixia-url]: http://xixia.info/
+# or
+
+2013-09-23-welcome-to-jekyll.markdown
+```
+
+Inside the file of it,
+
+```
+---
+layout: post                          # (require) default post layout
+title: "Your Title"                   # (require) a string title
+date: 2016-04-20 19:51:02 +0700       # (require) a post date
+categories: [python, django]          # (custom) some categories, but makesure these categories already exists inside path of `category/`
+tags: [foo, bar]                      # (custom) tags only for meta `property="article:tag"`
+image: Broadcast_Mail.png             # (custom) image only for meta `property="og:image"`, save your image inside path of `static/img/_posts`
+---
+
+# your content post with markdown syntax goes here...
+```
+
+### Contributing
+
+Feel free to [open a bug](https://github.com/agusmakmun/agusmakmun.github.io/issues) or [contribute to code](https://github.com/agusmakmun/agusmakmun.github.io/pulls)!
