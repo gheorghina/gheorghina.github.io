@@ -20,14 +20,14 @@ The resources I recommend for having each item described in detail are the follo
 
 Before:
 
-  ![]({{ site.url }}/static/img/_posts/new-features-c-7/before-static-using.jpg)
+  ![]({{ site.url }}/static/img/new-features-c-7/before-static-using.jpg)
 
 
 Now:
 
-  ![]({{ site.url }}/static/img/_posts/new-features-c-7/static-using1.jpg)
+  ![]({{ site.url }}/static/img/new-features-c-7/static-using1.jpg)
 
-  ![]({{ site.url }}/static/img/_posts/new-features-c-7/static-using2.jpg)
+  ![]({{ site.url }}/static/img/new-features-c-7/static-using2.jpg)
 
 
 ## Tuples
@@ -37,12 +37,12 @@ The code written with tuples in previous .net frameworks can become very verbose
 
 Examples with tuples used as return values as literals and with named values:
 
-  ![]({{ site.url }}/static/img/_posts/new-features-c-7/tuples1.jpg)
+  ![]({{ site.url }}/static/img/new-features-c-7/tuples1.jpg)
 
 
 Use tuples in dictionaries as keys
 
-  ![]({{ site.url }}/static/img/_posts/new-features-c-7/tuples2.jpg)
+  ![]({{ site.url }}/static/img/new-features-c-7/tuples2.jpg)
 
 Deconstructing tuples
 
@@ -50,7 +50,7 @@ Tuples can be deconstructed during declarations by using the corresponding type 
 
   Example
 
-  ![]({{ site.url }}/static/img/_posts/new-features-c-7/tuples3.jpg)
+  ![]({{ site.url }}/static/img/new-features-c-7/tuples3.jpg)
 
 
 ## Pattern Matching
@@ -61,11 +61,11 @@ Is expressions can have a patterns on the right hand side, not just types
 Case clauses in switch statements can now match on patterns and conditionals, not just constants
 Pattern Matching in Is expressions:
 
-   ![]({{ site.url }}/static/img/_posts/new-features-c-7/pattern3.jpg)
+   ![]({{ site.url }}/static/img/new-features-c-7/pattern3.jpg)
 
 Pattern Matching in Case clauses:
 
-   ![]({{ site.url }}/static/img/_posts/new-features-c-7/pattern4.jpg)
+   ![]({{ site.url }}/static/img/new-features-c-7/pattern4.jpg)
 
  
  
@@ -89,7 +89,7 @@ Out variables had to be declared before calling the method, but without using th
 
   Example:
 
-   ![]({{ site.url }}/static/img/_posts/new-features-c-7/outer1.jpg)
+   ![]({{ site.url }}/static/img/new-features-c-7/outer1.jpg)
 ![My helpful screenshot](/assets/screenshot.jpg)
 
 Now:
@@ -98,7 +98,7 @@ The variables can be declared inside the calling method.
 
   Example:
 
-  ![]({{ site.url }}/static/img/_posts/new-features-c-7/outer2.jpg)
+  ![]({{ site.url }}/static/img/new-features-c-7/outer2.jpg)
 
 
 
@@ -109,7 +109,7 @@ The value types can be converted into reference values by using the “ref” ke
 
 ## Use Exceptions as Expressions
 
-  ![]({{ site.url }}/static/img/_posts/new-features-c-7/exceptions-as-arguments.jpg)
+  ![]({{ site.url }}/static/img/new-features-c-7/exceptions-as-arguments.jpg)
 
  
 
