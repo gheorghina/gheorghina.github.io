@@ -21,7 +21,7 @@ The resources I recommend for having each item described in detail are the follo
 ## Static Using
 
 Before:
-
+  ![](https://github.com/gheorghina/gheorghina.github.io/tree/master/static/img/_posts/new-features-c-7/before-static-using.jpg)
   ![]({{ site.baseurl }}//static/img/_posts/new-features-c-7/before-static-using.jpg)
 
 
@@ -92,7 +92,7 @@ Out variables had to be declared before calling the method, but without using th
   Example:
 
    ![]({{ site.baseurl }}//static/img/_posts/new-features-c-7/outer1.jpg)
-
+![My helpful screenshot](/assets/screenshot.jpg)
 
 Now:
 
