@@ -22,7 +22,7 @@ From [Wiki](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life):
 
    So, what would look an implementation which would support the infinite evolution of the "Gosper glider gun"?
 
-**One Implementation Idea**
+### One Implementation Idea
 
    The implementation idea is to keep the complexity low and to focus only on the meaningful data.
    It would for sure be very simple to navigate through the entire Universe with each iteration of the evolution and change the states of the cells, but this is no longer a good idea in case
@@ -168,9 +168,8 @@ From [Wiki](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life):
       }
    ```
 
+  
    The next important piece is the `Universe` which will hold the key to evolution.
-
-   **to be continued**
 
 
 ### The Universe Evolution
@@ -194,6 +193,53 @@ From [Wiki](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life):
    6. For being able to expand the universe, an additional check is performed for seeing if the margin of the current universe was hit
 
 
+   ```
+   evolve() {
+
+    if (this.generation.length == 0) {
+      return;
+    }
+
+    let universeMarginIsHit = false;
+    let oldGeneration = this.clone();
+    let newGeneration = [];
+    let addiacentCellGroups = this.getAddiacentGroups(oldGeneration);
+    let seenCellsInNewGeneration = [];
+
+    for (var i = 0; i < addiacentCellGroups.length; i++) {
+
+      let slimGroup = addiacentCellGroups[i];
+
+      for (let row = slimGroup.getMinX(); row <= slimGroup.getMaxX(); row++) {
+        for (let col = slimGroup.getMinY(); col <= slimGroup.getMaxY(); col++) {
+
+          let cell = new Cell(row, col, this.seenCellInGeneration[this.getKey(row, col)]);
+
+          cell.evolveFrom(oldGeneration);
+
+          if (cell.getIsAlive() && !seenCellsInNewGeneration[this.getKey(row, col)]) {
+
+            if ((row == this.universeSize - 1) || (col == this.universeSize - 1)) {
+              universeMarginIsHit = true;
+            }
+
+            newGeneration.push(cell);
+            seenCellsInNewGeneration[this.getKey(cell.x, cell.y)] = true;
+          }
+        }
+      }
+
+    }
+
+    if (universeMarginIsHit) {
+      let increasedSize = ++this.universeSize;
+      this.init(increasedSize);
+    }
+
+    this.generation = newGeneration;
+    this.seenCellInGeneration = seenCellsInNewGeneration;
+  }
+  ```
 
 **The Complete Solution** 
 
