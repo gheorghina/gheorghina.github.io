@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Vagrand and Ansible Setup on Windows 10"
+title:  "Hot to setup with Vagrant and Ansible Windows 10"
 date:   2018-11-24 00:18:23 +0700
 categories: [ansible, vagrant, windows10, linux]
 ---
