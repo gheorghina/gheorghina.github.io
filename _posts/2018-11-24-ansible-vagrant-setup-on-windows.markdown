@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hot to setup with Vagrant and Ansible Windows 10"
+title:  "Hot to setup with Vagrant and Ansible on Windows 10"
 date:   2018-11-24 00:18:23 +0700
 categories: [ansible, vagrant, windows10, linux]
 ---
@@ -14,13 +14,13 @@ In the next steps I will describe how you can create virtual linux machines on a
 **Prerequisites**
 
   1. Enabling Linux on Windows 10 is now wasy. 
-     You can check on this article for a detailed net to step approach: https://www.laptopmag.com/articles/use-bash-shell-windows-10 
+     You can check on this article for a detailed net to step approach: [Linux on Windows 10](https://www.laptopmag.com/articles/use-bash-shell-windows-10) 
 
-  2. Install ubuntu bash: https://www.windowscentral.com/how-install-bash-shell-command-line-windows-10  
+  2. Install ubuntu bash: [Ubuntu bash on Windows 10](https://www.windowscentral.com/how-install-bash-shell-command-line-windows-10)   
 
-  3. Upgrade powershell to latest version: https://github.com/PowerShell/PowerShell
+  3. Upgrade powershell to latest version: [Powershell](https://github.com/PowerShell/PowerShell)  
 
-  4. Download and install Vagrant: https://www.vagrantup.com/ 
+  4. Download and install Vagrant: [Vagrantup](https://www.vagrantup.com) 
 
 
 **Setting up a Vagrant Configuration**
@@ -91,8 +91,9 @@ In the next steps I will describe how you can create virtual linux machines on a
   4. to be continued..
 
 
-That's it! You are now ready to go! 
+**Other Good References** 
 
+[Ansible Docs](https://docs.ansible.com/ansible/2.5/reference_appendices/faq.html)
+[Dev Docs](https://devdocs.io/)
 
-[Ansible Docs]: https://docs.ansible.com/ansible/2.5/reference_appendices/faq.html
-[Dev Docs]: https://devdocs.io/ 
+That's it! Now you are ready to go! 
