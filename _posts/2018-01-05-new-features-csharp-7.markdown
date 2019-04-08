@@ -111,6 +111,8 @@ The value types can be converted into reference values by using the “ref” ke
 
   ![]({{ site.url }}/static/img/new-features-c-7/exceptions-as-arguments.jpg)
 
+
+**Other Good References** 
  
 [Pluralsight-Csharp-7](https://www.pluralsight.com/courses/csharp-7-first-look) 
 

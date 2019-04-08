@@ -76,14 +76,14 @@ In the next steps I will describe how you can create virtual linux machines on a
 
      Therefore, start the `cmd` under `admin` rights and navigate to `d:\vagrant\demo` path where the `vagrantfile` can be found
 
-     For creating the first machine, execute
+     For creating the first machine, execute:
 
 
      ```
      $ vagrant up
      ```
 
-     For creating the second machine, execute
+     For creating the second machine, execute:
 
 
      ```
@@ -101,6 +101,6 @@ In the next steps I will describe how you can create virtual linux machines on a
 [Dev Docs](https://devdocs.io/)
 
 
-That's it! Now you are ready to go! 
+That's it! Now you are good to go! 
 
 
