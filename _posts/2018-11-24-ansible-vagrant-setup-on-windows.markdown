@@ -31,10 +31,8 @@ In the next steps I will describe how you can create virtual linux machines on a
      Let's say we work with: d:\vagrant\demo
 
   2. Create a vagrant file: `vagrantfile`. The next script sample shows a configuration for two similar linux virtual machines, with 2 CPUs and 2 GB of Memory.
-     The IP 
 
-     ifconfig |grep inet  10.198.217.20
-
+      ```
       #########################################################################
       ###### VM1 config #####################################################
       #########################################################################
@@ -71,18 +69,22 @@ In the next steps I will describe how you can create virtual linux machines on a
         end
       end
 
+      ```
+
   3. For creating the virtual machines, the `virtual up machine_name` command has to be used
      As you can notice, the first machine configuration specifies that vm1 is the primary machine, this means that the `machine_name` can be skipped from the command.
 
      Therefore, start the `cmd` under `admin` rights and navigate to `d:\vagrant\demo` path where the `vagrantfile` can be found
 
-     For creating the first machine run
+     For creating the first machine, execute
+
 
      ```
      $ vagrant up
      ```
 
-     For creating the second machine run
+     For creating the second machine, execute
+
 
      ```
      $ vagrant up vm2
@@ -94,6 +96,11 @@ In the next steps I will describe how you can create virtual linux machines on a
 **Other Good References** 
 
 [Ansible Docs](https://docs.ansible.com/ansible/2.5/reference_appendices/faq.html)
+
+
 [Dev Docs](https://devdocs.io/)
 
+
 That's it! Now you are ready to go! 
+
+
