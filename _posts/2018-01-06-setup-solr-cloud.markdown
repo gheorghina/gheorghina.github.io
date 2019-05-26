@@ -9,7 +9,7 @@ There comes a day when a single search index with a single shard deployed on a s
 In this article I will not go into the details of discovering the right configuration which has to be put in place for a given context. This will make an entire article in itself. 
 
 All I can say, very briefly, is that there is no magic formula which can be generically applied to all the applications which are using search solutions. 
-It always depends on multiple factors which have to be discovered with the right measuremens and tests. 
+It always depends on multiple factors which have to be discovered with the right measurements and tests. 
 
 You have no choice than to take your search data, put it in an environment where you can test various combinations of nodes, collections, sharding and replication numbers and break each setup with production like queries, until the measurements fit the required ones. 
 
@@ -22,7 +22,7 @@ Among the factors which will influence the configuration you will end up with ar
  - what other processes happen behind the scenes (services which trigger deletions, exports, you name it)
  - and of course the defined NFR(Non Functional Requirements) for your system either if it is a 5s or 0.5s response time 
 
-Bellow I will describe how you can settup a collection splitted into two shards, replicated on 3 nodes.
+Bellow I will describe how you can setup a collection splitted into two shards, replicated on 3 nodes.
 
 For a good start, I recommend the official documentation from apache: [Solr Cloud][Solr Cloud]
 
