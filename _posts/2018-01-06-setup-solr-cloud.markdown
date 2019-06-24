@@ -33,14 +33,15 @@ Solr Cloud does not maintain the cluster configurations. Therefore, their recomm
 
     For this reason, ZooKeeper deployments are usually made up of an odd number of machines."
 
-                                                                 — ZooKeeper Administrator's Guide
-                                                                    http://zookeeper.apache.org/doc/r3.4.10/zookeeperAdmin.html
+                                     — ZooKeeper Administrator's Guide
+                                        http://zookeeper.apache.org/doc/r3.4.10/zookeeperAdmin.html
 
 In our example we will install 3 zookeeper instances.
 
 For balancing the load on our local configuration, we will use [HAProxy](http://www.haproxy.org/) which will be configured to elect the nodes based on the round robin algorithm.
 
-The goal would be something like this: 
+The goal would be to achieve something like this: 
+
 ![]({{ site.url }}/static/img/solr-cloud.jpg)
 
 
