@@ -33,8 +33,8 @@ Solr Cloud does not maintain the cluster configurations. Therefore, their recomm
 
     For this reason, ZooKeeper deployments are usually made up of an odd number of machines."
 
-                                                                                                    — ZooKeeper Administrator's Guide
-                                                                                                    http://zookeeper.apache.org/doc/r3.4.10/zookeeperAdmin.html
+                                                                 — ZooKeeper Administrator's Guide
+                                                                    http://zookeeper.apache.org/doc/r3.4.10/zookeeperAdmin.html
 
 In our example we will install 3 zookeeper instances.
 
