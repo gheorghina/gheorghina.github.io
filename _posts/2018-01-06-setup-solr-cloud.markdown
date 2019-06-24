@@ -6,7 +6,7 @@ categories: [ansible, solr, cloud, scaling, distribution]
 ---
 
 There comes a day when a single search index with a single shard deployed on a single node is no longer enough for satisfying the performance requirements of a growing system.
-In this article I will not go into the details of discovering the right configuration which has to be put in place for a given context. This will make an entire article in itself. 
+In this article I will not go into the details of discovering the right configuration which has to be put in place for a given context. This would make an entire article in itself. 
 
 All I can say, very briefly, is that there is no magic formula which can be generically applied to all the applications which are using search solutions. 
 It always depends on multiple factors which have to be discovered with the right measurements and tests. 
@@ -22,9 +22,28 @@ Among the factors which will influence the configuration you will end up with ar
  - what other processes happen behind the scenes (services which trigger deletions, exports, you name it)
  - and of course the defined NFR(Non Functional Requirements) for your system either if it is a 5s or 0.5s response time 
 
-Bellow I will describe how you can setup a collection splitted into two shards, replicated on 3 nodes.
+Bellow I will describe how you can setup collections splitted into two shards, replicated on 3 nodes out of which one would be the master and the other two the slaves.
 
 For a good start, I recommend the official documentation from apache: [Solr Cloud](https://lucene.apache.org/solr/guide/6_6/solrcloud.html)
+
+ 
+Solr Cloud does not maintain the cluster configurations. Therefore, their recommendation is to use an ensemble of zookeeper services for that:  
+
+    "For a ZooKeeper service to be active, there must be a majority of non-failing machines that can communicate with each other. To create a deployment that can tolerate the failure of F machines, you should count on deploying 2xF+1 machines. Thus, a deployment that consists of three machines can handle one failure, and a deployment of five machines can handle two failures. Note that a deployment of six machines can only handle two failures since three machines is not a majority.
+
+    For this reason, ZooKeeper deployments are usually made up of an odd number of machines."
+
+                                                                                                    — ZooKeeper Administrator's Guide
+                                                                                                    http://zookeeper.apache.org/doc/r3.4.10/zookeeperAdmin.html
+
+In our example we will install 3 zookeeper instances.
+
+For balancing the load on our local configuration, we will use [HAProxy](http://www.haproxy.org/) which will be configured to elect the nodes based on the round robin algorithm.
+
+The goal would be something like this: 
+![]({{ site.url }}/static/img/solr-cloud.jpg)
+
+
 
 Loading...
 
