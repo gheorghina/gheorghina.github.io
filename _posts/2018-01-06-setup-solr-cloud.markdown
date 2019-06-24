@@ -24,7 +24,7 @@ Among the factors which will influence the configuration you will end up with ar
 
 Bellow I will describe how you can setup a collection splitted into two shards, replicated on 3 nodes.
 
-For a good start, I recommend the official documentation from apache: [Solr Cloud][Solr Cloud]
+For a good start, I recommend the official documentation from apache: [Solr Cloud](https://lucene.apache.org/solr/guide/6_6/solrcloud.html)
 
 Loading...
 
