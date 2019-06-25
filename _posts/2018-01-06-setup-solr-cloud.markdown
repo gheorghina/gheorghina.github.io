@@ -24,8 +24,9 @@ Among the factors which will influence the configuration you will end up with ar
 
 Bellow I will describe how you can setup collections splitted into two shards, replicated on 3 nodes out of which one would be the master and the other two the slaves.
 
-For a good start, I recommend the official documentation from apache: [Solr Cloud](https://lucene.apache.org/solr/guide/6_6/solrcloud.html)
-
+For a good start, I recommend the official documentation from apache: 
+    [Solr Cloud](https://lucene.apache.org/solr/guide/6_6/solrcloud.html)
+    [Taking Solr to Production](https://lucene.apache.org/solr/guide/6_6/taking-solr-to-production.html)
  
 Solr Cloud does not maintain the cluster configurations. Therefore, their recommendation is to use an ensemble of zookeeper services for that:  
 
@@ -42,7 +43,9 @@ For balancing the load on our local configuration, we will use [HAProxy](http://
 
 The goal would be to achieve something like this: 
 
-![]({{ site.url }}/static/img/solr-cloud.jpg)
+![]({{ site.url }}/static/img/solr-cloud/solr-cloud.jpg)
+
+
 
 
 
