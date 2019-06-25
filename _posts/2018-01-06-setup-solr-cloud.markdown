@@ -47,7 +47,9 @@ The goal would be to achieve something like this:
 
 
 First step consists in configuring the necessary servers with the desired configurations:
+
     For example, a zookeeper instance can be set with 2 CPU and 1024 GB of memory
+    
         ![]({{ site.url }}/static/img/solr-cloud/zookeeper-vagrant.png)
 
 
