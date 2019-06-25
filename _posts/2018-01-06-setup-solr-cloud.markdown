@@ -46,10 +46,7 @@ The goal would be to achieve something like this:
 ![]({{ site.url }}/static/img/solr-cloud/solr-cloud.jpg)
 
 
-First step consists in configuring the necessary servers with the desired configurations
-
-    Ex:
-    
+First step consists in configuring the necessary servers with the desired configurations:
         ![]({{ site.url }}/static/img/solr-cloud/zookeeper-vagrant.png)
 
 
