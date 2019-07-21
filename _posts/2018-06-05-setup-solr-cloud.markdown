@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Using Ansible to Setup Your on Premise Solr Cloud Cluster"
-date:   2018-01-06 00:18:23 +0700
+date:   2018-06-05 00:18:23 +0700
 categories: [ansible, solr, cloud, scaling, distribution]
 ---
 
