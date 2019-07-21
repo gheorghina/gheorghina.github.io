@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Elixir & Erlang Resources"
-date:   2019-01-01 00:18:23 +0700
+date:   2019-02-01 00:18:23 +0700
 categories: [elixir, erlang, resources]
 ---
 
