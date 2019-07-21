@@ -8,6 +8,7 @@ categories: [elixir, erlang, resources]
 ## Books
  
 [Designing for Scalability with Erlang/OTP](https://www.amazon.com/Designing-Scalability-Erlang-OTP-Fault-Tolerant-ebook/dp/B01FRIM8OK) 
+[Elixir Books](https://github.com/gheorghina/ElixirBooks)
 
 
 ## Practice Coding with a Mentor for Free
