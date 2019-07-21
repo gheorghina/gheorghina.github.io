@@ -190,14 +190,14 @@ $ ansible-playbook -i local_inventory solrcloud-playbook.yml --extra-vars "curre
 [Ansible Roles](https://docs.ansible.com/ansible/latest/user_guide/playbooks_reuse_roles.html)
 
 Examples of haproxy roles:
-- https://github.com/geerlingguy/ansible-role-haproxy
+- [ansible-role-haproxy](https://github.com/geerlingguy/ansible-role-haproxy)
 
 Examples of zookeeper roles:
-- https://github.com/AnsibleShipyard/ansible-zookeeper/blob/master/tasks/main.yml 
+- [ansible-role-zookeeper](https://github.com/AnsibleShipyard/ansible-zookeeper/blob/master/tasks/main.yml) 
 
 Examples of solrcloud roles: 
-- https://github.com/idealista/solrcloud-role 
-- https://github.com/geerlingguy/ansible-role-solr
+- [solrcloud-role](https://github.com/idealista/solrcloud-role) 
+- [ansible-role-solr](https://github.com/geerlingguy/ansible-role-solr)
 
 ### Additional Recommended Reading
 
