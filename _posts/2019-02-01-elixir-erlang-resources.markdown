@@ -18,7 +18,9 @@ categories: [elixir, erlang, resources]
 ## References
  
 [Erlang OTP](http://erlang.org/doc/index.html)
+
 [Elixir Lang](https://elixir-lang.org/docs.html)
+
 [HEX Docs](https://hexdocs.pm/elixir/Kernel.html)
 
 
