@@ -5,22 +5,24 @@ date:   2019-02-01 00:18:23 +0700
 categories: [elixir, erlang, resources]
 ---
 
-While switching from Microsoft Solutions to Erlang/Elixir, I compiled the below list of resources.
-Maybe someone else will find it useful.
 
-## Books
+While switching from Microsoft Solutions to Erlang/Elixir, I compiled the below list of resources.
+
+Maybe someone else will find it also useful.
+
+**Books**
  
 [Designing for Scalability with Erlang/OTP](https://www.amazon.com/Designing-Scalability-Erlang-OTP-Fault-Tolerant-ebook/dp/B01FRIM8OK)
 
 [Elixir Books](https://github.com/gheorghina/ElixirBooks)
 
 
-## Practice Coding with a Mentor for Free
+**Practice Coding with a Mentor for Free**
  
 [Exercism](https://exercism.io/my/tracks/elixir)
 
 
-## References
+**References**
  
 [Erlang OTP](http://erlang.org/doc/index.html)
 
