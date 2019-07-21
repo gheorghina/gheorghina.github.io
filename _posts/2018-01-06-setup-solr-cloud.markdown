@@ -163,9 +163,9 @@ The recommendations I have for it is to:
 
 In our particular case, the roles which will end up in the playbook can be splitted into the following list: 
 - the prerequisites 
-- the haproxy:      
+- the haproxy      
 - the zookeeper
-- for the solrcloud, the recommendation is to be splitted in at least two roles: one for deploying the service and another one for uploading or changing the collections configurations
+- for the solrcloud, the recommendation is to be splitted in at least two roles: one for deploying the service and another one for uploading or changing the collections configurations. This way later, when only the configuration changes, but the service is already installed, the playbook can be executed with the tagname `solrcloudconfigs`
 
 My playbook is named `solrcloud-playbook.yml`. Inside it, for each of the above mentioned task, the content will be similar to:
 
@@ -178,7 +178,7 @@ My playbook is named `solrcloud-playbook.yml`. Inside it, for each of the above 
    tags:
   - haproxy
 ```
-  
+
 Once all the configurations are in place, the following command can be executed:
 
 ```
