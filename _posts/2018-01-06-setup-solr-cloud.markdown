@@ -205,6 +205,8 @@ Examples of solrcloud roles:
 
 [Ansible Working with Patterns](https://docs.ansible.com/ansible/latest/user_guide/intro_patterns.html)
 
+[The State](https://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html#always-mention-the-state)
+
 
 
  
