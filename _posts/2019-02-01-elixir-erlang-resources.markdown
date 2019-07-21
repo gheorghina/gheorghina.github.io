@@ -23,4 +23,8 @@ categories: [elixir, erlang, resources]
 
 [HEX Docs](https://hexdocs.pm/elixir/Kernel.html)
 
+[Minimal Elixir HTTP2 Server](https://blog.lelonek.me/minimal-elixir-http2-server-64188d0c1f3a)
+
+[Elixir Companies](http://elixir-companies.com/en)
+
 
