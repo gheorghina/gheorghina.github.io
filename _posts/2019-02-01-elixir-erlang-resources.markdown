@@ -16,6 +16,8 @@ Maybe someone else will find it also useful.
 
 [Elixir Books](https://github.com/gheorghina/ElixirBooks)
 
+[More Elixir Books](https://pragprog.com/titles/category/elixir?f[include_mine]=yes&f[sort_by]=pubdate&f[category]=elixir&f[skill_level]=All&f[title_contains]=)
+
 
 **Practice Coding with a Mentor for Free**
  
