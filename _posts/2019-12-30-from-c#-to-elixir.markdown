@@ -27,7 +27,7 @@ What do you do in this situation?
 
 Well, you just start digging the internet, do tons of research for gathering insights and learning materials and try to see if other people went through the same transition or if you are all alone. 
 
-I added at the end of this article a link to another post I made with resources which helped me a lot during the process. Some of them I am still using today and will continue to use as long as I will work with the around the BEAM tech stack.
+I added at the end of this article a link to another post I made with resources which helped me a lot during the process. Some of them I am still using today and will continue to use as long as I will work with the Erlang VM languages.
 
 Therefore, in the next lines I will try to cover the questions I had in the beginning as a C#, OOP programmer. 
 
@@ -39,24 +39,36 @@ I will go through some of the differences, similarities, strengths and weaknesse
 ### What is it?
 
 [Elixir](https://en.wikipedia.org/wiki/Elixir_(programming_language)) is a dynamic, functional programming language created by José Valim. It is built on top of [Erlang Virtual Machine called BEAM](https://en.wikipedia.org/wiki/Erlang_(programming_language)). 
-It is used when robust, fault tolerant, highly distributed systems are required.  
+It is used when either one of the following is required: 
+    1. Real-time communication
+    2. Heavy traffic
+    3. Concurrency
+    4. Robustness and fault-tolerance
+    5. Distribution
+    6. Scalability  
 
-The way I started viewing it, when I began, was that Elixir was developed for poor programmers like me, to be able to quickly grasp it and implement powerfull systems on top of BEAM which otherwise would not have been achieved since Erlang falls at the bottom of the popularity charts. 
+ 
+The way I started viewing it, when I began, was that Elixir was developed for poor programmers like me, to be able to quickly grasp it and implement powerfull systems on top of BEAM which otherwise would not have been achieved since Erlang falls at the bottom in the popularity charts. 
+
+What also helped me back then was knowing what other known applications are built with Elixir. So I will name just a few: Whatsapp, Pinterest, Discord, Postmates, Bleacher Report, PagerDuty and [many others](https://www.erlang-solutions.com/blog/which-companies-are-using-elixir-and-why-mytopdogstatus.html). 
  
  
 ### What was it like to transition? 
+
+Loading...
 
 
 ### What I like the most
 
 
+
+
+
+
 ### Difficult bits, and how to tackle them
 
 
-
-Loading...
-
-
+ 
 
   
 ### Conclusion
@@ -65,7 +77,9 @@ Loading...
 With this blog post, I just wanted to let others know they are not alone. 
 There are others like you switching to Elixir. Have no fear, be eager and open to learn new things. Be curious and then good things will happen to you. 
 
-There are only advantages to knowing, understanding more languages. 
+It is true that there are fewer job opportunities, the community is not that big. There are missing tools. But this just leaves room for making an impact, by bringing value in a continuously growing ecosystem.
+
+Besides, there are only advantages to knowing, understanding more languages. 
 It will make you a better craftsman who will have less chances of falling under the ["Hammer law"](https://en.wikipedia.org/wiki/Law_of_the_instrument) 
 
 
