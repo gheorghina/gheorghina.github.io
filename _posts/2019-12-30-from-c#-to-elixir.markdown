@@ -31,9 +31,10 @@ I added at the end of this article a link to another post I made with resources 
 
 Therefore, in the next lines I will try to cover the questions I had in the beginning as a C#, OOP programmer. 
 
-I will not write about which of the two is better, since both serve very well different purposes. 
+I will not write about which of the two is better, since both serve, very well, different purposes. 
 
-I will go through some of the differences, similarities, strengths and weaknesses I found through my subjective eyes, things that made a difference for me in how I think and approach things.    
+I will go through some of the keep points which sold Elixir to me. 
+I will present through my subjective eyes, things that made a difference for me in how I think and consider things.    
 
 
 ### What is it?
