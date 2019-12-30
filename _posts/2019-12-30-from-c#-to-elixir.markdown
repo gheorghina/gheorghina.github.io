@@ -114,7 +114,10 @@ I will name a few: Whatsapp, Pinterest, Discord, Postmates, Bleacher Report, Pag
  - The community and the BEAM ecosystem 
 
    The Elixir community is very supportive. They are doing visible efforts in helping newcomers, you just have to go there and ask.
+   
    What I also like is that even if there are gaps in the libraries, you cannot find tons of libraries which do the same thing. Making your life a lot easier when choosing the tool kit for doing the job.  
+
+   Maybe, but just maybe, one of the missing tools I would really need also for Elixir solutions is the [Performance and Load Tests Project](https://docs.microsoft.com/en-us/visualstudio/test/quickstart-create-a-load-test-project?view=vs-2019) which allows you to define very complex load and performance tests for your APIs. The list metrics provided at the end are very detailed and helpful. 
 
   
 ### Conclusion
