@@ -21,14 +21,19 @@ After 10 years of providing Microsoft Solutions for Enterprise Businesses, I nee
 At that time I did not know exactly what Elixir or Erlang is, what power do they bring, what difference do they make. I just had this huge opportunity, that through a thorough interview process I was accepted in a team. They worked on a project written in Elixir which was used for Chat and Events Streaming between multiple systems.
  
 When I decided to accept the job, my eagerness started to grow, but also my anxiety. Just so you know, in Cluj Napoca(Romania), where I am from, there are only two companies working with Elixir at the time of writing this article, out of which only one has a complex, heavily utilised production system. 
-So it was not like I had many options where to go and ask. What do you do in this situation? 
+So it was not like I had many options where to go and ask. 
+
+What do you do in this situation? 
+
 You just start digging the internet, do tons of research for gathering insights and learning materials and try to see if other people went through the same transition or if you are all alone. 
 
-I added at the end of this article a link to another post I made with resources which helped me a lot during the process. Some of them I am still using today and will continue to use as long as I will work with the BEAM tech stack.
+I added at the end of this article a link to another post I made with resources which helped me a lot during the process. Some of them I am still using today and will continue to use as long as I will work with the around the BEAM tech stack.
 
 Therefore, in the next lines I will try to cover the questions I had in the beginning as a C#, OOP programmer. 
+
 I will not write about which of the two is better, since both serve very well different purposes. 
-I will go through some of the differences, similarities, the strengths and weaknesses I found through my subjective eyes, things that made a difference for me in how I think and approach things.    
+
+I will go through some of the differences, similarities, strengths and weaknesses I found through my subjective eyes, things that made a difference for me in how I think and approach things.    
 
 
 ### What is it?
@@ -36,7 +41,7 @@ I will go through some of the differences, similarities, the strengths and weakn
 [Elixir](https://en.wikipedia.org/wiki/Elixir_(programming_language)) is a dynamic, functional programming language created by José Valim. It is built on top of [Erlang Virtual Machine called BEAM](https://en.wikipedia.org/wiki/Erlang_(programming_language)). 
 It is used when robust, fault tolerant, highly distributed systems are required.  
 
-The way I started viewing it when I began was that Elixir was developed for poor programmers like me, to be able to quickly grasp it and implement powerfull systems on top of BEAM which otherwise would not have been achieved since Erlang falls at the bottom of the popularity charts. 
+The way I started viewing it, when I began, was that Elixir was developed for poor programmers like me, to be able to quickly grasp it and implement powerfull systems on top of BEAM which otherwise would not have been achieved since Erlang falls at the bottom of the popularity charts. 
  
  
 ### What was it like to transition? 
@@ -50,6 +55,7 @@ The way I started viewing it when I began was that Elixir was developed for poor
 
 
 Loading...
+
 
 
   
@@ -69,11 +75,11 @@ It will make you a better craftsman who will have less chances of falling under 
 [Elixir resources I put together](https://gheorghina.github.io/elixir/erlang/resources/2019/01/31/elixir-erlang-resources.html)
 
 
-[Check the C# vs Elixir discussion on the Elixir forum](https://elixirforum.com/t/elixir-vs-c/670/13) 
+[C# vs Elixir discussion on the Elixir forum](https://elixirforum.com/t/elixir-vs-c/670/13) 
 
 
 [Check what other people listed as pros and cons on both](https://www.slant.co/versus/115/1540/~c_vs_elixir) and maybe [this one](http://vschart.com/compare/elixir/vs/c-sharp)
 
 
-[Some resources for easing the fear of loosing your relevance](http://devonestes.com/the-truth-about-hiring) and [this one for jobs openings.](https://functional.works-hub.com/jobs/)  --- but if you start searching you will see there are more and more companies realising the value the BEAM VM brings and are slowly staring to migrate their solutions.
+[Ease the fear of loosing your relevance](http://devonestes.com/the-truth-about-hiring) and [this one for jobs openings.](https://functional.works-hub.com/jobs/)  --- but if you start searching you will see there are more and more companies realising the value the BEAM VM brings and are slowly staring to migrate their solutions.
 
