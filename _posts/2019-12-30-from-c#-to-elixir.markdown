@@ -91,7 +91,7 @@ I will name a few: Whatsapp, Pinterest, Discord, Postmates, Bleacher Report, Pag
 
     I am not saying it is a bad thing, because I understood in those years the value added by them in OOP. You need some means, or tools to manage chaos.
     
-    What happened in the last months was realizing for real why that is like this:
+    What happened in the last months was realizing for real why it is like that:
    
     Besides variables which can be mutated, in C# you work classes which have to be instantiated. 
     This means you end up with a bunch of new or already existent instances, which you have no choice but to manage -- therefore DI principle and IOC need.
