@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Transitioning from C# to Elixir"
-date:   2019-30-12 00:18:23 +0700
+date:   2019-12-30 00:18:23 +0700
 categories: [elixir, c#]
 ---
 
