@@ -30,6 +30,8 @@ Maybe someone else will find it also useful.
 
 [Elixir Lang](https://elixir-lang.org/docs.html)
 
+[Elixir Forum](https://elixirforum.com/)
+
 [HEX Docs](https://hexdocs.pm/elixir/Kernel.html)
 
 [Minimal Elixir HTTP2 Server](https://blog.lelonek.me/minimal-elixir-http2-server-64188d0c1f3a)
