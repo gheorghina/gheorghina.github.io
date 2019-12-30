@@ -5,7 +5,7 @@ date:   2019-12-30 00:18:23 +0700
 categories: [elixir, c#]
 ---
 
-This article is dedicated to all my coder fellows who ask me what is that magic liquor I am drinking these days, and to all those out there being afraid to try the leap of transitioning from their language of choice to Elixir, by thinking they will become less relevant on the workforce market.
+This article is dedicated to all my coder fellows who ask me what is that magic potion I am boiling these days, and to all those out there being afraid to try the leap of transitioning from their language of choice to Elixir, by thinking they will become less relevant on the workforce market.
  
 Beware my friends, next time you ask me about Elixir, Absinthe or any other magic cocktail I will just provide a link.
  
