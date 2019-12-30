@@ -39,36 +39,75 @@ I will go through some of the differences, similarities, strengths and weaknesse
 ### What is it?
 
 [Elixir](https://en.wikipedia.org/wiki/Elixir_(programming_language)) is a dynamic, functional programming language created by José Valim. It is built on top of [Erlang Virtual Machine called BEAM](https://en.wikipedia.org/wiki/Erlang_(programming_language)). 
-It is used when either one of the following is required: 
-    1. Real-time communication
-    2. Heavy traffic
-    3. Concurrency
-    4. Robustness and fault-tolerance
-    5. Distribution
-    6. Scalability  
+It is used when either ones of the following are required: 
+
+1. Robustness and fault-tolerance 
+
+2. Concurrency
+
+3. Scalability
+
+4. Distribution 
+
+5. Real-time communication
+
+6. Heavy traffic   
 
  
-The way I started viewing it, when I began, was that Elixir was developed for poor programmers like me, to be able to quickly grasp it and implement powerfull systems on top of BEAM which otherwise would not have been achieved since Erlang falls at the bottom in the popularity charts. 
+The way I viewed it in the beginning, was that Elixir was developed for programmers to be able to quickly grasp it and implement powerfull systems on top of BEAM which otherwise would not have been achieved since Erlang falls at the bottom in the popularity charts. 
 
-What also helped me back then was knowing what other known applications are built with Elixir. So I will name just a few: Whatsapp, Pinterest, Discord, Postmates, Bleacher Report, PagerDuty and [many others](https://www.erlang-solutions.com/blog/which-companies-are-using-elixir-and-why-mytopdogstatus.html). 
+What also helped me back then was knowing there are well known applications which are being built with Elixir. 
+I will name a few: Whatsapp, Pinterest, Discord, Postmates, Bleacher Report, PagerDuty and [many others](https://www.erlang-solutions.com/blog/which-companies-are-using-elixir-and-why-mytopdogstatus.html). 
  
  
 ### What was it like to transition? 
 
-Loading...
 
+- The learning curve:
 
-### What I like the most
+    I would say it can take up to one month to get comfortable writing Elixir code. 
+    You will not know all the insights but due to its simplicity and clean syntax, you will be already able to add functionalities to an existing code base.
 
+    If you want to get comfortable providing more complex solutions, based on the language capabilities, it would take a couple of more months during which I would recommend to take you time to read as much as you can, watch presentations and try new things.   
 
+- Working with dynamic languages
 
+    One of the biggest hurdles with Elixir is that it is a dynamic language. You have to leave the cosiness of static typing you have in C# and keep your brain more active, since the IDEs are not that developed at this stage. 
+    The code reading experience becomes more challenging. Therefore, simplicity and good data types become critical when writing elixir code.
+    
+    [Dialyxir](https://github.com/jeremyjh/dialyxir) is currently used for static code analysis and also for having a quicker glimpse on the function definitions( what input they expect and what output they return) 
 
-
-
-### Difficult bits, and how to tackle them
-
-
+- Reliable distributed systems in the presence of software errors
  
+    For the ability to implement a self healing system, which supervises and fixes itself, which is continuously running with very low to none maintenance a revolutionary way of thinking was required. And it was: [Joe Armstrong's thesis](http://erlang.org/download/armstrong_thesis_2003.pdf)
+
+    Elixir runs on Erlang OTP actor model [The actor model](https://www.brianstorti.com/the-actor-model/) and takes advantage of every aspect of the OTP.
+
+ - The immutability nature of Elixir
+
+    Working with C# for 10 years, the need for knowing and applying design patterns, knowing anti-patterns becomes a must, a religion. 
+    Everyone growing with this language knows it. There are few interviews you can pass without knowing the Gof. This is the same for all OOP languages.
+
+    I am not saying it is a bad thing, because I understood in those years the value added by them in OOP. You need some means, or tools to manage chaos.
+    
+    What happened in the last months was realizing for real why that is like this:
+   
+    Besides variables which can be mutated, in C# you have only classes which have to be instantiated. 
+    This means you end up with a bunch of new or already existent instances, which you have no choice but to manage -- therefore DI principle and IOC need.
+    You have to be in control of what instance you pass as a dependency to whom.  
+    
+    I think the most time programmers spend in OOP during issues investigations is due to values being unexpectedly mutated -- they have to understand WHO changed a value and WHY. And even after you understand, the question can be -- is this the right behaviour, or is this a mistake?
+
+    Without order there is chaos -- therefore GOF. But even so, I would not praise it more. 
+    There are all sorts of malformations and weird solutions to which instead of fixing and cleaning the code, we are applying patterns with no remorse.  
+    A very good example which falls in this category is the [Visitor Pattern](https://www.oodesign.com/visitor-pattern.html)  
+
+    The new propagated messages for simplifying the chaos in OOP is favour composition over inheritance. But this is only the tip of the iceberg.
+
+    In C# with all the above it can become really though to build concurrent, scalable systems which also manage state. I am not saying it is impossible, I am just saying it is hard. 
+    The ease with which this can be accomplished in Elixir which runs on top of Erlang OTP model makes it a breeze. 
+
+    This might be one of the reasons people who switch to BEAM languages prefer to stay. 
 
   
 ### Conclusion
@@ -77,7 +116,7 @@ Loading...
 With this blog post, I just wanted to let others know they are not alone. 
 There are others like you switching to Elixir. Have no fear, be eager and open to learn new things. Be curious and then good things will happen to you. 
 
-It is true that there are fewer job opportunities, the community is not that big. There are missing tools. But this just leaves room for making an impact, by bringing value in a continuously growing ecosystem.
+It is true that there are fewer job opportunities, the community is not that big. There are missing tools. But this just leaves room for making an impact, by bringing value in a continuously growing ecosystem: [Consider joining the ERLANG ECOSYSTEM FOUNDATION](https://members.erlef.org/join-us)
 
 Besides, there are only advantages to knowing, understanding more languages. 
 It will make you a better craftsman who will have less chances of falling under the ["Hammer law"](https://en.wikipedia.org/wiki/Law_of_the_instrument) 
