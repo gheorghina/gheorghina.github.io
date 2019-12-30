@@ -134,5 +134,5 @@ It will make you a better craftsman who will have less chances of falling under 
 [Check what other people listed as pros and cons on both](https://www.slant.co/versus/115/1540/~c_vs_elixir) and maybe [this one](http://vschart.com/compare/elixir/vs/c-sharp)
 
 
-[Ease the fear of loosing your relevance](http://devonestes.com/the-truth-about-hiring) and [this one for jobs openings.](https://functional.works-hub.com/jobs/)  --- but if you start searching you will see there are more and more companies realising the value the BEAM VM brings and are slowly staring to migrate their solutions.
+[Ease the fear of losing your relevance](http://devonestes.com/the-truth-about-hiring) and [this one for jobs openings.](https://functional.works-hub.com/jobs/)  --- but if you start searching you will see there are more and more companies realising the value the BEAM VM brings and are slowly starting to migrate their solutions.
 
