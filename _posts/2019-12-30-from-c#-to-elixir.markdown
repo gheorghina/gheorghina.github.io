@@ -25,7 +25,7 @@ So it was not like I had many options where to go and ask.
 
 What do you do in this situation? 
 
-You just start digging the internet, do tons of research for gathering insights and learning materials and try to see if other people went through the same transition or if you are all alone. 
+Well, you just start digging the internet, do tons of research for gathering insights and learning materials and try to see if other people went through the same transition or if you are all alone. 
 
 I added at the end of this article a link to another post I made with resources which helped me a lot during the process. Some of them I am still using today and will continue to use as long as I will work with the around the BEAM tech stack.
 

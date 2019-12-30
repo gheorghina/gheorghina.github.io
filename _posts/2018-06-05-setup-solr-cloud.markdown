@@ -201,7 +201,7 @@ Examples of solrcloud roles:
 
 ### Additional Recommended Reading
 
-[Ansible Valut](https://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html#variables-and-vaults)
+[Ansible Vault](https://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html#variables-and-vaults)
 
 [Ansible Working with Patterns](https://docs.ansible.com/ansible/latest/user_guide/intro_patterns.html)
 
