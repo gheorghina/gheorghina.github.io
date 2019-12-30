@@ -109,6 +109,12 @@ I will name a few: Whatsapp, Pinterest, Discord, Postmates, Bleacher Report, Pag
 
     This might be one of the reasons people who switch to BEAM languages prefer to stay. 
 
+
+ - The community and the BEAM ecosystem 
+
+   The Elixir community is very supportive. They are doing visible efforts in helping newcomers, you just have to go there and ask.
+   What I also like is that even if there are gaps in the libraries, you cannot find tons of libraries which do the same thing. Making your life a lot easier when choosing the tool kit for doing the job.  
+
   
 ### Conclusion
 
