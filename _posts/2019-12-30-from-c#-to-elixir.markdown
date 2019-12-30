@@ -122,7 +122,7 @@ I will name a few: Whatsapp, Pinterest, Discord, Postmates, Bleacher Report, Pag
 With this blog post, I just wanted to let others know they are not alone. 
 There are others like you switching to Elixir. Have no fear, be eager and open to learn new things. Be curious and then good things will happen to you. 
 
-It is true that there are fewer job opportunities, the community is not that big. There are missing tools. But this just leaves room for making an impact, by bringing value in a continuously growing ecosystem: [Consider joining the ERLANG ECOSYSTEM FOUNDATION](https://members.erlef.org/join-us)
+It is true that there are fewer job opportunities, the community is not that big. There are missing tools. But this just leaves room for making an impact, by bringing value in a continuously growing ecosystem: [Consider joining the Erlang Ecosystem Foundation](https://members.erlef.org/join-us)
 
 Besides, there are only advantages to knowing, understanding more languages. 
 It will make you a better craftsman who will have less chances of falling under the ["Hammer law"](https://en.wikipedia.org/wiki/Law_of_the_instrument) 
