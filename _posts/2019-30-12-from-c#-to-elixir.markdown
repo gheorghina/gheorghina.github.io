@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Switching from C# to Elixir"
+title:  "Transitioning from C# to Elixir"
 date:   2019-30-12 00:18:23 +0700
 categories: [elixir, c#]
 ---
