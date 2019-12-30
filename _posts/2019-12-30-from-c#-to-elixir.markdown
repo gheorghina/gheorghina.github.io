@@ -92,7 +92,7 @@ I will name a few: Whatsapp, Pinterest, Discord, Postmates, Bleacher Report, Pag
     
     What happened in the last months was realizing for real why that is like this:
    
-    Besides variables which can be mutated, in C# you have only classes which have to be instantiated. 
+    Besides variables which can be mutated, in C# you work classes which have to be instantiated. 
     This means you end up with a bunch of new or already existent instances, which you have no choice but to manage -- therefore DI principle and IOC need.
     You have to be in control of what instance you pass as a dependency to whom.  
     
