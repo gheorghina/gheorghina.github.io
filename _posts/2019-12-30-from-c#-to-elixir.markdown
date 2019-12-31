@@ -25,22 +25,20 @@ So it was not like I had many options where to go and ask.
 
 What do you do in this situation? 
 
-Well, you just start digging the internet, do tons of research for gathering insights and learning materials and try to see if other people went through the same transition or if you are all alone. 
+Well, you just start digging the internet, do tons of research for gathering insights and learning materials and try to see if other people went through the same process or if you are all alone. 
 
 I added at the end of this article a link to another post I made with resources which helped me a lot during the process. Some of them I am still using today and will continue to use as long as I will work with the Erlang VM languages.
 
-Therefore, in the next lines I will try to cover the questions I had in the beginning as a C#, OOP programmer. 
+Therefore, in the next lines I will not write about which of the two is better, since both serve, very well, different purposes. 
 
-I will not write about which of the two is better, since both serve, very well, different purposes. 
-
-I will go through some of the keep points which sold Elixir to me. 
-I will present through my subjective eyes, things that made a difference for me in how I think and consider things.    
+I will go through some of the key points which sold Elixir to me. 
+I will present through my subjective eyes, things that made a difference for me in how I approach things.    
 
 
 ### What is it?
 
 [Elixir](https://en.wikipedia.org/wiki/Elixir_(programming_language)) is a dynamic, functional programming language created by José Valim. It is built on top of [Erlang Virtual Machine called BEAM](https://en.wikipedia.org/wiki/Erlang_(programming_language)). 
-It is used when either ones of the following are required: 
+It is used when either one of the following are required: 
 
 1. Robustness and fault-tolerance 
 
@@ -55,7 +53,7 @@ It is used when either ones of the following are required:
 6. Heavy traffic   
 
  
-The way I viewed it in the beginning, was that Elixir was developed for programmers to be able to quickly grasp it and implement powerfull systems on top of BEAM which otherwise would not have been achieved since Erlang falls at the bottom in the popularity charts. 
+The way I viewed it in the beginning, was that Elixir was developed for programmers to be able to quickly grasp it and implement powerful systems on top of BEAM which otherwise would not have been achieved since Erlang falls at the bottom in the popularity charts. 
 
 What also helped me back then was knowing there are well known applications which are being built with Elixir. 
 I will name a few: Whatsapp, Pinterest, Discord, Postmates, Bleacher Report, PagerDuty and [many others](https://www.erlang-solutions.com/blog/which-companies-are-using-elixir-and-why-mytopdogstatus.html). 
@@ -86,7 +84,7 @@ I will name a few: Whatsapp, Pinterest, Discord, Postmates, Bleacher Report, Pag
 
  - The immutability nature of Elixir
 
-    Working with C# for 10 years, the need for knowing and applying design patterns, knowing anti-patterns becomes a must, a religion. 
+    While working with C# for 10 years, the need for knowing and applying design patterns, knowing anti-patterns becomes a must, a religion. 
     Everyone growing with this language knows it. There are few interviews you can pass without knowing the Gof. This is the same for all OOP languages.
 
     I am not saying it is a bad thing, because I understood in those years the value added by them in OOP. You need some means, or tools to manage chaos.
@@ -144,5 +142,5 @@ It will make you a better craftsman who will have less chances of falling under 
 [Check what other people listed as pros and cons on both](https://www.slant.co/versus/115/1540/~c_vs_elixir) and maybe [this one](http://vschart.com/compare/elixir/vs/c-sharp)
 
 
-[Ease the fear of losing your relevance](http://devonestes.com/the-truth-about-hiring) and [this one for jobs openings.](https://functional.works-hub.com/jobs/)  --- but if you start searching you will see there are more and more companies realising the value the BEAM VM brings and are slowly starting to migrate their solutions.
+[Ease the fear of losing your relevance](http://devonestes.com/the-truth-about-hiring) and [this one for job openings.](https://functional.works-hub.com/jobs/)  --- but if you start searching you will see there are more and more companies realising the value the BEAM VM brings and are slowly starting to migrate their solutions.
 
