@@ -91,15 +91,14 @@ I will name a few: Whatsapp, Pinterest, Discord, Postmates, Bleacher Report, Pag
      1. variables which can be mutated, making programmers spend their most time investigating the values which are being unexpectedly changed
      2. classes which have to be instantiated, making you end up with a pool of instances which have to be passes correctly around
      3. too much inheritance, so therefore people are told to favour composition 
-     
+
 
     So you have no choice but end up with the must of knowing and working with Inversion of Control Containers, Dependency Inversion Principle, Factory Pattern, Singleton Pattern, Strategy Pattern and so on. 
 
     Without order there is chaos -- therefore GOF. But I will not praise it more. 
     There are all sorts of malformations and weird solutions to which instead of fixing and cleaning the code, we are applying patterns with no remorse.  
     A very good example which falls in this category is the [Visitor Pattern](https://www.oodesign.com/visitor-pattern.html)  
-
-    The new propagated messages for simplifying the chaos in OOP is favour composition over inheritance. But this is only the tip of the iceberg.
+    
 
     In C# with all the above it can become really though to build concurrent, scalable systems which also manage state. I am not saying it is impossible, I am just saying it is hard. 
     The ease with which this can be accomplished in Elixir which runs on top of Erlang OTP model makes it a breeze. 
