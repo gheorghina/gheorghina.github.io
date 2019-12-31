@@ -80,7 +80,7 @@ I will name a few: Whatsapp, Pinterest, Discord, Postmates, Bleacher Report, Pag
  
     For the ability to implement a self healing system, which supervises and fixes itself, which is continuously running with very low to none maintenance a revolutionary way of thinking was required. And it was: [Joe Armstrong's thesis](http://erlang.org/download/armstrong_thesis_2003.pdf)
 
-    Elixir runs on Erlang OTP actor model [The actor model](https://www.brianstorti.com/the-actor-model/) and takes advantage of every aspect of the OTP.
+    Elixir runs on Erlang OTP [actor model](https://www.brianstorti.com/the-actor-model/) and takes advantage of every aspect of the OTP.
 
  - The immutability nature of Elixir
 
