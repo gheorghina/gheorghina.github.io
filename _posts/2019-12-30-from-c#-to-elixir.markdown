@@ -67,7 +67,7 @@ I will name a few: Whatsapp, Pinterest, Discord, Postmates, Bleacher Report, Pag
     I would say it can take up to one month to get comfortable writing Elixir code. 
     You will not know all the insights but due to its simplicity and clean syntax, you will be already able to add functionalities to an existing code base.
 
-    If you want to get comfortable providing more complex solutions, based on the language capabilities, it would take a couple of more months during which I would recommend to take you time to read as much as you can, watch presentations and try new things.   
+    If you want to get comfortable providing more complex solutions, based on the language capabilities, it would take a couple of more months during which I would recommend to take your time to read as much as you can, watch presentations and try new things.   
 
 - Working with a dynamic language
 
