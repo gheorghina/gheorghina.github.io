@@ -74,7 +74,7 @@ I will name a few: Whatsapp, Pinterest, Discord, Postmates, Bleacher Report, Pag
     One of the biggest hurdles with Elixir is that it is a dynamic language. You have to leave the cosiness of static typing you have in C# and keep your brain more active, since the IDEs are not that developed at this stage. 
     The code reading experience becomes more challenging. Therefore, simplicity and good data types become critical when writing elixir code.
     
-    [Dialyxir](https://github.com/jeremyjh/dialyxir) is currently used for static code analysis and also for having a quicker glimpse on the function definitions( what input they expect and what output they return) 
+    [Dialyxir](https://github.com/jeremyjh/dialyxir) is currently used for static code analysis and also for having a quicker glimpse on the function definitions(what input they expect and what output they return) 
 
 - Reliable distributed systems in the presence of software errors
  
