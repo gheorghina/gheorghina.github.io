@@ -98,7 +98,7 @@ I will name a few: Whatsapp, Pinterest, Discord, Postmates, Bleacher Report, Pag
     Without order there is chaos -- therefore GOF. But I will not praise it more. 
     There are all sorts of malformations and weird solutions to which instead of fixing and cleaning the code, we are applying patterns with no remorse.  
     A very good example which falls in this category is the [Visitor Pattern](https://www.oodesign.com/visitor-pattern.html)  
-    
+
 
     In C# with all the above it can become really though to build concurrent, scalable systems which also manage state. I am not saying it is impossible, I am just saying it is hard. 
     The ease with which this can be accomplished in Elixir which runs on top of Erlang OTP model makes it a breeze. 
@@ -121,7 +121,7 @@ I will name a few: Whatsapp, Pinterest, Discord, Postmates, Bleacher Report, Pag
 With this blog post, I just wanted to let others know they are not alone. 
 There are others like you switching to Elixir. Have no fear, be eager and open to learn new things. Be curious and then good things will happen to you. 
 
-It is true that there are fewer job opportunities, the community is not that big. There are missing tools. But this just leaves room for making an impact, by bringing value in a continuously growing ecosystem: [Consider joining the Erlang Ecosystem Foundation](https://members.erlef.org/join-us)
+It is true that there are fewer job opportunities, the community is not that big. There are missing tools. But this just leaves room for making an impact, by bringing value in a continuously growing ecosystem.
 
 Besides, there are only advantages to knowing, understanding more languages. 
 It will make you a better craftsman who will have less chances of falling under the ["Hammer law"](https://en.wikipedia.org/wiki/Law_of_the_instrument) 
