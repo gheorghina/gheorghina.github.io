@@ -93,7 +93,7 @@ I will name a few: Whatsapp, Pinterest, Discord, Postmates, Bleacher Report, Pag
      3. too much inheritance, so therefore people are told to favour composition 
 
 
-    So you have no choice but end up with the must of knowing and working with Inversion of Control Containers, Dependency Inversion Principle, Factory Pattern, Singleton Pattern, Strategy Pattern and so on. 
+    In the end you have no choice but end up with the must of knowing and working with Inversion of Control Containers, Dependency Inversion Principle, Factory Pattern, Singleton Pattern, Strategy Pattern and so on. 
 
     Without order there is chaos -- therefore GOF. But I will not praise it more. 
     There are all sorts of malformations and weird solutions to which instead of fixing and cleaning the code, we are applying patterns with no remorse.  
