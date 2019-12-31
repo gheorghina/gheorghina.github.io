@@ -53,7 +53,7 @@ It is used when either one of the following are required:
 6. Heavy traffic   
 
  
-The way I viewed it in the beginning, was that Elixir was developed for programmers to be able to quickly grasp it and implement powerful systems on top of BEAM which otherwise would not have been achieved since Erlang falls at the bottom in the popularity charts. 
+The way I viewed it in the beginning, was that Elixir was developed for programmers to be able to quickly grasp and implement powerful systems on top of BEAM which otherwise would not have been achieved since Erlang falls at the bottom in the popularity charts. 
 
 What also helped me back then was knowing there are well known applications which are being built with Elixir. 
 I will name a few: Whatsapp, Pinterest, Discord, Postmates, Bleacher Report, PagerDuty and [many others](https://www.erlang-solutions.com/blog/which-companies-are-using-elixir-and-why-mytopdogstatus.html). 
