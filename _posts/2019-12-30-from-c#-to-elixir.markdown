@@ -69,7 +69,7 @@ I will name a few: Whatsapp, Pinterest, Discord, Postmates, Bleacher Report, Pag
 
     If you want to get comfortable providing more complex solutions, based on the language capabilities, it would take a couple of more months during which I would recommend to take you time to read as much as you can, watch presentations and try new things.   
 
-- Working with dynamic languages
+- Working with a dynamic language
 
     One of the biggest hurdles with Elixir is that it is a dynamic language. You have to leave the cosiness of static typing you have in C# and keep your brain more active, since the IDEs are not that developed at this stage. 
     The code reading experience becomes more challenging. Therefore, simplicity and good data types become critical when writing elixir code.
