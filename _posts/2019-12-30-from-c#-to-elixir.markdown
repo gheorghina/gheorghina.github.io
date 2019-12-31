@@ -89,7 +89,7 @@ I will name a few: Whatsapp, Pinterest, Discord, Postmates, Bleacher Report, Pag
     
     The complexity is induced by: 
      1. variables which can be mutated, making programmers spend their most time investigating the values which are being unexpectedly changed
-     2. classes which have to be instantiated, making you end up with a pool of instances which have to be passes correctly around
+     2. classes which have to be instantiated, making you end up with a pool of instances which have to be passed correctly around
      3. too much inheritance, so therefore people are told to favour composition 
 
 
