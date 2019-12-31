@@ -17,6 +17,8 @@ layout: default
   {% include share-page.html %}
 </div>
 
+{% include disqus.html %}
+
 {% assign hasSimilar = '' %}
   {% for post in site.posts  %}
     {% assign postHasSimilar = false %}
@@ -54,4 +56,4 @@ layout: default
   {% endif %}
 </div>
 
-{% include disqus.html %}
+
