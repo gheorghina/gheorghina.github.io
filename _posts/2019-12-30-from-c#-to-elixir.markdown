@@ -124,7 +124,7 @@ There are others like you switching to Elixir. Have no fear, be eager and open t
 It is true that there are fewer job opportunities, the community is not that big. There are missing tools. But this just leaves room for making an impact, by bringing value in a continuously growing ecosystem.
 
 Besides, there are only advantages to knowing, understanding more languages. 
-It will make you a better craftsman who will have less chances of falling under the ["Hammer law"](https://en.wikipedia.org/wiki/Law_of_the_instrument) 
+It will make you a better [craftsman](https://www.goodreads.com/book/show/23215733-the-software-craftsman) who will have less chances of falling under the ["Hammer law"](https://en.wikipedia.org/wiki/Law_of_the_instrument) 
 
 
 ### Some Resources
