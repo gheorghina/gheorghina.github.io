@@ -20,7 +20,7 @@ For this, you need the context, the people, the books, the time, the patience an
 After 10 years of providing Microsoft Solutions for Enterprise Businesses, I needed a change. 
 At that time I did not know exactly what Elixir or Erlang is, what power do they bring, what difference do they make. I just had this huge opportunity, that through a thorough interview process I was accepted in a team. They worked on a project written in Elixir which was used for Chat and Events Streaming between multiple systems.
  
-When I decided to accept the job, my eagerness started to grow, but also my anxiety. Just so you know, in Cluj Napoca(Romania), where I am from, there are only two companies working with Elixir at the time of writing this article, out of which only one has a complex, heavily utilised production system. 
+When I decided to accept the job, my eagerness started to grow, but also my anxiety. Just so you know, in Cluj Napoca(Romania), where I am from, there are only two companies working with Elixir at the time of writing this article, out of which only one has a complex, heavily utilized production system. 
 So it was not like I had many options where to go and ask. 
 
 What do you do in this situation? 
@@ -84,20 +84,17 @@ I will name a few: Whatsapp, Pinterest, Discord, Postmates, Bleacher Report, Pag
 
  - The immutability nature of Elixir
 
-    While working with C# for 10 years, the need for knowing and applying design patterns, knowing anti-patterns becomes a must, a religion. 
-    Everyone growing with this language knows it. There are few interviews you can pass without knowing the Gof. This is the same for all OOP languages.
-
-    I am not saying it is a bad thing, because I understood in those years the value added by them in OOP. You need some means, or tools to manage chaos.
+    While working with OOP, the need for knowing and applying design patterns, knowing anti-patterns becomes a must, a religion. 
+    This is not necessarily bad. I understood over the years the value added by them: you need some means to manage chaos. And those means need to be recognizable by the vast majority of people.
     
-    What happened in the last months was realizing for real why it is like that:
-   
-    Besides variables which can be mutated, in C# you work classes which have to be instantiated. 
-    This means you end up with a bunch of new or already existent instances, which you have no choice but to manage -- therefore DI principle and IOC need.
-    You have to be in control of what instance you pass as a dependency to whom.  
-    
-    I think the most time programmers spend in OOP during issues investigations is due to values being unexpectedly mutated -- they have to understand WHO changed a value and WHY. And even after you understand, the question can be -- is this the right behaviour, or is this a mistake?
+    The complexity is induced by: 
+     1. variables which can be mutated, making programmers spend their most time investigating the values which are being unexpectedly changed
+     2. classes which have to be instantiated, making you end up with a pool of instances which have to be passes correctly around
+     3. too much inheritance, so therefore people are told to favour composition 
 
-    Without order there is chaos -- therefore GOF. But even so, I would not praise it more. 
+    So you have no choice but end up with the must of knowing and working with Inversion of Control Containers, Dependency Inversion Principle, Factory Pattern, Singleton Pattern, Strategy Pattern and so on. 
+
+    Without order there is chaos -- therefore GOF. But I will not praise it more. 
     There are all sorts of malformations and weird solutions to which instead of fixing and cleaning the code, we are applying patterns with no remorse.  
     A very good example which falls in this category is the [Visitor Pattern](https://www.oodesign.com/visitor-pattern.html)  
 
