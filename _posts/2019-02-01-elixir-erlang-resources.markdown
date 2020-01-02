@@ -14,7 +14,7 @@ Maybe someone else will find it also useful.
  
 [Designing for Scalability with Erlang/OTP](https://www.amazon.com/Designing-Scalability-Erlang-OTP-Fault-Tolerant-ebook/dp/B01FRIM8OK)
 
-[Elixir Books](https://github.com/gheorghina/ElixirBooks)
+[Elixir Books](https://github.com/sger/ElixirBooks)
 
 [More Elixir Books](https://pragprog.com/titles/category/elixir?f[include_mine]=yes&f[sort_by]=pubdate&f[category]=elixir&f[skill_level]=All&f[title_contains]=)
 
