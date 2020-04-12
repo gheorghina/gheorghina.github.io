@@ -95,8 +95,7 @@ We tend to overengineer our microservices systems, and we tend to forget that ma
 
 But oh well... this is just a visualization of the number 3 million ---- 3 million connections can be easily achieved with less than half of the people here
 
-
-![placeholder](/static/img/3millionpeople.jpg "")
+ ![]({{ site.url }}/static/img/3millionpeople.jpg) 
 
 
 
@@ -238,7 +237,7 @@ The following are just generic practices, that have to be adjusted to each speci
 
  - Idempotent actions​
 
-    ![placeholder](/static/img/there_are_only_2_problems_in_distributed_systems.png "") 
+    ![]({{ site.url }}/static/img/there_are_only_2_problems_in_distributed_systems.png) 
 
     Depending on how your communication channels are defined, in distributed systems, the easier to implement is "At Least Once Delivery". 
     For example, if you use an external messaging system, you shall be prepared to receive the same message multiple times.
