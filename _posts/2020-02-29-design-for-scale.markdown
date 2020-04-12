@@ -163,26 +163,36 @@ The most important part is that one session crashing shall not effect all the ot
 ### Design to Scale with Erlang / OTP
 
  - Concurrency with Processes ​
-        Erlang's main strength is support for concurrency. 
-        Erlang has a small but powerful set of primitives to create processes and communicate among them. ​
-        These processes are the primary means to structure an Erlang application. They are neither operating system processes nor threads, but lightweight processes both in terms of memory and CPU utilization that are scheduled by BEAM.  
-        They share no state with each other, thus many can be created without degrading performance. Tens of thousands of processes can be executed simultaneously on a single node.
+
+    Erlang's main strength is support for concurrency. 
+
+    Erlang has a small but powerful set of primitives to create processes and communicate among them. ​
+
+    These processes are the primary means to structure an Erlang application. They are neither operating system processes nor threads, but lightweight processes both in terms of memory and CPU utilization that are scheduled by BEAM.  
+
+    They share no state with each other, thus many can be created without degrading performance. Tens of thousands of processes can be executed simultaneously on a single node.
 
  - Message Passing  ​
-        Though all concurrency is explicit in Erlang, processes communicate using message passing instead of shared variables, which removes the need for explicit locks, a locking scheme is still used internally by the VM).
+
+    Though all concurrency is explicit in Erlang, processes communicate using message passing instead of shared variables, which removes the need for explicit locks, a locking scheme is still used internally by the VM).
 
  - RPC / Distributed Tasks  ​
-        These processes facilitate building distributed applications.​
-        RPC and Distributed tasks are built-in Erlang/Elixir abstractions that allow communication using Elixir term without any additional serialization and deserialization. 
-        The common approach for communication with other applications which are not written in Elixir is using HTTP protocol. 
+
+    These processes facilitate building distributed applications.​
+    
+    RPC and Distributed tasks are built-in Erlang/Elixir abstractions that allow communication using Elixir term without any additional serialization and deserialization. 
+    
+    The common approach for communication with other applications which are not written in Elixir is using HTTP protocol. 
 
  - Supervision
-​        A typical Erlang application is written in the form of a supervisor tree. 
-        This architecture is based on a hierarchy of processes in which the top level process is known as a "supervisor". The supervisor then spawns multiple child processes that act either as workers or more, lower level supervisors. Such hierarchies can exist to arbitrary depths and have proven to provide a highly scalable and fault-tolerant environment within which application functionality can be implemented.​
 
-        Within a supervisor tree, all supervisor processes are responsible for managing the lifecycle of their child processes, and this includes handling situations in which those child processes crash. Any process can become a supervisor by first spawning a child process, then calling erlang:monitor/2 on that process. If the monitored process then crashes, the supervisor will receive a message containing a tuple whose first member is the atom 'DOWN'. The supervisor is responsible firstly for listening for such messages and secondly, for taking the appropriate action to correct the error condition.​
+​    A typical Erlang application is written in the form of a supervisor tree. 
 
-        In addition, "Let it Crash" results in a style of coding that contains little defensive code, resulting in smaller applications.​
+    This architecture is based on a hierarchy of processes in which the top level process is known as a "supervisor". The supervisor then spawns multiple child processes that act either as workers or more, lower level supervisors. Such hierarchies can exist to arbitrary depths and have proven to provide a highly scalable and fault-tolerant environment within which application functionality can be implemented.​
+
+    Within a supervisor tree, all supervisor processes are responsible for managing the lifecycle of their child processes, and this includes handling situations in which those child processes crash. Any process can become a supervisor by first spawning a child process, then calling erlang:monitor/2 on that process. If the monitored process then crashes, the supervisor will receive a message containing a tuple whose first member is the atom 'DOWN'. The supervisor is responsible firstly for listening for such messages and secondly, for taking the appropriate action to correct the error condition.​
+
+    In addition, "Let it Crash" results in a style of coding that contains little defensive code, resulting in smaller applications.​
 
 ### Leverage OTP for Scalability​, Some Good Practices Advices 
 
@@ -190,28 +200,38 @@ The profile of the application will dictate the way the application will scale. 
 The following are just generic practices, that have to be adjusted to each specific case.
 
  - Dynamic Named Processes ​
-        To be able to spawn them dynamically with an increasing dynamic load, and named for being able to find them. 
+
+    To be able to spawn them dynamically with an increasing dynamic load, and named for being able to find them. 
 
  - To Cluster or Not To Cluster​
-        Will be dictated again by the application. The easiest case is when processes can be created to work independently to each other.
-        The more complex case is when nodes have to be connected to each other an communicate through messages.
-        Most of the times, for being able to take advantage of each node's capabilities, machines tunning might also be required.
+
+    Will be dictated again by the application. The easiest case is when processes can be created to work independently to each other.
+    
+    The more complex case is when nodes have to be connected to each other an communicate through messages.
+    
+    Most of the times, for being able to take advantage of each node's capabilities, machines tunning might also be required.
 
  - Group Processes on the same node​
-        This will help in building more reliable, performant systems. Otherwise the network transfer can be a bottleneck.
-        The processes work is dictated by the set of Schedulers which is tightly related to the number of the cores. 
-        The more cores the nodes have, the more concurrent processes can process data​.
+
+    This will help in building more reliable, performant systems. Otherwise the network transfer can be a bottleneck.
+
+    The processes work is dictated by the set of Schedulers which is tightly related to the number of the cores. 
+
+    The more cores the nodes have, the more concurrent processes can process data​.
 
  - Supervision trees 
 
  - Define Your Communication Channels​
 
  - Caching
-        External vs Internal caching strategies can both work, depending on your case.
-        External caching systems will help in not having to care about system failures / maintenance windows or redeployments. 
-        You will just have to come up with strategies for expiring your keys.
 
-        On the other hand, internal caching can give you power into being able to stay up and allow some core functionalities, in times of 3rd parties or other dependencies failures. 
+    External vs Internal caching strategies can both work, depending on your case.
+
+    External caching systems will help in not having to care about system failures / maintenance windows or redeployments. 
+
+    You will just have to come up with strategies for expiring your keys.
+
+    On the other hand, internal caching can give you power into being able to stay up and allow some core functionalities, in times of 3rd parties or other dependencies failures. 
 
  - Persistence as backup for recovery​
 
