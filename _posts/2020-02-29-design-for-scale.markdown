@@ -5,7 +5,8 @@ date:   2020-04-08 00:18:23 +0700
 categories: [elixir, scalability, reliability, distribution, DDD]
 ---
 
- In these tough times that we are all living, I was invited to give a talk at the Elixir Berlin April Meetup.
+
+ In these difficult times that we are all living, I was invited to give a talk at the Elixir Berlin April Meetup.
  I am honoured and very happy I had this opportunity. I would like to thank you all who joined and had patience with me.
 
  Let's do a live one next time!
