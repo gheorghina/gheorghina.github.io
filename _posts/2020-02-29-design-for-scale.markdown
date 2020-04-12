@@ -263,7 +263,7 @@ The following are just generic practices, that have to be adjusted to each speci
 
  
 
- ### Measure everything... so that you can adapt
+### Measure everything... so that you can adapt
 
  One of the best selling points of the Erlang VM for production use is how transparent it can be for all kinds of introspection, debugging, profiling, and analysis at run time.
 ​
