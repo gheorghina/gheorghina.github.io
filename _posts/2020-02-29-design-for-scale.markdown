@@ -186,8 +186,8 @@ The most important part is that one session crashing shall not effect all the ot
     The common approach for communication with other applications which are not written in Elixir is using HTTP protocol. 
 
  - Supervision
-
-​    A typical Erlang application is written in the form of a supervisor tree. 
+    
+    A typical Erlang application is written in the form of a supervisor tree. 
 
     This architecture is based on a hierarchy of processes in which the top level process is known as a "supervisor". The supervisor then spawns multiple child processes that act either as workers or more, lower level supervisors. Such hierarchies can exist to arbitrary depths and have proven to provide a highly scalable and fault-tolerant environment within which application functionality can be implemented.​
 
