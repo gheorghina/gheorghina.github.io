@@ -30,15 +30,11 @@ Today I work in banking where reliability and fault tolerance are the main focus
 
 ### What is this about?
 
-In this blog post I will try to touch a couple of design ideas towards designing a system which leverages OTP for easier to achieve: 
+In this blog post I will try to touch a couple of ideas towards designing a system which leverages OTP for easier to achieve: 
 - Concurrency
 - Resiliency
 - Scalability
 - Distribution
-
-
-It is used when either one of the following are required: 
-
 
  
 ### The happy scenarios
