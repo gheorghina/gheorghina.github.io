@@ -108,14 +108,21 @@ I want to put here a wise advice given by a wise man: "Prepare for failure, but 
 
 What if your application gets traction, when suddenly it may be expected from it to support more load, or perform better.
 
-Iterative design is being encouraged, don't overengineer they say. And I totally agree, but I also agree there is a bare minimum necessary these days,so that when you reach this point, you don't have to redesign your application completely. I've seen this happen already 3 times.
+Iterative design is being encouraged, don't overengineer they say. And I totally agree, but I also agree there is a bare minimum necessary these days, so that when you reach this point, you don't have to redesign your application completely. I've seen this happen already 3 times.
 
 
 
 ### First steps …
 
-Therefore, no reason to panic. Measure everything you have under the expected load everything. Test your system resiliency.
-Adjust only after based on the concrete extracted numbers​, and reiterate. Reiterate so many times until you are happy with the measurement numbers you get. 
+Therefore, no reason to panic. 
+
+Measure everything you have under the expected load everything. 
+
+Test your system resiliency.
+
+Adjust after, only based on the concrete extracted numbers​, and reiterate. 
+
+Reiterate so many times until you are happy with the measured numbers you get. 
 
 
 
