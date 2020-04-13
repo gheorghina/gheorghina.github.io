@@ -90,9 +90,7 @@ This is crazy. I always think about this when we design new features as a realit
 We tend to overengineer our microservices systems, and we tend to forget that maybe with less we can achieve more.  
 
 3 million connections are difficult to represent, they can be achieved with less than half amount of people, but even so, that is a lot. 
-​ 
 
-But oh well... this is just a visualization of the number 3 million ---- 3 million connections can be easily achieved with less than half of the people here
 
  ![]({{ site.url }}/static/img/3millionpeople.jpg) 
 
