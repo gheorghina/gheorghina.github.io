@@ -146,9 +146,11 @@ A system that scales well will be able to maintain or even increase its level of
 
 ### The Importance of Supporting Scalability 
 
-As mentioned above, as the business grows, we need it for being able to meet market demands which always shift based on how people interests and tastes change.
-The scalability capability of your system can make you stay competitive in these circumstances. Can make your system being able to cope with increasing demands of working with more customers, data and resources while also reducing your costs. 
+As mentioned above, with the business growth, we need it for being able to meet market demands which always shift based on how people interests and tastes change.
 
+The scalability capability of your system can make you stay competitive in these circumstances. 
+
+It can make your system being able to cope with increasing demands of working with more customers, data and resources while also reducing your costs. 
 
 
 ### The Mind Shift with Erlang / OTP
@@ -158,13 +160,17 @@ The scalability capability of your system can make you stay competitive in these
      We have 2 million webservers handling one session each"​
                                                         Joe Armstrong​
 
-This mind shift is the key.  It is not that easy when switching from different languages to actually perceive these concepts and suddenly start building concurrent fault tolerant applications​. 
-It is a lot easier in the beginning to be trapped into trying to rebuild the concepts you are already familiar with from  .NET, Java or Ruby.
+This mind shift is the key.  
 
-But I say this is key – the game changer with elixir/erlang applications.
+It is not that easy when switching from different languages to actually perceive these concepts and suddenly start building concurrent fault tolerant applications​. 
+
+It is a lot easier in the beginning to be trapped into trying to rebuild the concepts you are already familiar with from .NET, Java, Ruby...
+
+But I say this is the key, the game changer with elixir/erlang applications.
 
 ​If there is a software error and the server software crashes we lose either two million connections or one depending on the model.​
-The most important part is that one session crashing shall not effect all the other sessions.​ 
+
+The most important part is that one session crashing shall not effect all the other ones.​ 
 
   
 ### Design to Scale with Erlang / OTP
