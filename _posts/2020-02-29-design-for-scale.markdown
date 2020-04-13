@@ -78,7 +78,7 @@ Thread safety is difficult to achieve, especially in the context of mutating sta
 
 But this becomes a lot easier in functional programing languages where the state is just transformed. ​
 
-This simplifies the things a lot – making it a lot more easy to achieve for example concurrency and be able to take advantage of the multi cores of a machine in using the CPU in a more efficient way.​
+This simplifies the things a lot – making it easier to achieve for example concurrency and be able to take advantage of the multi cores of a machine in using the CPU in a more efficient way.​
 
 ​
 ### 3 million connections on a single node
