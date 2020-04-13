@@ -58,17 +58,18 @@ The happy scenarios in which most probably you don't have to design very complex
 ### Do more nodes always improve the throughput?
 
 The mindset I came close to very often is the one saying: "let's just add more nodes" and it should work.
+
 Unfortunately this is not always the case.
 
 When this topic is raised, I usually tend to check the computational power of each node: ​
 
-    - How many cores does the node have?​
+- How many cores does the node have?​
 
-    - How much CPU does the application use? 
+- How much CPU does the application use? 
         
-    - What type of activities are carried on?​
+- What type of activities are carried on?​
 
-    - Is the application taking advantage of the resources efficiently?  
+- Is the application taking advantage of the resources efficiently?  
 
 If the answer to the last question is no, then just throwing more nodes at it, will move the needle just a bit.​
 
