@@ -138,7 +138,7 @@ A perfectly scalable system is one that has a fixed marginal cost to add additio
 
 Scalability is closely related to maintainability. We usually develop very fast the applications and we spend the rest of the time maintaining them.
 
-Scalability is a characteristic of a system, model, or function that describes its capability to cope and perform well under an increased or expanding workload or scope.  ​
+Scalability is the characteristic of a system, model, or function that describes its capability to cope and perform well under an increased or expanding workload or scope.  ​
 
 A system that scales well will be able to maintain or even increase its level of performance or efficiency even as it is tested by larger and larger operational demands.​
 
