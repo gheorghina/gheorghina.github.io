@@ -84,7 +84,9 @@ This simplifies the things a lot – making it a lot more easy to achieve for ex
 ### 3 million connections on a single node
 
 ​The article published by WhatsApp stating they manged to reach 3 million connections on a single node stays in the back of my head. 
+
 This is crazy. I always think about this when we design new features as a reality check, and then try to downscale. 
+
 We tend to overengineer our microservices systems, and we tend to forget that maybe with less we can achieve more.  
 
 3 million connections are difficult to represent, they can be achieved with less than half amount of people, but even so, that is a lot. 
