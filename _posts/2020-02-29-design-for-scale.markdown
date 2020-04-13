@@ -303,8 +303,11 @@ The total messages can give you insights into how well the processes behave, the
 ​
 ### Fallacies
 
-These list displayed bellow applies to any other system, independent of the chosen technologies or languages.
-These are the small things we usually forget, and later on bite us hard. I am listing them here mainly for me so that I will not forget.
+The list displayed bellow applies to any other system, independent of the chosen technologies or languages.
+
+These are the small things we usually forget, and later on bite us hard. 
+
+I am listing them here mainly for me so that I will not forget.
 
  - Don't trust the network​
 
