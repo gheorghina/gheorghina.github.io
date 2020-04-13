@@ -155,6 +155,7 @@ It can make your system being able to cope with increasing demands of working wi
 
 ### The Mind Shift with Erlang / OTP
 
+
     "We do not have ONE web-server handling 2 millions sessions. ​
 
      We have 2 million webservers handling one session each"​
