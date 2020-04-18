@@ -282,15 +282,17 @@ The following are just generic practices, that have to be adjusted to each speci
 ​
  - Number of Processes​
 
- - Total Messages ​
+ - Messages ​
 
- - Run Queue Length​
+ - Messages Queue Len
 
  - Port Count​
 
- - GC Count​
+ - Number of Garbage Collections
 
- - Reduction Count​
+ - Total Reductions
+
+ - Scheduler wall time
 
  - And most importantly, your own custom metrics
 
@@ -356,3 +358,9 @@ We have to make compromises, which may vary based on what can be acceptable or n
 [Learn you some erlang](https://learnyousomeerlang.com/content)
 
 [Designing for Scalability with Erlang/OTP: Implementing Robust, Fault-Tolerant Systems by Francesco Cesarini​](https://www.goodreads.com/book/show/18324312-designing-for-scalability-with-erlang-otp?ac=1&from_search=true&qid=P4wrIH1fMr&rank=1)
+
+[Telemetry](https://github.com/beam-telemetry/telemetry)
+
+[Erlang Statistics](http://erlang.org/documentation/doc-7.1/erts-7.1/doc/html/erlang.html#statistics-1)
+
+[Erlang Process Info](http://erlang.org/documentation/doc-7.1/erts-7.1/doc/html/erlang.html#process_info-1)
