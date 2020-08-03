@@ -16,7 +16,7 @@ hr {
 span.time, span.categories {
   color: #ADADAD;
   margin-bottom: 5px;
-  font-size: 11px;
+  font-size: 14px;
 }
 h1, h2, h3 {
   color: #696969;
@@ -76,7 +76,7 @@ footer {
   margin-bottom: 3em;
   padding-top: 10px;
   color: #C2C2C2;
-  font-size: 11px;
+  font-size: 14px;
   bottom: 0;
   padding-bottom: 10px;
 }
