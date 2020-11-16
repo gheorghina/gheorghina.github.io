@@ -29,7 +29,6 @@ The following list of tools are meant to capture and provide a list of most comm
     
       ```
       included_applications: [:observer_cli]
-
       ``` 
 
       ```
@@ -54,7 +53,6 @@ The following list of tools are meant to capture and provide a list of most comm
       :sys.get_state(:net_kernel)
       :sys.get_state(pid)
       :sys.get_state("process_name")
-
       ``` 
 
     - [dbg](https://erlang.org/doc/man/dbg.html)
@@ -127,6 +125,7 @@ The following list of tools are meant to capture and provide a list of most comm
       ```
 
   - Other Tracing Libraries
+  
       - [Tracer](https://hexdocs.pm/tracer/readme.html)
 
         ```
@@ -134,6 +133,7 @@ The following list of tools are meant to capture and provide a list of most comm
             [{:tracer, "~> 0.1.1"}]
           end
         ```
+
       - [Rexbug](https://github.com/nietaki/rexbug)
 
         ```
