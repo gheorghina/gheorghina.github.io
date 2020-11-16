@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Elixir Application Abnormal Behaviors Cheat Sheet"
+title:  "Diagnosing Elixir Applications"
 date:   2020-10-09 00:18:23 +0700
 categories: [elixir, erlang, observability]
 ---
@@ -29,9 +29,12 @@ The following list of tools are meant to capture and provide a list of most comm
     
       ```
       included_applications: [:observer_cli]
+
       ``` 
 
-    The observer cli can be started by running `:observer_cli.start()`
+      ```
+      :observer_cli.start()
+      ```
 
   - [OTP runtime_tools]([https://erlang.org/doc/man/runtime_tools_app.html)
     OTP ships with a list of useful debugging tools for debugging and observing the production system. They don't have to be added to the deps list, but in order to be enabled, have to be specified as an extra_application. Mix guarantees all non-optional applications are started before your application starts.
