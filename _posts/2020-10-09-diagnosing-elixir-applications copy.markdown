@@ -105,6 +105,8 @@ The following list of tools are meant to capture and provide a list of most comm
       :erlang.trace(all, true, [call, {tracer, Tracer}])
    
       :erlang.trace(all, false, [call, {tracer, Tracer}])
+
+      {:messages, messages} = Process.info(self(), :messages) % capture the trace messages
       ```
 
 
