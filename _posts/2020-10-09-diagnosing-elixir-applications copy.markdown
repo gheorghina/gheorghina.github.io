@@ -125,7 +125,7 @@ The following list of tools are meant to capture and provide a list of most comm
       ```
 
   - Other Tracing Libraries
-  
+
       - [Tracer](https://hexdocs.pm/tracer/readme.html)
 
         ```
@@ -154,8 +154,8 @@ The following list of tools are meant to capture and provide a list of most comm
 
   Investigating memory leaks is more straight forward, as by taking multiple snapshots in time of top processes, can be easier to spot.
   One of the example was caused by a previous version of myxql adapter which used to keep list of DBConnections in the cursors map, never releasing them, causing the related ets tables to keep growing, bringing services down due to out of memory exceptions. 
-  The issue could be reproduced here: https://github.com/gheorghina/dbconn_cursors_leak.
-  Details for the fix and the described problem can be seen here: https://github.com/elixir-ecto/ecto/issues/3311. 
+  The issue could be reproduced [here](https://github.com/gheorghina/dbconn_cursors_leak).
+  Details for the fix and the described problem can be seen [here](https://github.com/elixir-ecto/ecto/issues/3311). 
 
 
 
