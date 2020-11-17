@@ -163,7 +163,7 @@ The following list of tools are meant to capture and provide a list of most comm
 
 ### Investigating sudden CPU spikes
 
-  Investigating CPU spikes can be more painful than memory related issues, where the tools are more helpful. When having CPU issues, it can be mainly caused by an excessive activity of s specific part of the system. For this I will prepare a separate detailed blog article.
+  Investigating CPU spikes can be more painful than memory related issues, where the tools are more helpful. When having CPU issues, it can be mainly caused by an excessive activity of a specific part of the system. For this I will prepare a separate detailed blog article.
 
 
 
