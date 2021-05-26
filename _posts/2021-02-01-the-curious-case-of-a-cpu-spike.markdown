@@ -84,6 +84,6 @@ I have no clue how to move forward, this blog post is also a call for action in 
 
 ### Resources
 
-[Elixir Forum Topic](https://elixirforum.com/t/expired-ssm-agent-session-where-a-debug-node-is-connected-via-iex-remsh-does-not-disconnect-automatically-the-node-leaving-nodes-state-inconsistent-bonus-cpu-on-service-node-spikes-instantly-to-100/38990) 
+[Elixir Forum Ask for Help](https://elixirforum.com/t/expired-ssm-agent-session-where-a-debug-node-is-connected-via-iex-remsh-does-not-disconnect-automatically-the-node-leaving-nodes-state-inconsistent-bonus-cpu-on-service-node-spikes-instantly-to-100/38990) 
 
 [AWS Systems Manager](https://docs.aws.amazon.com/systems-manager/latest/userguide/ssm-agent.html)
