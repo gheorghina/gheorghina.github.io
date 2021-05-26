@@ -8,7 +8,7 @@ categories: [elixir, ETS, memory leaks]
 This blog post is about the step by step journey on how to tackle and discover memory leaks related issues.
 
 
-### The Inception
+### Inception
 
 Once pictures like the below one are starting to appear in one or all of your services then it is a clear indication that something is wrong.
 
@@ -19,7 +19,7 @@ Question is what do to next?
  ![]({{ site.url }}/static/img/memory_leak.png) 
 
 
-### The Investigation Approaches
+### Investigation Approaches
 
 First step is to check all other graphs for the related matter, in order to try to reduce the area of investigation.
 
@@ -110,7 +110,7 @@ This action further reduced my area of investigations, making me check a limited
    ```
 
 
-### The fix
+### The Fix
 
 As it turned out above, the fix was beyond the custom service implementation, as it had to be related to either ecto or the mysql adapter.
 

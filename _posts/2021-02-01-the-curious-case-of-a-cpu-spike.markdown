@@ -9,7 +9,7 @@ Truth being said, I am not sure event to this day how to investigate properly CP
 
 Various tools, which have $top capabilities offered no support in identifying root cause for the bellow case.
 
-### The Inception
+### Inception
 
 When CPU related alarms call suddenly for CPU utilization hitting 100% suddenly with no means of completing its activity, all one can do is start digging around to check what external or internal activity can cause it.
 
@@ -20,7 +20,7 @@ What worked in this case was time, tons of patience, rabbit eyes and even a bit 
  ![]({{ site.url }}/static/img/high_cpu_spike.png) 
 
 
-### The Investigation Approaches
+### Investigation Approaches
 
 WIP
 
