@@ -80,7 +80,7 @@ With the above queries, I managed to understand that for some reasons, the amoun
    ```
 
 
-### Understanding and reproducing the Problem
+### Understanding and Reproducing the Problem
 
 I would not lie, that identifying the piece of code causing the above, was part luck part understanding what the service did.
 
