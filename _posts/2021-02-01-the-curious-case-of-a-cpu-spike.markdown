@@ -5,9 +5,24 @@ date:   2021-02-01 00:18:23 +0700
 categories: [elixir, cpu spikes, aws, remote connection, epmd]
 ---
 
-WIP
+Truth being said, I am not sure event to this day how to investigate properly CPU Spikes in Elixir.
+
+Various tools, which have $top capabilities offered no support in identifying root cause for the bellow case.
+
+### The Inception
+
+When CPU related alarms call suddenly for CPU utilization hitting 100% suddenly with no means of completing its activity, all one can do is start digging around to check what external or internal activity can cause it.
+
+When no increase spike in external calls happen, when no abnormal obvious internal activity is visible and when no SQL query is being slow, one can loose hope in finding root cause to such behaviors.  
+
+What worked in this case was time, tons of patience, rabbit eyes and even a bit of paranoia during each incident in trying to correlate the CPU spike to any activity.
 
  ![]({{ site.url }}/static/img/high_cpu_spike.png) 
+
+
+### The Investigation Approaches
+
+WIP
 
 ### Resources
 
