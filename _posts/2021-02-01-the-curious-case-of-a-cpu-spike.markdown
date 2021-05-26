@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The curious case of a CPU Spike"
+title:  "The curious case of a Recurrent CPU Spike"
 date:   2021-02-01 00:18:23 +0700
 categories: [elixir, cpu spikes, aws, remote connection, epmd]
 ---
