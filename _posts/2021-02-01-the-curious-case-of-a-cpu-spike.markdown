@@ -30,13 +30,13 @@ As nothing seemed to help, a meticulous approach was carried on in trying to spo
 The following tools and resources were used in trying to spot the cause:
 
    ```
-      :etop.start([{:node, :"service@ip"}])
+   :etop.start([{:node, :"service@ip"}])
 
-      :erlang.trace(:all, true, [:all])
+   :erlang.trace(:all, true, [:all])
 
-      capture the trace messages:
+   Capture the trace messages:
 
-      {:messages, messages} = Process.info(self(), :messages)
+   {:messages, messages} = Process.info(self(), :messages)
 
    ```
 
@@ -51,14 +51,14 @@ The context is of deploying elixir services via docker files in AWS ECS, as inde
 Example: 
 
    ```
-      aws ecs list-tasks --custer name --service-name service
-      aws ssm start-session --target ${CLUSTER}${FARGATE_TASK_ID}${FARGATE_CONTAINER_ID})
+   aws ecs list-tasks --custer name --service-name service
+   aws ssm start-session --target ${CLUSTER}${FARGATE_TASK_ID}${FARGATE_CONTAINER_ID})
    ```
 
 Next step from the node is to connect to the elixir console for the service via 
 
    ```
-      iex --remsh service-name --sname debug --cookie COOKIE
+   iex --remsh service-name --sname debug --cookie COOKIE
    ```
 
 One day a sudden revelation came to check during a spike the status of connected nodes, and there it was.
@@ -68,11 +68,11 @@ It was identified that if the ssm session expires, the debug node remains connec
 In order to save the situation a manual/code disconnect_node action is being required, making the CPU drop back to normal activity.
 
    ```
-      :erlang.nodes()
-      [:"debug@ip"]
+   :erlang.nodes()
+   [:"debug@ip"]
 
-      :erlang.disconnect_node(:"debug@ip")
-      true
+   :erlang.disconnect_node(:"debug@ip")
+   true
    ```
 
 ### Conclusion
