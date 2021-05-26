@@ -10,7 +10,7 @@ This blog post is about the step by step journey on how to tackle and discover m
 
 ### The Inception
 
-Once pictures like the below one are starting to appear for your  elixir services then it is a clear indication that something goes wrong.
+Once pictures like the below one are starting to appear in one or all of your services then it is a clear indication that something is wrong.
 
 Especially if the service gets redeployed on a regular basis, every 2 days.
 
