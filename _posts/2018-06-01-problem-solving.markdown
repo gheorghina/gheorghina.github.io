@@ -4,7 +4,26 @@ title:  "Problem Solving"
 date:   2018-06-01 00:18:23 +0700
 categories: [.architecture, .analysis and design]
 ---
-WIP ...
+
+Based on the following anonymous quote: 
+
+    "I am not sure about how you do it, but when I have to take a decision, I first analyze it, I evaluate the risk, I take actions for limiting the consequences and only after that I screw it up"
+
+### Context
+
+For a good amount of years I have been exposed to the context of having to prepare technical concepts for new potential products.
+
+That means transforming the whishes of a potential customer for my company into concrete technical actions with a realistic evaluation of complexity, as much as it could be at that time.  
+
+After doing it for a couple of times I decided to document my thought process and to also do some workshops with my fellow colleagues for knowledge dissemination and teaching purposes.
+
+That being said, I long cycle of workshops took place over 2 years, where I tried to transform a very scary mythical process into some concrete recipe as a guideline. Therefore, please take everything bellow with a grain of salt as it was meant only as being a guideline for a very well defined context which might not apply to you. Use you brain filters to choose anything you might find useful for you.
+
+### Sample of a Business Problem
+
+
+### Guideline - Step 1
+
 
 
 **References** 
