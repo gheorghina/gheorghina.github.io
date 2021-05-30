@@ -13,7 +13,7 @@ Based on the following anonymous quote:
 
 For a good amount of years I have been exposed to the context of having to prepare technical concepts for new potential products.
 
-That means transforming the whishes of a potential customer for my company into concrete technical actions with a realistic evaluation of complexity, as much as it could be at that time.  
+That means transforming the whishes of a potential customer into concrete technical actions with a realistic evaluation of complexity, as much as it could be at that time.  
 
 After doing it for a couple of times I decided to document my thought process and to also do some workshops with my fellow colleagues for knowledge dissemination and teaching purposes.
 
