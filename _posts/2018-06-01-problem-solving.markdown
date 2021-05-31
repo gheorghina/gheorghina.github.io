@@ -131,6 +131,15 @@ The small guidelines I would offer here for a structured approach would be:
 
 There is plenty of literature on the internet from books, articles, certifications, videos or training websites in order to develop Systems Design skills for being able to prepare a concept. But practice makes it all. 
 
+But as a short summary of aspects which have to be taken into account, at this step, three questions have to be answered:
+
+- What are the structural elements of the system?
+- How are they related to each other?
+- Why: What are the underlying principles and rationale that guide the answers to the previous two questions?
+
+The context, the constraints and the history can play a huge role.
+
+
 ### Phase 3 - Break down the solution
 
 The level of the detail required here would be the one which can make sense, to transform solution in something tangible, concrete with clear steps.
