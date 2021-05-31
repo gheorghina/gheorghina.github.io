@@ -170,8 +170,6 @@ The Risks are the second very important aspect while going through the list, as 
 
 Long story short on minimum basics for assessing and preparing grounds around the risks:
 
-![]({{ site.url }}/static/img/risk_management.png) 
-
 **The Mitigation Plan** 
 
 - assessing the probability of a risk to happen (High / Low) can help you understand if a mitigation plan for the risk not to happen would be required. 
