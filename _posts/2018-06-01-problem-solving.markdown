@@ -133,13 +133,41 @@ There is plenty of literature on the internet from books, articles, certificatio
 
 ### Phase 3 - Break down the solution
 
-### Phase 4 - Estimations
+The level of the detail required here would be the one which can make sense, to transform solution in something tangible, concrete with clear steps.
+
+The structure can vary based on needs. The most extensive one I used was:
+
+- Use Case - for bridging the initial discussion to the technical world, it can be viewed as one Epic
+- Use Case Description 
+- Technical Component - which refers to the box from the system design
+- The Story - which contains the breakdown of the smaller steps for reaching out to the completion of the epic
+
+As here we are talking about technical tasks, depending on how your company works, make sure to take into account the non visible work aspects:
+
+- Environments preparation
+- Testing
+- CI/CD
+- Monitoring
+
+
+### Phase 4 - Identity Risks and Write Down the Assumptions
+
+**"If you can’t think of three things that might go wrong with your plans, then there’s something wrong with your thinking"(Jerry Weinberg)**
+
+While writing each of the part from the previous step, take into account that everything can be challenged.
+Preparing to justify you reasoning helps by having a list of assumptions for each side. They will reflect your understanding and what was taken into consideration. Will help identify if things were missed in the past get better prepared for the future.
+
+The Risks are the second very important aspect while going through the list, as they can highlight things which might go wrong. Or even things you don't know and have to be discovered.
+
+### To POC or not to POC
+
+Depending on the time you have, the clarity of the solution and depending on the requested level of accuracy, POC might come in handy for clearing up parts of the unknown, and bringing confidence in the proposed solution.
+
+### Phase 5 - Estimations
 
 But first keep in mind that **"It's expensive to  know everything up front"(Kolton Andrus)**
 
-### Phase 5 - Identity Risks and Write Down the Assumptions
 
-**"If you can’t think of three things that might go wrong with your plans, then there’s something wrong with your thinking"(Jerry Weinberg)**
 
 ### Phase 6 - Define Contingency and Mitigation Plans
 
