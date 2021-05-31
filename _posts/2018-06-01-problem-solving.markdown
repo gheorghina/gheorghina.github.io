@@ -51,8 +51,24 @@ A couple of advices I would have for the functional requirements are the followi
 - try to identify what would be the subset which would bring most value - this would later help you prepare the concepts for the MVP related subset, growing everything from there incrementally 
 
 
-#### Non Functional Requirements
+#### Non-Functional Requirements
 
+The next stage is gathering the non-functional requirements. This part is the most important one, and the most neglected one during this process.
+
+What are they and why are they important? 
+
+As per Wikipedia, they are "requirements which specify criteria that can be used to judge the operation of a system, rather than specific behavior". 
+
+They are important because it is not the same thing to:
+
+- develop a system for 10 requests/h or for 10 million requests/h
+
+- to have to be up and running 24/7 or only 8/5
+
+- to have to process a job once a day or to have to process high volumes of data
+
+
+#### Constraints
 
 ### Phase 2 - 
 
@@ -67,3 +83,5 @@ A couple of advices I would have for the functional requirements are the followi
 [What is Problem Solving](https://www.mindtools.com/pages/article/newTMC_00.htm) 
 
 [Software Development Process](https://en.wikipedia.org/wiki/Software_development_process)
+
+[Non-Functional Requirements](https://en.wikipedia.org/wiki/Non-functional_requirement)
