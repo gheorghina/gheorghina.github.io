@@ -2,7 +2,7 @@
 layout: post
 title:  "Solving Business Problems"
 date:   2018-06-01 00:18:23 +0700
-categories: [.architecture, .analysis and design, systems design, risks management, RUP]
+categories: [.architecture, .analysis and design, systems design]
 ---
 
 Based on the following anonymous quote: 
@@ -169,8 +169,6 @@ Preparing to justify you reasoning helps by having a list of **assumptions** for
 The Risks are the second very important aspect while going through the list, as they can highlight things which might go wrong. Or even things you don't know and have to be discovered. They shall help you build the list of **risks**
 
 Long story short on minimum basics for assessing and preparing grounds around the risks:
-
-![]({{ site.url }}/static/img/risk_management.png) 
 
 **The Mitigation Plan** 
 
