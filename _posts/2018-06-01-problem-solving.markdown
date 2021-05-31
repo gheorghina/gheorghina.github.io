@@ -17,11 +17,10 @@ That means transforming the whishes of a potential customer into concrete techni
 
 After doing it for a couple of times I decided to document my thinking process and to also do some workshops with my fellow colleagues for knowledge dissemination and teaching purposes.
 
-
 That being said, I long cycle of workshops took place over 2 years, where I tried to transform a very scary mythical process into some concrete recipe as a guideline.
 
 
-## Disclaimer
+### Disclaimer
 
 As I worked in both big and small companies, I can say for sure, that the following strategy can be unnecessary and to heavy in some context.
 Depending on the degree of the complexity of the problem, the relationships between involved parties, and the required detailed level for the pitch, what I am about to present can be tailored from taking it fully, to just brush through some concepts or skip it all together. 
