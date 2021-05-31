@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Problem Solving"
+title:  "Solving Business Problems"
 date:   2018-06-01 00:18:23 +0700
 categories: [.architecture, .analysis and design]
 ---
@@ -105,7 +105,13 @@ Some examples of areas for constraints can be:
 
 - etc
 
-### Phase 2 - 
+### A small tip
+
+A small tip  before proceeding to the next phase is to define together with the stakeholders a Glossary. This can reduce the level of misunderstandings, and it will help you start talking in the business terms of your stakeholder, which will bring huge level of appreciation.
+
+### Phase 2 - Designing the solution for the MVP
+
+
 
 
 
