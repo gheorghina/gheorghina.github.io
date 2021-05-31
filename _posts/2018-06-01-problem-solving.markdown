@@ -7,7 +7,7 @@ categories: [.architecture, .analysis and design]
 
 Based on the following anonymous quote: 
 
-    "I am not sure about how you do it, but when I have to take a decision, I first analyze it, I evaluate the risk, I take actions for limiting the bad consequences and only after that I screw it up"
+**"I am not sure about how you do it, but when I have to take a decision, I first analyze it, I evaluate the risk, I take actions for limiting the bad consequences and only after that I screw it up"**
 
 ### Context
 
