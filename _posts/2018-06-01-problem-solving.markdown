@@ -52,7 +52,7 @@ A couple of advices I would have for the functional requirements are the followi
 #### Non Functional Requirements
 
 
-### Guideline - Step 1
+### Phase 2 - 
 
 
 
@@ -62,8 +62,6 @@ A couple of advices I would have for the functional requirements are the followi
  
 [MindTools](https://www.mindtools.com/pages/main/newMN_TMC.htm) 
 
-
 [What is Problem Solving](https://www.mindtools.com/pages/article/newTMC_00.htm) 
-
 
 [Software Development Process](https://en.wikipedia.org/wiki/Software_development_process)
