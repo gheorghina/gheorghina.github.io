@@ -174,19 +174,19 @@ Depending on the time you have, the clarity of the solution and depending on the
 
 ### Phase 5 - Define Contingency and Mitigation Plans
 
-### Phase 6 - Estimations
+### Phase 6 - Estimates
 
 But first keep in mind that **"It's expensive to  know everything up front"(Kolton Andrus)**
 
-The theory of estimations is vast, as each of the above topics, it ca be dissected into its own blog post.
+The theory of estimates is vast, as each of the above topics, it ca be dissected into its own blog post. But I am very conscious that it is always a trap. A trap of lies, misunderstandings and misbelieves. People overvalue their knowledge and underestimate the probability of their being wrong.
 
 It always helped me stay grounded by using the three point estimation. It can be cumbersome, but helped me a lot by covering the above structure in a methodical manner which could bring the overall estimations to a more realistic ground.
 
-- The Best Case estimations - shall cover the obvious defined stories while taking the assumptions into account
+- The Best Case estimates - shall cover the obvious defined stories while taking the assumptions into account
 
-- The Most Probable estimations - shall bring you more to the grounds, taking into account that people who were never involved in the initial discussions can work on the topics, while their level of experiences can be of various degrees 
+- The Most Probable estimates - shall bring you more to the grounds, taking into account that people who were never involved in the initial discussions can work on the topics, while their level of experiences can be of various degrees 
 
-- The Worst Case estimations - shall cover the identified risks, to be able to sustain them with concrete things which might go wrong.
+- The Worst Case estimates - shall cover the identified risks, to be able to sustain them with concrete things which might go wrong.
 
 
 Therefore, keep in mind:
@@ -223,4 +223,7 @@ If you found at least a small idea useful from above I am happy. For any more qu
 
 [System Quality Attributes](https://en.wikipedia.org/wiki/List_of_system_quality_attributes)
 
+[Lies Damn Lies Estimates](https://www.slideshare.net/sebrose/lies-damn-lies-estimates)
+
 **"The moment design becomes important is when you want to change something"(Kent Beck)**
+
