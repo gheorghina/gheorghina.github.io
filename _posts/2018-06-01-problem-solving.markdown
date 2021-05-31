@@ -67,8 +67,26 @@ They are important because it is not the same thing to:
 
 - to have to process a job once a day or to have to process high volumes of data
 
+I recommend checking documentation for getting a better grasp on what they are. A good list of quality attributes of a system can be found as well on wikipedia. 
+
+Examples:
+
+- Performance 
+- Scalability
+- Portability 
+- Compatibility 
+- Reliability
+- Availability
+- Usability
+- Maintainability
+- Security
+- Localization
+- Stakeholder Budget
+
 
 #### Constraints
+
+
 
 ### Phase 2 - 
 
@@ -85,3 +103,5 @@ They are important because it is not the same thing to:
 [Software Development Process](https://en.wikipedia.org/wiki/Software_development_process)
 
 [Non-Functional Requirements](https://en.wikipedia.org/wiki/Non-functional_requirement)
+
+[System Quality Attributes](https://en.wikipedia.org/wiki/List_of_system_quality_attributes)
