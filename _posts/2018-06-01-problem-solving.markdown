@@ -81,7 +81,6 @@ Examples:
 - Maintainability
 - Security
 - Localization
-- Stakeholder Budget
 
 
 #### Constraints
