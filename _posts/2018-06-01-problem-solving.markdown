@@ -135,9 +135,11 @@ There is plenty of literature on the internet from books, articles, certificatio
 
 ### Phase 4 - Estimations
 
+But first keep in mind that **"It's expensive to  know everything up front"(Kolton Andrus)**
+
 ### Phase 5 - Identity Risks and Write Down the Assumptions
 
-**If you can’t think of three things that might go wrong with your plans, then there’s something wrong with your thinking. Jerry Weinberg**
+**"If you can’t think of three things that might go wrong with your plans, then there’s something wrong with your thinking"(Jerry Weinberg)**
 
 ### Phase 6 - Define Contingency and Mitigation Plans
 
