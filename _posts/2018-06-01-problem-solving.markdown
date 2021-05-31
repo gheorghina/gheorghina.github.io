@@ -163,15 +163,41 @@ The Risks are the second very important aspect while going through the list, as 
 
 Depending on the time you have, the clarity of the solution and depending on the requested level of accuracy, POC might come in handy for clearing up parts of the unknown, and bringing confidence in the proposed solution.
 
-### Phase 5 - Estimations
+### Phase 5 - Define Contingency and Mitigation Plans
+
+### Phase 6 - Estimations
 
 But first keep in mind that **"It's expensive to  know everything up front"(Kolton Andrus)**
 
+The theory of estimations is vas, as each of the above topics, it ca be dissected into its own blog post.
+
+It always helped me stay grounded by using the three point estimation. It can be cumbersome, but helped me a lot by covering the above structure in a methodical manner which could bring the overall estimations to a more realistic ground.
+
+- The Best Case estimations - shall cover the obvious defined stories while taking the assumptions into account
+
+- The Most Probable estimations - shall bring you more to the grounds, taking into account that people who were never involved in the initial discussions can work on the topics, while their level of experiences can be of various degrees 
+
+- The Worst Case estimations - shall cover the identified risks, to be able to sustain them with concrete things which might go wrong.
 
 
-### Phase 6 - Define Contingency and Mitigation Plans
+Therefore, keep in mind:
+
+- educate your unexperienced stakeholders, for setting the correct expectations; at this stage the level of accuracy can be very low
+
+- with more experienced stakeholders, who went through this before, at this level most of the times what matters the most is only giving a hint on the number of zeros they are facing ahead (if your talking about months / years ...)
+
+- a too realistic number can scare stakeholders away; I speak from experience; without the right relationship and the common understanding of things, a huge number can make customers shut doors 
+
+- a smart way but transparent of stripping the complexity to minimum could help both parties while also keep it grounded
+
 
 ### Phase 7 - Costs
+
+On this topic I cannot advise much. As many companies there are, as many rates and different strategies. 
+
+### Conclusion
+
+If you found at least a small idea useful from above I am happy. For any more questions, resources requests or suggestions, please feel free to approach me.
 
 
 **References** 
@@ -187,3 +213,5 @@ But first keep in mind that **"It's expensive to  know everything up front"(Kolt
 [Non-Functional Requirements](https://en.wikipedia.org/wiki/Non-functional_requirement)
 
 [System Quality Attributes](https://en.wikipedia.org/wiki/List_of_system_quality_attributes)
+
+**"The moment design becomes important is when you want to change something"(Kent Beck)**
