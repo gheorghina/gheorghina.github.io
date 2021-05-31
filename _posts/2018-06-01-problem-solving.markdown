@@ -85,7 +85,25 @@ Examples:
 
 #### Constraints
 
+Another overlooked aspect which can throw away a solution are the constraints the stakeholder has. 
 
+These can come up as a surprise late in time as well, therefore exercising the stakeholder's mind to start think about the constraints as well during the initial phases can come in both parties benefit. It can reduce drastically the element of surprise later in time, as well as the misunderstandings.
+
+The constraints questions can be difficult to identify, as they very much depend on the problem statement. 
+
+Some examples of areas for constraints can be:
+
+- the stakeholders budget and timelines
+
+- the stakeholders preferences with regards to technology stack or cloud provider
+
+- the stakeholder need and expectations for maintaining the solution
+
+- if there are any integration points, then sky is the limit with the amount of constraints which can be identified in this phase, or which can be taken later on in the process.
+
+- GDPR
+
+- etc
 
 ### Phase 2 - 
 
