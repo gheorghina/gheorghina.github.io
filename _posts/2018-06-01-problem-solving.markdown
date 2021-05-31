@@ -169,7 +169,7 @@ Depending on the time you have, the clarity of the solution and depending on the
 
 But first keep in mind that **"It's expensive to  know everything up front"(Kolton Andrus)**
 
-The theory of estimations is vas, as each of the above topics, it ca be dissected into its own blog post.
+The theory of estimations is vast, as each of the above topics, it ca be dissected into its own blog post.
 
 It always helped me stay grounded by using the three point estimation. It can be cumbersome, but helped me a lot by covering the above structure in a methodical manner which could bring the overall estimations to a more realistic ground.
 
