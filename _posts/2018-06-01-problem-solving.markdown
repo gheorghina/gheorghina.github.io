@@ -13,11 +13,21 @@ Based on the following anonymous quote:
 
 For a good amount of years I have been exposed to the context of having to prepare technical concepts for new potential products.
 
-That means transforming the whishes of a potential customer into concrete technical actions with a realistic evaluation of complexity, as much as it could be at that time.  
+That means transforming the whishes of a potential customer into concrete technical actions with a realistic evaluation of complexity, as much as it could be at the moment of evaluation.  
 
-After doing it for a couple of times I decided to document my thought process and to also do some workshops with my fellow colleagues for knowledge dissemination and teaching purposes.
+After doing it for a couple of times I decided to document my thinking process and to also do some workshops with my fellow colleagues for knowledge dissemination and teaching purposes.
 
-That being said, I long cycle of workshops took place over 2 years, where I tried to transform a very scary mythical process into some concrete recipe as a guideline. Therefore, please take everything bellow with a grain of salt as it was meant only as being a guideline for a very well defined context which might not apply to you. Use you brain filters to choose anything you might find useful for you.
+
+That being said, I long cycle of workshops took place over 2 years, where I tried to transform a very scary mythical process into some concrete recipe as a guideline.
+
+
+## Disclaimer
+
+As I worked in both big and small companies, I can say for sure, that the following strategy can be unnecessary and to heavy in some context.
+Depending on the degree of the complexity of the problem, the relationships between involved parties, and the required detailed level for the pitch, what I am about to present can be tailored from taking it fully, to just brush through some concepts or skip it all together. 
+ 
+Therefore, please take everything bellow with a grain of salt as it was meant only as being a guideline for a very well defined context which might not apply to you. Use filters to choose anything you might find useful for you.
+
 
 ### Sample of a Business Problem
 
