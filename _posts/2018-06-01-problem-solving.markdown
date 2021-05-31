@@ -172,7 +172,9 @@ The Risks are the second very important aspect while going through the list, as 
 
 Depending on the time you have, the clarity of the solution and depending on the requested level of accuracy, POC might come in handy for clearing up parts of the unknown, and bringing confidence in the proposed solution.
 
-### Phase 5 - Define Contingency and Mitigation Plans
+### Phase 5 - Risk Management
+
+
 
 ### Phase 6 - Estimates
 
