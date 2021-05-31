@@ -42,11 +42,13 @@ Like for example: I am the mayor of the most futuristic city on the planet. I ne
 
 A couple of advices I would have for the functional requirements are the following:
 
-    - try not to miss any one - this shows you listen, care and understand the need
+- don't go into solution mode at all at this stage, focus the discussion only on understanding the need
 
-    - try to simplify/reduce them - try to understand via questions if there is openness to alternatives, or if the requests are fixed and rigid
+- try not to miss any one - this shows you listen, care and understand the need
 
-    - try to identify what would be the subset which would bring most value - this would later help you prepare the concepts for the MVP related subset, growing everything from there incrementally 
+- try to simplify/reduce them - try to understand via questions if there is openness to alternatives, or if the requests are fixed and rigid
+
+- try to identify what would be the subset which would bring most value - this would later help you prepare the concepts for the MVP related subset, growing everything from there incrementally 
 
 
 #### Non Functional Requirements
