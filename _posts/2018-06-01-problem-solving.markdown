@@ -111,8 +111,35 @@ A small tip  before proceeding to the next phase is to define together with the 
 
 ### Phase 2 - Designing the solution for the MVP
 
+The next phase is starting to design the technical solution. This part is covered by System Design books and practices.
 
+Taking into consideration the needs for the MVP, trying to reduce the complexity as much as possible so that the first draft can see the light as fast as possible. 
 
+The small guidelines I would offer here for a structured approach would be:
+
+- consider only the limited amount of use cases for the MVP
+
+- take into consideration both the failure and the success of the product
+
+- there can be situations when only proving something fast can be more valuable than making it perfect and extensible for enhancing it with future needs
+
+- don't focus on the technologies yet, just identity the domains and the borders for a natural split of responsibilities 
+
+- add the technologies only at the end( it can be the case when a specific technology is being asked from the beginning, and can influence the solution, if yes, then this and previous point can be merged)
+
+- ask for feedback from as many close peers you can
+
+There is plenty of literature on the internet from books, articles, certifications, videos or training websites in order to develop Systems Design skills for being able to prepare a concept. But practice makes it all. 
+
+### Phase 3 - Break down the solution
+
+### Phase 4 - Estimations
+
+### Phase 5 - Identity Risks and Write Down the Assumptions
+
+### Phase 6 - Define Contingency and Mitigation Plans
+
+### Phase 7 - Costs
 
 
 **References** 
