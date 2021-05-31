@@ -168,6 +168,31 @@ Preparing to justify you reasoning helps by having a list of **assumptions** for
 
 The Risks are the second very important aspect while going through the list, as they can highlight things which might go wrong. Or even things you don't know and have to be discovered. They shall help you build the list of **risks**
 
+Long story short on minimum basics for assessing and preparing grounds around the risks:
+
+![]({{ site.url }}/static/img/risk_management.png) 
+
+**The Mitigation Plan** 
+
+- assessing the probability of a risk to happen (High / Low) can help you understand if a mitigation plan for the risk not to happen would be required. 
+
+- it mainly refers to identifying actions which you will take in advance irrespective of the occurrence of risk 
+
+- it is expected to mitigate the risks which are outside the risk threshold
+
+- by applying a mitigation plan, we reduce the probability of impact of the identified risk
+
+- it works as the first level of defense for the high exposure risks
+
+**The Contingency Plan** 
+
+- assessing the impact of the risk, and understanding the consequences if that happens can help you comprehend if a Contingency Plan development is necessary to at least have an action plan after it happened
+
+- the idea with the contingency plan is not spend time or money in advance, but you keep them ready, and invest them when needed
+
+- by identifying the contingency plan, we do not change the probability or impact of the current risk, but we plan to control the impact as risk event looks like occurring
+
+- it works as a fallback plan for the high exposure risks
 
 
 ### To POC or not to POC
@@ -225,6 +250,14 @@ If you found at least a small idea useful from above I am happy. For any more qu
 [System Quality Attributes](https://en.wikipedia.org/wiki/List_of_system_quality_attributes)
 
 [Lies Damn Lies Estimates](https://www.slideshare.net/sebrose/lies-damn-lies-estimates)
+
+[Building Evolutionary Architectures, Neal Ford](https://www.goodreads.com/book/show/35755822-building-evolutionary-architectures?ac=1&from_search=true&qid=MUKEsinPu5&rank=1)
+
+[Thinking Fast and Slow, Daniel Kahneman](https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow?ac=1&from_search=true&qid=D1Hl23rLdL&rank=1)
+
+[Develop a Risk Management Plan](https://www.wikihow.com/Develop-a-Risk-Management-Plan)
+
+[Mitigation and Contingency Plans](https://www.linkedin.com/pulse/know-difference-between-mitigation-plan-contingency-saad-alqurashi/)
 
 **"The moment design becomes important is when you want to change something"(Kent Beck)**
 
