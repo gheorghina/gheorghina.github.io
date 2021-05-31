@@ -28,7 +28,28 @@ Depending on the degree of the complexity of the problem, the relationships betw
 Therefore, please take everything bellow with a grain of salt as it was meant only as being a guideline for a very well defined context which might not apply to you. Use filters to choose anything you might find useful for you.
 
 
-### Sample of a Business Problem
+### Phase 1 - Requirements Gathering
+
+This is the easiest part, right? Anyone can listen wishes patiently and ask some questions, isn't it?
+
+Well, yes, if you know what you are looking for. 
+
+#### Functional Requirements
+
+The easiest and obvious part in requirements gathering phase is understanding the Functional Requirements. They are easy to spot, as stakeholders who are unfamiliar with the development process will come to you with a pouring rain containing details, dreams and ideas. 
+
+Like for example: I am the mayor of the most futuristic city on the planet. I need an intelligent traffic control & monitoring system.
+
+A couple of advices I would have for the functional requirements are the following:
+
+    - try not to miss any one - this shows you listen, care and understand the need
+
+    - try to simplify/reduce them - try to understand via questions if there is openness to alternatives, or if the requests are fixed and rigid
+
+    - try to identify what would be the subset which would bring most value - this would later help you prepare the concepts for the MVP related subset, growing everything from there incrementally 
+
+
+#### Non Functional Requirements
 
 
 ### Guideline - Step 1
@@ -36,6 +57,8 @@ Therefore, please take everything bellow with a grain of salt as it was meant on
 
 
 **References** 
+
+[Rational Unified Process](https://en.wikipedia.org/wiki/Rational_Unified_Process)
  
 [MindTools](https://www.mindtools.com/pages/main/newMN_TMC.htm) 
 
