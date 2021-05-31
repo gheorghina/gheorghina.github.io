@@ -2,7 +2,7 @@
 layout: post
 title:  "Solving Business Problems"
 date:   2018-06-01 00:18:23 +0700
-categories: [.architecture, .analysis and design]
+categories: [.architecture, .analysis and design, systems design, risks management, RUP]
 ---
 
 Based on the following anonymous quote: 
@@ -159,21 +159,20 @@ As here we are talking about technical tasks, depending on how your company work
 - Monitoring
 
 
-### Phase 4 - Identity Risks and Write Down the Assumptions
+### Phase 4 - Risks Management
 
 **"If you can’t think of three things that might go wrong with your plans, then there’s something wrong with your thinking"(Jerry Weinberg)**
 
 While writing each of the part from the previous step, take into account that everything can be challenged.
-Preparing to justify you reasoning helps by having a list of assumptions for each side. They will reflect your understanding and what was taken into consideration. Will help identify if things were missed in the past get better prepared for the future.
+Preparing to justify you reasoning helps by having a list of **assumptions** for each side. They will reflect your understanding and what was taken into consideration. Will help identify if things were missed in the past get better prepared for the future.
 
-The Risks are the second very important aspect while going through the list, as they can highlight things which might go wrong. Or even things you don't know and have to be discovered.
+The Risks are the second very important aspect while going through the list, as they can highlight things which might go wrong. Or even things you don't know and have to be discovered. They shall help you build the list of **risks**
+
+
 
 ### To POC or not to POC
 
 Depending on the time you have, the clarity of the solution and depending on the requested level of accuracy, POC might come in handy for clearing up parts of the unknown, and bringing confidence in the proposed solution.
-
-### Phase 5 - Risk Management
-
 
 
 ### Phase 6 - Estimates
