@@ -18,8 +18,7 @@ I am making the information public for the case someone else might find them use
 As per ES documentation: "Most operating systems try to use as much memory as possible for file system caches and eagerly swap out unused application memory. This can result in parts of the JVM heap or even its executable pages being swapped out to disk."
 
 - Choosing between one node and 10 shards or 10 nodes each with a shard: (WIP ...)
-
-- EC2 m4.4xlarge instances are not ideal for Elasticsearch
+ 
 
 ### Some Resources
 
