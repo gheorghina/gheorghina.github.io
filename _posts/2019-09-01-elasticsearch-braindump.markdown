@@ -21,6 +21,8 @@ As per ES documentation: "Most operating systems try to use as much memory as po
 
 Enable shard allocation awareness for allowing ES know about the hardware configuration. This way it can ensure that the primary shard and its replica shards are spread across different physical servers, racks, or zones, to minimize the risk of losing all shard copies at the same time.
 
+Reducing the number of primary shards from the default 5 to 1 (see Sharding for details)
+
 ### AWS Recommendations
 
 The recommended AWS instance type is i3.2xlarge because it has locally attached 1900 GiB NVMe SSDs, which means the disk access will increase the overall ES performance.
@@ -29,7 +31,16 @@ Another good practice is to distribute the nodes across multiAZ, and use shard a
 
 If networking is a bottleneck, avoid instance types with networking labelled as Moderate or Low.
 
+Consider enabling termination protection for all of your data and master-eligible nodes.
+
 ### Sharding
+
+Data in ES is organized into indices. Each index is made up of one or more shards. Each shard is an instance of a Lucene index. 
+
+A Lucene index is a self contained search engine that indexes and handles queries for a subset of the data in an Elasticsearch cluster.
+This means each shard has an overhead in terms of memory, CPU and file handles.
+
+As data is written to a shard, it is periodically published into new immutable Lucene segments on disk, and it is at this time it becomes available for querying.
 
 Choosing between one node and 10 shards or 10 nodes each with a shard makes no difference at the Lucene level. But having the wrong design can lead to performance issues on the long run.
  
@@ -41,7 +52,17 @@ For searching, aliases can be used for increasing the response performance(ex. b
 
 From ES the recommendation of a shard size is in 10s of gigabytes. This means if data is less than that, then having a single index shall be preferred.
 
- 
+For ensuring a good health of the ES cluster, the recommendation is to keep the number of shards per node below 20 per GB it has configured. This means that a node with a 20GB heap should have maximum 400 shards. Better the have the number bellow this value. Too many shards can kill performance.
+
+Use 1 primary shards for all indices and implement [rollover index](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-rollover-index.html) using [Index Lifecycle Management](https://www.elastic.co/guide/en/elasticsearch/reference/current/index-lifecycle-management.html).
+
+### IML - Index Lifecycle Management
+
+Spin up a new index when an index reaches a certain size or number of documents
+
+Create a new index each day, week, or month and archive previous ones
+
+Delete stale indices to enforce data retention standards
 
 ### Resources
 
