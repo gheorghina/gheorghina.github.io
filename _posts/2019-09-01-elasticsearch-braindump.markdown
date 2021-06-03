@@ -48,4 +48,6 @@ Another good practice is to distribute the nodes across multiAZ, and use shard a
 
 [AWS Best Practices](https://www.elastic.co/guide/en/elasticsearch/plugins/current/cloud-aws-best-practices.html)
 
+[Allocation Awareness](https://www.elastic.co/guide/en/elasticsearch/reference/6.8/allocation-awareness.html)
+
 
