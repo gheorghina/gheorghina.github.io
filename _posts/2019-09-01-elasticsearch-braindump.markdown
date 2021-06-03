@@ -76,6 +76,10 @@ Index Lifecycle Stages:
 
 ### Resiliency
 
+Avoid data loss and enable quick recovery by using Snapshot and Restore. 
+
+Snapshots are incremental, and can be saved to Amazon S3, HDFS, shared filesystem, ...
+
 
 ### Monitoring
 
@@ -106,5 +110,7 @@ A watch’s actions define what to do when the watch condition evaluates to true
 [How to IML](https://www.elastic.co/blog/implementing-hot-warm-cold-in-elasticsearch-with-index-lifecycle-management)
 
 [Watchers](https://www.elastic.co/guide/en/elasticsearch/reference/7.4/watcher-getting-started.html)
+
+[Snapshot and Restore](https://www.elastic.co/guide/en/elasticsearch/reference/current/snapshot-restore.html)
 
 
