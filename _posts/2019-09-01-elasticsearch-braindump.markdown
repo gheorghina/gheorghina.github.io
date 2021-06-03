@@ -64,6 +64,23 @@ Create a new index each day, week, or month and archive previous ones
 
 Delete stale indices to enforce data retention standards
 
+Index Lifecycle Stages:
+
+- Hot—​the index is actively being updated and queried.
+
+- Warm—​the index is no longer being updated, but is still being queried.
+
+- Cold—​the index is no longer being updated and is seldom queried. The information still needs to be searchable, but it’s okay if those queries are slower.
+
+- Delete—​the index is no longer needed and can safely be deleted.
+
+### Resiliency
+
+
+### Monitoring
+
+Monitoring can be put in place with Logstash, Beats and Kibana.
+
 ### Resources
 
 [Disable Swapping](https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-configuration-memory.html)
@@ -75,5 +92,13 @@ Delete stale indices to enforce data retention standards
 [AWS Best Practices](https://www.elastic.co/guide/en/elasticsearch/plugins/current/cloud-aws-best-practices.html)
 
 [Allocation Awareness](https://www.elastic.co/guide/en/elasticsearch/reference/6.8/allocation-awareness.html)
+
+[ML Built Inside ES](https://www.elastic.co/what-is/elasticsearch-machine-learning)
+
+[Monitoring](https://www.elastic.co/guide/en/elasticsearch/reference/7.4/monitor-elasticsearch-cluster.html)
+
+[Hot-Warm Architectures](https://www.elastic.co/blog/hot-warm-architecture-in-elasticsearch-5-x)
+
+[How to IML](https://www.elastic.co/blog/implementing-hot-warm-cold-in-elasticsearch-with-index-lifecycle-management)
 
 
