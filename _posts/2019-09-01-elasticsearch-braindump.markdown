@@ -25,6 +25,14 @@ Reducing the number of primary shards from the default 5 to 1 (see Sharding for 
 
 Use Index Templates to simplify creation of new indices with the desired settings and mappings.
 
+Use Index Aliases to:
+
+- Make it possible to change a mapping and reindex to a new index without changing your client, with no downtime.
+
+- Create filtered aliases to create a view to a subset of an index
+
+- Create aliases that point to multiple indices.
+
 ### AWS Recommendations
 
 The recommended AWS instance type is i3.2xlarge because it has locally attached 1900 GiB NVMe SSDs, which means the disk access will increase the overall ES performance.
@@ -82,6 +90,9 @@ Avoid data loss and enable quick recovery by using Snapshot and Restore.
 
 Snapshots are incremental, and can be saved to Amazon S3, HDFS, shared filesystem, ...
 
+Disable deleting indices via wildcard.
+
+Disable automatically adding new fields to index mapping by setting dynamic mapping to false or strict.
 
 ### Monitoring
 
@@ -116,5 +127,11 @@ A watch’s actions define what to do when the watch condition evaluates to true
 [Snapshot and Restore](https://www.elastic.co/guide/en/elasticsearch/reference/current/snapshot-restore.html)
 
 [Index Templates](https://www.elastic.co/guide/en/elasticsearch/reference/current/index-templates.html)
+
+[Index Aliases](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-aliases.html)
+
+[Dynamic](https://www.elastic.co/guide/en/elasticsearch/reference/current/dynamic.html)
+
+[Dynamic Templates](https://www.elastic.co/guide/en/elasticsearch/reference/current/dynamic-templates.html)
 
 
