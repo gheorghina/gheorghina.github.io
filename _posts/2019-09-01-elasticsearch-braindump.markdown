@@ -23,6 +23,8 @@ Enable shard allocation awareness for allowing ES know about the hardware config
 
 Reducing the number of primary shards from the default 5 to 1 (see Sharding for details)
 
+Use Index Templates to simplify creation of new indices with the desired settings and mappings.
+
 ### AWS Recommendations
 
 The recommended AWS instance type is i3.2xlarge because it has locally attached 1900 GiB NVMe SSDs, which means the disk access will increase the overall ES performance.
@@ -112,5 +114,7 @@ A watch’s actions define what to do when the watch condition evaluates to true
 [Watchers](https://www.elastic.co/guide/en/elasticsearch/reference/7.4/watcher-getting-started.html)
 
 [Snapshot and Restore](https://www.elastic.co/guide/en/elasticsearch/reference/current/snapshot-restore.html)
+
+[Index Templates](https://www.elastic.co/guide/en/elasticsearch/reference/current/index-templates.html)
 
 
