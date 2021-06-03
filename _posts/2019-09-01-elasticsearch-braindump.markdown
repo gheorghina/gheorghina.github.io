@@ -81,6 +81,10 @@ Index Lifecycle Stages:
 
 Monitoring can be put in place with Logstash, Beats and Kibana.
 
+Use watchers for alarming in case of exceptional situations, e.g. index grows too large or disk space runs low.
+
+A watch’s actions define what to do when the watch condition evaluates to true. You can send emails, call third-party webhooks, write documents to an Elasticsearch index, or log messages to the standard Elasticsearch log files.
+
 ### Resources
 
 [Disable Swapping](https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-configuration-memory.html)
@@ -100,5 +104,7 @@ Monitoring can be put in place with Logstash, Beats and Kibana.
 [Hot-Warm Architectures](https://www.elastic.co/blog/hot-warm-architecture-in-elasticsearch-5-x)
 
 [How to IML](https://www.elastic.co/blog/implementing-hot-warm-cold-in-elasticsearch-with-index-lifecycle-management)
+
+[Watchers](https://www.elastic.co/guide/en/elasticsearch/reference/7.4/watcher-getting-started.html)
 
 
