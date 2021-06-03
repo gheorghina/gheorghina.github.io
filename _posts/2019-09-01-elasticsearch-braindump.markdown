@@ -11,7 +11,7 @@ This small blog post is meant to just enumerate a list of tips for future me.
 
 I am making the information public for the case someone else might find them useful.
 
-### Tips and Guidelines (WIP)
+### Tips and Guidelines
 
 ### Configurations
 
