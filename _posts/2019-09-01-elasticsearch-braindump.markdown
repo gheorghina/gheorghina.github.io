@@ -31,9 +31,11 @@ From ES the recommendation of a shard size is in 10s of gigabytes. This means if
 
 - Sharding(WIP)
 
-- The recommended AWS instance type is i3.2xlarge because it has locally attached 1900 GiB NVMe SSDs, which means the disk access will increase the overall ES performance.
+- AWS Best Practices
 
-- Another good practice is to distribute the nodes across multiAZ, and use shard allocation awareness to ensure that each shard has copies in more than one availability zone.
+The recommended AWS instance type is i3.2xlarge because it has locally attached 1900 GiB NVMe SSDs, which means the disk access will increase the overall ES performance.
+
+Another good practice is to distribute the nodes across multiAZ, and use shard allocation awareness to ensure that each shard has copies in more than one availability zone.
  
 
 ### Some Resources
