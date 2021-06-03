@@ -13,7 +13,7 @@ I am making the information public for the case someone else might find them use
 
 ### Tips and Guidelines (WIP)
 
-- Disable swapping and enable mlockall for ensuring performance and node stability. This will prevent operating systems from swapping the allocated memory for ES.
+- Disable swapping and enable bootstrap.memory_lock for ensuring performance and node stability. This will prevent operating systems from swapping the allocated memory for ES.
 
 As per ES documentation: "Most operating systems try to use as much memory as possible for file system caches and eagerly swap out unused application memory. This can result in parts of the JVM heap or even its executable pages being swapped out to disk."
 
@@ -30,10 +30,20 @@ For searching, aliases can be used for increasing the response performance(ex. b
 From ES the recommendation of a shard size is in 10s of gigabytes. This means if data is less than that, then having a single index shall be preferred.
 
 - Sharding(WIP)
+
+- The recommended AWS instance type is i3.2xlarge because it has locally attached 1900 GiB NVMe SSDs, which means the disk access will increase the overall ES performance.
+
+- Another good practice is to distribute the nodes across multiAZ, and use shard allocation awareness to ensure that each shard has copies in more than one availability zone.
  
 
 ### Some Resources
 
-[Disable swapping](https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-configuration-memory.html)
+[Disable Swapping](https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-configuration-memory.html)
+
+[AWS Instances Comparison](https://instances.vantage.sh/)
+
+[How Many Shards to Have](https://www.elastic.co/blog/how-many-shards-should-i-have-in-my-elasticsearch-cluster)
+
+[AWS Best Practices](https://www.elastic.co/guide/en/elasticsearch/plugins/current/cloud-aws-best-practices.html)
 
 
