@@ -13,14 +13,26 @@ I am making the information public for the case someone else might find them use
 
 ### Tips and Guidelines (WIP)
 
-- Disable swapping and enable bootstrap.memory_lock for ensuring performance and node stability. This will prevent operating systems from swapping the allocated memory for ES.
+### Configurations
+
+Disable swapping and enable bootstrap.memory_lock for ensuring performance and node stability. This will prevent operating systems from swapping the allocated memory for ES.
 
 As per ES documentation: "Most operating systems try to use as much memory as possible for file system caches and eagerly swap out unused application memory. This can result in parts of the JVM heap or even its executable pages being swapped out to disk."
 
-- Choosing between one node and 10 shards or 10 nodes each with a shard: 
+Enable shard allocation awareness for allowing ES know about the hardware configuration. This way it can ensure that the primary shard and its replica shards are spread across different physical servers, racks, or zones, to minimize the risk of losing all shard copies at the same time.
 
-From Lucene shard level, there is no difference between the two options. 
+### AWS Recommendations
 
+The recommended AWS instance type is i3.2xlarge because it has locally attached 1900 GiB NVMe SSDs, which means the disk access will increase the overall ES performance.
+
+Another good practice is to distribute the nodes across multiAZ, and use shard allocation awareness to ensure that each shard has copies in more than one availability zone. Do not span a cluster across regions. Elasticsearch expects that node-to-node connections within a cluster are reasonably reliable and offer high bandwidth and low latency, and these properties do not hold for connections between regions
+
+If networking is a bottleneck, avoid instance types with networking labelled as Moderate or Low.
+
+### Sharding
+
+Choosing between one node and 10 shards or 10 nodes each with a shard makes no difference at the Lucene level. But having the wrong design can lead to performance issues on the long run.
+ 
 From the domain perspective, if the information can be split logically and evenly, then maybe splitting in multiple indices makes more sense.
 
 If deletion is required, it is easier and faster to delete an entire index.
@@ -29,13 +41,6 @@ For searching, aliases can be used for increasing the response performance(ex. b
 
 From ES the recommendation of a shard size is in 10s of gigabytes. This means if data is less than that, then having a single index shall be preferred.
 
-- Sharding(WIP)
-
-- AWS Best Practices
-
-The recommended AWS instance type is i3.2xlarge because it has locally attached 1900 GiB NVMe SSDs, which means the disk access will increase the overall ES performance.
-
-Another good practice is to distribute the nodes across multiAZ, and use shard allocation awareness to ensure that each shard has copies in more than one availability zone.
  
 
 ### Resources
