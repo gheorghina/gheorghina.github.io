@@ -38,7 +38,7 @@ The recommended AWS instance type is i3.2xlarge because it has locally attached 
 Another good practice is to distribute the nodes across multiAZ, and use shard allocation awareness to ensure that each shard has copies in more than one availability zone.
  
 
-### Some Resources
+### Resources
 
 [Disable Swapping](https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-configuration-memory.html)
 
