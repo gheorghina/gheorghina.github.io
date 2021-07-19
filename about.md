@@ -10,7 +10,7 @@ My name is Gheorghina.
 
 I have experience in creating integration, distributed event driven backend solutions and web enterprise software applications while helping other colleagues grow.
 
-Between 2015 and 2018 I focused my activities mainly on designing systems at the architectural level by being involved in presales activities and in redesigning a suite of complex backend solutions for reducing maintenance costs.   
+For a good amount of years I focused my activities mainly on designing systems at the architectural level by being involved in presales activities and in redesigning a suite of complex backend solutions for reducing maintenance costs.   
 
 The primary languages and technologies I have experience with are: the Microsoft Tech Stack, Elixir, JavaScript, Search Engines and AWS that were used in the home automation, pharmaceutical and in the cloud communication businesses.
 
