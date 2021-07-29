@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The curious case of stuck DBConnections in a elixir caused by RDS restart"
+title:  "The curious case of stuck DBConnections in elixir caused by RDS restart"
 date:   2021-01-01 00:18:23 +0700
 categories: [elixir, aws, mariadb, logger, dbconnections]
 ---
