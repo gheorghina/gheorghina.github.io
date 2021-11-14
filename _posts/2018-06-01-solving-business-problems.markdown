@@ -11,13 +11,11 @@ Based on the following anonymous quote:
 
 ### Context
 
-For a good amount of years I have been exposed to the context of having to prepare technical concepts for new potential products.
+For a good amount of years I have been exposed to the context of having to both prepare technical concepts for new potential products, but also to define technical strategies and drive the technical initiatives across complex projects.
 
-That means transforming the whishes of a potential customer into concrete technical actions with a realistic evaluation of complexity, as much as it could be at the moment of evaluation.  
+After doing it for a couple of years I decided to document my thinking process and to also do some workshops with my fellow colleagues for knowledge dissemination and teaching purposes.
 
-After doing it for a couple of times I decided to document my thinking process and to also do some workshops with my fellow colleagues for knowledge dissemination and teaching purposes.
-
-That being said, I long cycle of workshops took place over 2 years, where I tried to transform a very scary mythical process into some concrete recipe as a guideline.
+That being said, I long cycle of workshops took place for over 2 years, where I tried to transform a very scary mythical process into more concrete guidelines.
 
 
 ### Disclaimer
