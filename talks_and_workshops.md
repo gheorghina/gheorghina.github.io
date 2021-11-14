@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Talks and Workshops
-permalink: /talks_and_workshops/
+permalink: /workshops/
 ---
 
 ### Upcoming talks

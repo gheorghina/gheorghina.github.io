@@ -34,8 +34,8 @@ urls:
       url: /about/
     # - text: My Projects
     #   url: /projects/
-    - text: XML Feed
-      url: /feed.xml
+    - text: Talks and Workshops
+      url: /workshops
 
 url: "https://gheorghina.github.io"
 baseurl: ""
