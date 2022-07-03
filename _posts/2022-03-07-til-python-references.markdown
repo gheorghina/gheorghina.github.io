@@ -11,6 +11,21 @@ The amount of good resources are overwhelming for a new joiner, therefore I alwa
 
 This list is still in progress and will be updated with all the good resources I can find. Please feel free to share 
 
+### Getting started
+
+https://docs.python.org/3/ 
+
+https://www.python.org/about/gettingstarted/ 
+ 
+https://wiki.python.org/moin/BeginnersGuide/Programmers  
+
+https://code.activestate.com/recipes/langs/python/ 
+
+https://docs.python-guide.org/intro/learning/ 
+
+https://www.greenteapress.com/thinkpython/html/index.html 
+
+
 ### Courses
 
 It comes a bit pricy, but both Pluralsight and Udemy have a good amount of resources for all levels.
@@ -21,6 +36,8 @@ It comes a bit pricy, but both Pluralsight and Udemy have a good amount of resou
 
 [Mastering Python High Performance, Fernando Doglio](https://www.goodreads.com/book/show/26781635-mastering-python-high-performance?ref=nav_sb_ss_1_34)
 
+[Introductory Books](https://wiki.python.org/moin/IntroductoryBooks)
+
 
 ### Practice for free
 
@@ -30,6 +47,8 @@ It comes a bit pricy, but both Pluralsight and Udemy have a good amount of resou
 ### Best Practices and Standardization
 
 [Clean Code](https://github.com/zedr/clean-code-python)
+
+[Elements of python style](https://github.com/amontalenti/elements-of-python-style)
 
 [PEP 8 — the Style Guide for Python Code](https://pep8.org/)
 
@@ -68,3 +87,7 @@ It comes a bit pricy, but both Pluralsight and Udemy have a good amount of resou
 [Test & Code in Python](https://testandcode.com/)
 
 [Python Bytes](https://pythonbytes.fm/)
+
+### Other references
+
+interview questions https://data-flair.training/blogs/top-python-interview-questions-answer/ 
