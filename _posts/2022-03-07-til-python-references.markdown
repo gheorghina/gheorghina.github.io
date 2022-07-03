@@ -1,8 +1,7 @@
-
 ---
 layout: post
 title:  "Python References to speed up the beginners learning process"
-date:   2021-02-01 00:18:23 +0700
+date:   2022-07-03 00:18:23 +0700
 categories: [python references]
 ---
 
