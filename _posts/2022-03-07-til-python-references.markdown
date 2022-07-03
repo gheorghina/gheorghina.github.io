@@ -90,4 +90,4 @@ It comes a bit pricy, but both Pluralsight and Udemy have a good amount of resou
 
 ### Other references
 
-interview questions https://data-flair.training/blogs/top-python-interview-questions-answer/ 
+[interview questions](https://data-flair.training/blogs/top-python-interview-questions-answer/)
