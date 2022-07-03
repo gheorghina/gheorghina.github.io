@@ -13,17 +13,17 @@ This list is still in progress and will be updated with all the good resources I
 
 ### Getting started
 
-https://docs.python.org/3/ 
+[Python docs](https://docs.python.org/3/)
 
-https://www.python.org/about/gettingstarted/ 
+[Getting started](https://www.python.org/about/gettingstarted/)
  
-https://wiki.python.org/moin/BeginnersGuide/Programmers  
+[Beginners guide wiki](https://wiki.python.org/moin/BeginnersGuide/Programmers)
 
-https://code.activestate.com/recipes/langs/python/ 
+[activestate](https://code.activestate.com/recipes/langs/python/)
 
-https://docs.python-guide.org/intro/learning/ 
+[python-guide](https://docs.python-guide.org/intro/learning/)
 
-https://www.greenteapress.com/thinkpython/html/index.html 
+[thinkpython](https://www.greenteapress.com/thinkpython/html/index.html)
 
 
 ### Courses
