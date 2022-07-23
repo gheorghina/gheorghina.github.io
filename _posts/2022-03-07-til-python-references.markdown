@@ -38,6 +38,8 @@ It comes a bit pricy, but both Pluralsight and Udemy have a good amount of resou
 
 [Introductory Books](https://wiki.python.org/moin/IntroductoryBooks)
 
+[Awesome Python Books](https://github.com/Junnplus/awesome-python-books)
+
 
 ### Practice for free
 
