@@ -1,7 +1,7 @@
 
 ---
 layout: post
-title:  "TIL: Youtube was built on Python and managed to support in 2012 up to 4 billion views / day"
+title:  "[TIL] Youtube was built on Python and managed to support in 2012 up to 4 billion views / day"
 date:   2019-08-16 00:18:23 +0700
 categories: [youtube, python, scalability, architecture, til, jitter, ]
 ---
