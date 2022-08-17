@@ -5,7 +5,7 @@ date:   2019-08-16 00:18:23 +0700
 categories: [youtube, python, scalability, architecture, til, jitter]
 ---
 
-### Youtube was built on Python and MySQL and managed to support in 2012 up to 4 billion views / day
+### Youtube was built on Python and MySQL and managed to support in 2012 up to 4 billion views per day
 
 Even though the references are pretty old, I was not aware the initial architecture versions of youtube were built on top of python.
 
