@@ -83,9 +83,13 @@ In this page I will mainly cherry pick in the next sessions a few aspects I foun
 
 7. Zookeeper - a distributed lock server. It’s used for configuration 
 
-8. Wiseguy - a CGI servlet container.
+8. Wiseguy - a CGI servlet container
 
-9. Spitfire - a templating system. It has an abstract syntax tree that let’s them do transformations to make things go faster.
+9. Spitfire - a templating system. It has an abstract syntax tree that let’s them do transformations to make things go faster
+
+10. [Apache HTTP Server](https://apache.org/) - Youtube is not async, everything is blocking. Every request goes to Apache
+
+11. [pycurl](http://pycurl.io/)
  
 
 #### More on Jitter
