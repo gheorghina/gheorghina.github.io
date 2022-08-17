@@ -19,15 +19,15 @@ The complete stack references can be found [here](http://highscalability.com/you
 
 In this page I will mainly cherry pick in the next sessions a few aspects I found interesting to recall.
 
-1. they used psyco, a dynamic python C compiler
+1. psyco, a dynamic python C compiler
 
-**Currently psyco is unmaintained and dead. It was replaced by PyPy, as JIT compiler for Python**
+    **Currently psyco is unmaintained and dead. It was replaced by PyPy, as JIT compiler for Python**
 
-By wiki, just-in-time (JIT) compilation is a way of executing computer code that involves compilation during execution of a program (at run time) rather than before execution.
+    By wiki, just-in-time (JIT) compilation is a way of executing computer code that involves compilation during execution of a program (at run time) rather than before execution.
 
-This may consist of source code translation but is more commonly bytecode translation to machine code, which is then executed directly. 
+    This may consist of source code translation but is more commonly bytecode translation to machine code, which is then executed directly. 
 
-A system implementing a JIT compiler typically continuously analyses the code being executed and identifies parts of the code where the speedup gained from compilation or recompilation would outweigh the overhead of compiling that code.
+    A system implementing a JIT compiler typically continuously analyses the code being executed and identifies parts of the code where the speedup gained from compilation or recompilation would outweigh the overhead of compiling that code.
 
 
 2. Scalability Strategies
@@ -69,6 +69,24 @@ A system implementing a JIT compiler typically continuously analyses the code be
 
     - In case of long tailing caching won't always be your performance savior.
 
+5. Serialization will be the most expensive, no matter what library you use. Therefore, measuring becomes critical. Recent podcasts go on about protobuff and RPC.
+
+6. [Vitess](https://github.com/vitessio/vitess)
+
+    Vitess is a database clustering system for horizontal scaling of MySQL through generalized sharding.
+
+    By encapsulating shard-routing logic, Vitess allows application code and database queries to remain agnostic to the distribution of data onto multiple shards. With Vitess, you can even split and merge shards as your needs grow, with an atomic cutover step that takes only a few seconds.
+
+    Vitess has been a core component of YouTube's database infrastructure since 2011, and has grown to encompass tens of thousands of MySQL nodes.
+
+    [Vitess](https://vitess.io/) is a cloud native computing foundation graduated project.
+
+7. Zookeeper - a distributed lock server. It’s used for configuration 
+
+8. Wiseguy - a CGI servlet container.
+
+9. Spitfire - a templating system. It has an abstract syntax tree that let’s them do transformations to make things go faster.
+ 
 
 #### More on Jitter
 
