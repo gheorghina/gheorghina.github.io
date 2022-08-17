@@ -15,7 +15,9 @@ So maybe, smaller business shall stop worriend if python can make microservices 
 
 #### Tech Stack Notes
 
-The complete stack references can be found [here](http://highscalability.com/youtube-architecture) and [here](http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html). I will move away from duplicating the information. I will mainly cherry pick in the next sessions a few aspects I found interesting to recall.
+The complete stack references can be found [here](http://highscalability.com/youtube-architecture) and [here](http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html). I will move away from duplicating the information. 
+
+In this page I will mainly cherry pick in the next sessions a few aspects I found interesting to recall.
 
 1. they used psyco, a dynamic python C compiler
 
