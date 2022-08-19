@@ -40,6 +40,10 @@ It comes a bit pricy, but both Pluralsight and Udemy have a good amount of resou
 
 [Awesome Python Books](https://github.com/Junnplus/awesome-python-books)
 
+[Python Crash Course 2nd ed.](https://nostarch.com/pythoncrashcourse2e)
+
+[Other References](https://learnpython.com/blog/beginner-learning-python-resources/)
+
 
 ### Practice for free
 
@@ -62,6 +66,8 @@ It comes a bit pricy, but both Pluralsight and Udemy have a good amount of resou
 ### Libraries
 
 [Awesome Python](https://github.com/vinta/awesome-python)
+
+[Python Libraries for Beginners](https://learnpython.com/blog/python-libraries-for-beginners/)
 
 ### Python Software Foundation
 
