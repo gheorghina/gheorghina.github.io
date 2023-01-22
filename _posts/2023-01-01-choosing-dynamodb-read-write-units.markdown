@@ -8,8 +8,10 @@ categories: [aws, dynamodb]
 ## Introduction
 
 DynamoDB comes with two options for choosing the dynamo instances:
-    - on demand mode 
-    - provisioned mode
+
+- on demand mode 
+
+- provisioned mode
 
 On demand mode is recommended to be used in use cases in which a workload prediction is not possible or the application traffic cannot be counted.
 
