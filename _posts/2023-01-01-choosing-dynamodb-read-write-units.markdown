@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "Brief Strategy for defining the Read/ Write Capacity Units for Provisioned DynamoDB"
