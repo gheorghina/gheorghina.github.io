@@ -41,26 +41,24 @@ That means thinking about both the Functional and the Non Functional Requirement
 
 In the context of using [Lambda with MSK](https://docs.aws.amazon.com/lambda/latest/dg/with-msk.html) and dropping messages in batches in a dynamodb table, the key metrics to understand would be:
 
-    1. how many partitions does the kafka topic have?
+1. how many partitions does the kafka topic have?
 
-    2. depending on the answer to the question 1, we will have maximum the number of lambda instances being run in parallel equal to it
+2. depending on the answer to the question 1, we will have maximum the number of lambda instances being run in parallel equal to it
 
-    3. how does the lambda function write the message? if for example the answer is in batches then the following point is important as well
+3. how does the lambda function write the message? if for example the answer is in batches then the following point is important as well
 
-    4. what is the size of a message? as per above, if total amount exceeds the 4kb limit, more units would be counted with each write
+4. what is the size of a message? as per above, if total amount exceeds the 4kb limit, more units would be counted with each write
 
 
 *Example Calculation:*
 
-    Partitions: 3
-    Lambda: writes in batches of 50
-    Message size: 300 bytes
+- Partitions: 3
 
-    With this we will have at peak a maximum of: 
+- Lambda: writes in batches of 50
 
-        - 3 writes
-        - in size of: 3*50*300/1000 = 45kb 
-        - which would be counted as **45 write units**
+- Message size: 300 bytes
+
+- With this we will have at peak a maximum of: 3 writes in size of: 3*50*300/1000 = 45kb  which would be counted as **45 write units**
 
 ## Calculating Read Units
 
@@ -68,11 +66,13 @@ Calculating read units goes the same way.  It is important to understand what ar
 
 *Example Calculation:*
 
-    Concurrent Reads / second: 100
-    Message Size: 300 bytes
-    Messages are fetched as lists, with max of 20
+- Concurrent Reads / second: 100
+    
+- Message Size: 300 bytes
+    
+- Messages are fetched as lists, with max of 20
 
-    maximum would then be: 100 * 20 * 300 / 1000 = 600 kb / 4kb = 150 read units
+- Maximum would then be: 100 * 20 * 300 / 1000 = 600 kb / 4kb = **150 read units**
 
 ## Additional Resources
 
