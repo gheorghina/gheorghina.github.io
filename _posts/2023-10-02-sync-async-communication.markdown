@@ -52,17 +52,17 @@ The things that can go wrong are called faults(hardware / software / human), and
 
     - Synchronous programming functions as a one-track mind, checking off one task at a time in a rigid sequence.
 
-**Resource Intensive, Blocking, Leads to Low Performance**:
+- **Resource Intensive, Blocking, Leads to Low Performance**:
 
     - HTTP is synchronous and the original request doesn’t get a response until all internal HTTP calls are finished. It’s fine until the request calls increase and one of them is blocked. In such a situation, the performance is exponentially affected as additional HTTP requests increase.
 
-**Loss of Autonomy:**
+- **Loss of Autonomy:**
 
     - It would be ideal for in a microservices architecture, that services don’t know about one another.
 
     - If they connect through HTTP they can not be autonomous in any way.
 
-**Complex Failure Management:**
+- **Complex Failure Management:**
 
     - If you have a request HTTP call chain and an intermediate microservice fails, all the chain fails. Unless you have a retry scenario with a good circuit breaker strategy to recover such failures. But as the chains get more complex, implementing such a failure strategy gets so hard and in some cases impossible.
 
@@ -70,33 +70,33 @@ The things that can go wrong are called faults(hardware / software / human), and
 
 **What can go wrong:**
 
-    Network Failures
+- Network Failures
 
-    Timeouts
+- Timeouts
 
-    One service can be down( due to hardware crashes / service crashes/ load / …)
+- One service can be down( due to hardware crashes / service crashes/ load / …)
 
-    Poor logging system, difficult to say which service in the chain actually causes the failures
+- Poor logging system, difficult to say which service in the chain actually causes the failures
 
-    etc…
+- etc…
 
 **Resilience support mechanisms:**
 
-    Retry Mechanisms
+- Retry Mechanisms
 
-    Retry with Backoff Strategies
+- Retry with Backoff Strategies
 
-    Circuit Breakers
+- Circuit Breakers
 
-    Multi availability zone deployments
+- Multi availability zone deployments
 
-    Multiple instances available for one service
+- Multiple instances available for one service
 
-    Master - Read Replicas for Databases
+- Master - Read Replicas for Databases
 
-    Load balancing
+- Load balancing
 
-    etc…
+- etc…
 
 ## Sync use-cases
 
@@ -115,17 +115,17 @@ happen together to avoid for example race conditions or inconsistencies.
 
     Ensures the services separation, autonomy, independence
 
-        Ex in messaging/events driven systems: separation between producer /consumer
+    - Ex in messaging/events driven systems: separation between producer /consumer
 
     Messaging, Events based Systems / Webhooks / allow each service to process data on their own peace
 
-        Allows automatic up/down scale to cope with increased loads
+    - Allows automatic up/down scale to cope with increased loads
 
-        Reduces the need to loop and perform unnecessary calls
+    - Reduces the need to loop and perform unnecessary calls
 
-        Reduces the risks of domino effects
+    - Reduces the risks of domino effects
 
-        There are cases in which the users may not even be aware as partial degradation may be supported
+    - There are cases in which the users may not even be aware as partial degradation may be supported
 
 
 ## Ensuring Resiliency with Async
