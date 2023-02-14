@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Synchronous vs Asynchronous Communication in Distributed Systems"
-date:   2023-10-02 00:18:23 +0700
+date:   2023-02-10 00:18:23 +0700
 categories: [microservices, reliability, sync, async]
 ---
+
 
 ## What this article is and it is not
 
