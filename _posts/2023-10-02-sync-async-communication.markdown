@@ -11,7 +11,7 @@ This short article is not about giving in depth details about how sync or async 
 
 Its main purpose is to raise awareness, to make one take a step back and think about how irrespective of the communication mechanism choices, the resiliency and the scalability of a distributed system can be ensured. 
 
-## Sync / Async Communication Mechanisms
+## Sync and Async Communication Mechanisms
 
 **Synchronous** behavior is when the application constructs a request, sends over the connection, and waits for the response (blocking the execution). It also means connected or dependent in some way
 
