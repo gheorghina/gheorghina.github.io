@@ -163,8 +163,6 @@ and cons of each.
 
 [The Systems Bible](https://www.goodreads.com/book/show/583785.The_Systems_Bible?ac=1&from_search=true&qid=lkAyxWF70x&rank=1)
 
-[Designing Data-Intensive Applications](https://www.goodreads.com/book/show/23463279-designing-data-intensive-applications?ac=1&from_search=true&qid=IWoRD8lhTr&rank=1)
-
 [Neal Ford - Software Architecture The Hard Parts](https://www.goodreads.com/book/show/58153482-software-architecture)
 
 [Kleppmann, Martin - Designing Data Intensive Applications](https://www.goodreads.com/book/show/23463279-designing-data-intensive-applications)
