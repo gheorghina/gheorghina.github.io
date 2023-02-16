@@ -81,7 +81,7 @@ The things that can go wrong are called faults(hardware / software / human), and
 
 - etc…
 
-**Resilience support mechanisms:**
+**Resilience Support Mechanisms:**
 
 - Retry Mechanisms
 
@@ -103,6 +103,10 @@ The things that can go wrong are called faults(hardware / software / human), and
 
 Synchronous programming is best utilized in reactive systems. When some actions have to all
 happen together to avoid for example race conditions or inconsistencies.
+
+## Sync Example
+
+![]({{ site.url }}/static/img/sync-async/sync_sample.jpg)
 
 ## Asynchronous Communication
 
@@ -141,6 +145,10 @@ is complete.
 
 Asynchronous programming allows more things to be done at the same time and is typically used to
 enhance the user experience by providing an effortless, quick-loading flow.
+
+## Async example
+
+![]({{ site.url }}/static/img/sync-async/async_sample.jpg)
 
 ## Conclusions / Recommendations
 
