@@ -87,7 +87,7 @@ The things that can go wrong are called faults(hardware / software / human), and
 
 - Retry with Backoff Strategies
 
-- Circuit Breakers
+- Circuit Breakers, Rate limiting
 
 - Multi availability zone deployments
 
