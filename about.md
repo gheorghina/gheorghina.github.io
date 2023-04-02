@@ -6,7 +6,7 @@ permalink: /about/
 
 Hi,
 
-My name is Gheorghina.
+My name is Gheorghina, but you can call me Georgina or just Gheo.
 
 I have experience in building distributed systems while helping other colleagues grow.
 
