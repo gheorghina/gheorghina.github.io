@@ -1,0 +1,212 @@
+
+---
+layout: post
+title:  "Books which helped me grow my software architecture design skills"
+date:   2021-02-01 00:18:23 +0700
+categories: [architecture, scaling, data model queries]
+---
+
+## Introduction
+
+There is no single book which contains all the answers to the mysteries of the universe, each one will have a few ideas you can learn among the others. Staying current may be overwhelming these days with how fast the technology advances, and in addition, with how complex the systems became. 
+
+In this blog post I will write a few books recommendations which helped me grow. 
+
+I want to emphasize that staying curious, and investing time in yourself is crucial for staying competitive in the software engineering field. 
+
+As a surprise I will highlight that you can learn about software architecture or leadership from non technical books as well. Keeping the mind and an eye open for analogies will help you find similar examples as you go.
+
+In a future post I will summarize a list of resources which can help you nurture your skills besides reading books
+
+
+## References & Reviews
+
+### [Clean Code: A Handbook of Agile Software Craftsmanship, by Robert C. Martin](https://www.goodreads.com/book/show/3735293-clean-code)
+
+![]({{ site.url }}/static/img/sa-books/clean-code.jpg)
+
+The book emphasizes the importance of writing clean and maintainable code. 
+
+The book is divided into three parts: 
+- the first part describes the principles, patterns, and practices of writing clean code, 
+- the second part describes several case studies of code that is not clean and how to refactor it, 
+- the third part contains a list of heuristics and "smells" to help readers identify when code is not clean. 
+
+The book covers topics such as naming conventions, code organization, formatting, testing, and refactoring, and includes examples in several programming languages. The goal of the book is to help programmers write code that is easy to read, understand, and modify, which can lead to improved productivity, fewer bugs, and a more enjoyable coding experience. 
+
+Overall, "Clean Code" is a valuable resource for software developers who want to improve their coding skills and create software that is clean, maintainable, and easy to work with.
+
+  
+### [Software Architecture: The Hard Parts: Modern Trade-Off Analyses for Distributed Architectures]()
+
+![]({{ site.url }}/static/img/sa-books/sa-the-hard-parts.jpg)
+
+I found the book offers a very nice summary of problems you are facing in more modern architectures.
+
+The book explores the most challenging aspects of software architecture. The book focuses on the non-functional requirements of software systems, such as scalability, performance, security, and resilience, and provides practical guidance on how to design and implement software architectures that meet these requirements.
+
+The book is divided into several chapters, each of which covers a different aspect of software architecture. The first chapter provides an overview of the hard parts of software architecture, and introduces the concept of architectural fitness functions, which are used to evaluate the effectiveness of an architecture in meeting its non-functional requirements.
+
+Subsequent chapters cover topics such as distributed systems, event-driven architectures, microservices, and cloud-native architectures. Each chapter provides a detailed explanation of the underlying concepts, as well as practical examples and case studies.
+
+Throughout the book, Richards emphasizes the importance of a risk-driven approach to software architecture, in which architectural decisions are based on the potential risks and tradeoffs involved. He also highlights the need for collaboration between architects, developers, and stakeholders in order to design and implement effective software architectures.
+
+Overall, "Software Architecture: The Hard Parts" is a valuable resource for software architects and developers who are looking to improve their understanding of the non-functional aspects of software systems. The book provides practical guidance and real-world examples of how to design and implement software architectures that meet the most challenging requirements.
+
+### [Designing Data-Intensive Applications, by Martin Kleppmann](https://www.goodreads.com/book/show/23463279-designing-data-intensive-applications) 
+
+![]({{ site.url }}/static/img/sa-books/designing-data-intensive-apps.jpg)
+
+The book is a comprehensive guide to designing and building data-intensive applications. The book covers a wide range of topics related to data systems, including data modeling, data storage, data processing, and data analysis.
+
+The book is divided into three parts: in the first part, Kleppmann discusses the fundamentals of data systems, including the characteristics of different types of data and the tradeoffs involved in choosing data storage and processing technologies. In the second part, he explores the design of distributed data systems, including topics such as replication, partitioning, and consistency. In the third part, he covers the practical aspects of building data-intensive applications, including performance tuning, monitoring, and fault tolerance.
+
+Throughout the book, Kleppmann emphasizes the importance of understanding the tradeoffs involved in designing and building data-intensive applications, and provides practical guidance on how to make informed decisions. He also highlights the challenges of working with distributed systems, and provides strategies for overcoming these challenges.
+
+Overall, "Designing Data-Intensive Applications" is an essential resource for anyone involved in building data systems, including developers, architects, and data engineers. It provides a comprehensive and practical guide to designing and building data-intensive applications that are scalable, reliable, and performant.
+
+### [Just Enough Software Architecture: A Risk-Driven Approach, George H. Fairbanks]()
+
+![]({{ site.url }}/static/img/sa-books/just-enough-sa.jpg)
+
+This book proposes a practical and risk-driven approach to software architecture. The book emphasizes the importance of architecture in software development and provides a framework for making architecture decisions that balance risk, cost, and time-to-market.
+
+The book is divided into three parts: in the first part, Fairbanks introduces the concept of software architecture and explains the risks that it can help to mitigate. In the second part, he presents a set of heuristics and rules of thumb for making architecture decisions, based on the principles of modularity, separation of concerns, and abstraction. In the third part, he provides guidance on how to document and communicate architecture decisions to stakeholders.
+
+Fairbanks argues that software architecture should be guided by a clear understanding of the risks that the software system faces, and that architecture decisions should be driven by the need to mitigate those risks. He also emphasizes the importance of prototyping and experimentation in the architecture process, as a way of exploring different options and validating decisions.
+
+Overall, "Just Enough Software Architecture" is a practical and accessible guide to software architecture that provides valuable insights for software developers, architects, and project managers. It offers a risk-driven approach to architecture that can help to improve the quality and reliability of software systems while minimizing costs and time-to-market.
+
+### [Site Reliability Engineering: How Google Runs Production Systems](https://www.goodreads.com/book/show/27968891-site-reliability-engineering)
+
+![]({{ site.url }}/static/img/sa-books/sre.jpg)
+
+Designing software architectures is not enough to get a full picture. Staying anchored in the reality of the ground is crucial. Understanding how the system you designed in the end works in production will make you learn about the good and the bad decisions you took.
+
+Therefore, my recommendation is to also make sure you don't ghost out once you put the design out the door.
+
+"Site Reliability Engineering" (SRE) is a book written by a group of engineers at Google, which provides insights into the practice of site reliability engineering. The book is a comprehensive guide to designing, building, and operating large-scale, reliable software systems.
+
+The book is divided into several parts, each of which covers a different aspect of SRE. The first part provides an introduction to SRE, and explains the principles of service-level objectives, error budgets, and risk management. Subsequent parts cover topics such as monitoring and alerting, capacity planning, incident response, and postmortems.
+
+Throughout the book, the authors emphasize the importance of automation, monitoring, and collaboration in building reliable software systems. They provide practical guidance on how to design and implement monitoring and alerting systems, how to plan for capacity and scale, and how to manage incidents and conduct postmortems.
+
+The book also includes case studies and real-world examples from Google and other companies, providing insights into how SRE principles have been applied in practice.
+
+Overall, "Site Reliability Engineering" is a valuable resource for anyone involved in designing, building, or operating software systems. The book provides practical guidance on how to build reliable, scalable systems, and offers insights into the culture and practices of SRE teams.
+
+### [Team Topologies: Organizing Business and Technology Teams for Fast Flow, Matthew Skelton](https://www.goodreads.com/book/show/44135420-team-topologies)
+
+![]({{ site.url }}/static/img/sa-books/team-topologies.jpg)
+
+Software architectures as a stand alone concept will never work. One need to pay attention to the teams topologies, to how a company functions, what are the constraints, the limitations and the strengths. 
+
+A perfect solution which has no buy-in or which cannot be built in a company due to constraints has no chance, therefore in this case as long as you can make it work, it may be a better trade off to choose a less perfect solution, but which can be put in place.
+
+"Team Topologies" by Matthew Skelton and Manuel Pais is a book that provides a practical framework for organizing and optimizing teams in order to achieve efficient and effective software delivery. The book introduces a new approach to team organization, which emphasizes the importance of team structures and the need for continuous improvement in the organizational design.
+
+The authors propose four fundamental team types: stream-aligned teams, enabling teams, platform teams, and complicated subsystem teams. These team types are designed to optimize the flow of work, create more autonomous teams, and reduce dependencies between teams.
+
+The book also covers the importance of cognitive load in team organization and provides guidance on how to reduce cognitive load in order to increase team productivity. The authors emphasize the importance of creating a culture of experimentation and learning, and provide practical advice on how to implement this culture in practice.
+
+The book also explores the importance of leadership in team organization, and provides guidance on how to create a leadership culture that supports team autonomy and fosters innovation.
+
+Overall, "Team Topologies" is a valuable resource for anyone involved in team organization and software delivery. The book provides a practical framework for optimizing team structures, reducing dependencies, and increasing team autonomy, all of which are essential for achieving efficient and effective software delivery.
+
+## Certification Resources
+
+Taking a certification may or may not help. But in my case I can say it for sure does, at it puts a bit of pressure of learning with a scope. 
+
+It all depends on what your context if, and choose for yourself. In my current context, I am writing the ones which work for me.
+
+### [AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/8c800484-6ab4-4e41-a980-95b499f23084?source=linked_in_profile)
+
+![]({{ site.url }}/static/img/sa-books/aws-cert.png)
+
+AWS Certified Solutions Architect - Associate showcases knowledge and skills in AWS technology, across a wide range of AWS services. The focus of this certification is on the design of cost and performance optimized solutions, demonstrating a strong understanding of the AWS Well-Architected Framework. This certification can enhance the career profile and earnings of certified individuals and increase your credibility and confidence in stakeholder and customer interactions.
+
+### [Certified Information Systems Security Professional (CISSP) OR CISSP-ISSAP](https://www.isc2.org/Certifications/CISSP)
+
+Earning the CISSP proves you have what it takes to effectively design, implement and manage a best-in-class cybersecurity program. With a CISSP, you validate your expertise and become an (ISC)² member, unlocking a broad array of exclusive resources, educational tools, and peer-to-peer networking opportunities.
+
+## Unexpected Sources
+
+### [Thinking, Fast and Slow, Daniel Kahneman](https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow)
+
+![]({{ site.url }}/static/img/sa-books/thinking-fast-and-slow.jpg)
+
+I am recommending this book because it is an eye opener to why one needs the space to be able to produce any valuable work or learn. One needs to realize the needs for silence, no interruption required for deep thinking. Without this understanding, one cannot ask / seek for it.
+
+Daniel Kahneman is a Nobel Prize-winning psychologist, that explores how the human mind makes decisions and judgments. The book is divided into two sections: "fast thinking" and "slow thinking." Fast thinking refers to the quick and automatic decisions we make based on intuition and emotions, while slow thinking refers to the deliberate and analytical decisions we make based on reason and logic.
+
+The book explains how our minds use both fast and slow thinking, and how they can lead to biases, errors, and irrational behavior. Kahneman presents numerous experiments and studies to illustrate how our minds work and how they can be influenced by factors such as framing, anchoring, and availability.
+
+The book covers a wide range of topics, including cognitive biases, heuristics, prospect theory, and the influence of emotions on decision-making. It also explores the implications of these findings for fields such as economics, finance, and public policy.
+
+Overall, "Thinking, Fast and Slow" is a thought-provoking and insightful book that challenges readers to examine their own thought processes and biases. It offers valuable insights into the workings of the human mind and can help readers make better decisions in both their personal and professional lives.
+
+### [The Cancer Code: A Revolutionary New Understanding of a Medical Mystery, Jason Fung](https://www.goodreads.com/book/show/52163526-the-cancer-code?ref=nav_sb_ss_1_15)
+
+![]({{ site.url }}/static/img/sa-books/the-cancer-code.jpg)
+
+The cancer code is an unexpected book to learn about software architecture. 
+
+Making analogies with how things work, in this case how the human body works, how the cells and how cancer works might help one realize how to design complex systems which ca resist the test of time.
+
+Dr. Jason Fung is a Canadian nephrologist, that offers a new perspective on cancer and its treatment. The book challenges the conventional wisdom that cancer is primarily caused by genetic mutations and argues that the metabolic environment of the body plays a crucial role in the development and progression of cancer.
+
+Dr. Fung presents evidence from a wide range of scientific studies to support his argument and offers practical advice on how to prevent and treat cancer through changes in diet and lifestyle. He explains how cancer cells rely on glucose for their energy needs and how a low-carbohydrate, high-fat diet can starve cancer cells and prevent their growth. He also discusses the benefits of intermittent fasting and other lifestyle changes for preventing and treating cancer.
+
+The book also covers topics such as the role of inflammation in cancer, the limitations of current cancer treatments, and the importance of individualized treatment plans based on the specific metabolic needs of each patient.
+
+Overall, "The Cancer Code" is a thought-provoking and informative book that challenges the traditional understanding of cancer and offers practical advice for preventing and treating this complex disease. It is a valuable resource for anyone interested in understanding the latest research on cancer and how to improve their own health.
+
+### [Talking to Strangers: What We Should Know About the People We Don’t Know, Malcolm Gladwell](https://www.goodreads.com/book/show/43848929-talking-to-strangers?ref=nav_sb_ss_1_20)
+
+![]({{ site.url }}/static/img/sa-books/talking-to-strangers.jpg)
+
+The book explores the difficulties of communicating with and understanding people we don't know. The book draws on a range of case studies, including high-profile incidents such as the arrest of Sandra Bland and the suicide of Sylvia Plath, as well as historical events such as the Cuban Missile Crisis, to illustrate the challenges of interpersonal communication.
+
+Gladwell argues that humans are not very good at reading others accurately, and that this can lead to misunderstandings, conflicts, and tragedies. He explores factors that can contribute to this problem, including cultural differences, cognitive biases, and the limitations of our ability to perceive and interpret nonverbal cues.
+
+The book also covers topics such as deception, trust, and the role of technology in communication. Gladwell presents examples of how technology has made it easier for people to misrepresent themselves and manipulate others.
+
+Overall, "Talking to Strangers" is a thought-provoking book that challenges readers to think more critically about their assumptions and beliefs about others. It highlights the importance of empathy, curiosity, and open-mindedness in our interactions with strangers and emphasizes the need for better communication skills to avoid misunderstandings and conflicts.on communication and bias
+
+### ["Surely You're Joking, Mr. Feynman!": Adventures of a Curious Character, Richard P. Feynman](https://www.goodreads.com/book/show/35167685-surely-you-re-joking-mr-feynman?ref=nav_sb_ss_1_33)
+
+![]({{ site.url }}/static/img/sa-books/mr-feynman.jpg)
+
+This book went straight to my soul. And mainly because it breaks all the rules about conventional schooling and learning.
+
+Bottom line it emphasizes how you should not let anyone tel you how to learn. Do what works for you, how it works for you, make it fun and interesting, and find what you like doing, but most importantly: stay curious!
+
+"Surely You're Joking, Mr. Feynman!" is a collection of autobiographical anecdotes by the Nobel Prize-winning physicist Richard Feynman. The book covers a wide range of topics, from Feynman's childhood experiences to his work on the Manhattan Project, his travels around the world, and his adventures in teaching and learning.
+
+The book is divided into several chapters, each of which focuses on a particular period or aspect of Feynman's life. Throughout the book, Feynman presents himself as a curious, adventurous, and irreverent individual who is always willing to question authority and challenge conventional wisdom.
+
+Some of the highlights of the book include Feynman's experiences as a young boy tinkering with radios, his work on the development of the atomic bomb, his adventures in Brazil and Japan, his love of music and art, and his unorthodox teaching methods.
+
+Overall, "Surely You're Joking, Mr. Feynman!" is a funny, engaging, and insightful book that offers a glimpse into the life and mind of one of the most brilliant and eccentric scientists of the 20th century. It is a must-read for anyone interested in science, creativity, and the human spirit.
+
+
+## Bonus Books on Leadership
+
+- [Race for the South Pole: The Expedition Diaries of Scott and Amundsen](https://www.goodreads.com/book/show/8637511-race-for-the-south-pole)
+
+![]({{ site.url }}/static/img/sa-books/race-for-the-south-pole.jpg)
+
+It is a book that chronicles the journeys of two famous explorers, Robert Falcon Scott and Roald Amundsen, as they raced to become the first person to reach the South Pole.
+
+The book is based on the diaries that the two explorers kept during their expeditions, which provides readers with a firsthand account of the challenges they faced, the decisions they made, and the triumphs and tragedies they experienced along the way. 
+
+The book also includes photographs and maps to help readers better understand the terrain and conditions that the explorers encountered. Overall, "Race for the South Pole" offers a fascinating look at a historic event and the remarkable men who participated in it.
+
+It offers a very interesting insight into the different leadership approaches they both had.
+
+## I have in plan to touch the following books, please leave a review if they are worth it
+
+### [Fundamentals of Software Architecture: An Engineering Approach](https://www.goodreads.com/book/show/44144493-fundamentals-of-software-architecture?from_search=true&from_srp=true&qid=0Db613jeAR&rank=1)
+
+
+If you have more tips and tricks, please write bellow, or feel free to add me as a friend on [goodreads](https://www.goodreads.com/user/show/33537328-gheorghina)
