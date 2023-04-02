@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Books which helped me grow my software architecture design skills"
-date:   2021-02-01 00:18:23 +0700
+date:   2023-01-04 00:18:23 +0700
 categories: [architecture, scaling, data model queries]
 ---
 
@@ -119,8 +119,6 @@ Taking a certification may or may not help. But in my case I can say it for sure
 It all depends on what your context if, and choose for yourself. In my current context, I am writing the ones which work for me.
 
 ### [AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/8c800484-6ab4-4e41-a980-95b499f23084?source=linked_in_profile)
-
-![]({{ site.url }}/static/img/sa-books/aws-cert.png)
 
 AWS Certified Solutions Architect - Associate showcases knowledge and skills in AWS technology, across a wide range of AWS services. The focus of this certification is on the design of cost and performance optimized solutions, demonstrating a strong understanding of the AWS Well-Architected Framework. This certification can enhance the career profile and earnings of certified individuals and increase your credibility and confidence in stakeholder and customer interactions.
 
