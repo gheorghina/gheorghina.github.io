@@ -76,6 +76,22 @@ Fairbanks argues that software architecture should be guided by a clear understa
 
 Overall, "Just Enough Software Architecture" is a practical and accessible guide to software architecture that provides valuable insights for software developers, architects, and project managers. It offers a risk-driven approach to architecture that can help to improve the quality and reliability of software systems while minimizing costs and time-to-market.
 
+### [Designing for Scalability with Erlang/OTP: Implementing Robust, Fault-Tolerant Systems, Francesco Cesarini, Steve Vinovski](https://www.goodreads.com/book/show/18324312-designing-for-scalability-with-erlang-otp?ac=1&from_search=true&qid=zWe5LOZBc8&rank=1)
+
+![]({{ site.url }}/static/img/sa-books/scalability-with-erlang.jpg)
+
+This book went straight to my heart, and I decided to add it here even though it can be considered a niche area, I can say that all the mentioned principles apply to well designed systems overall.
+
+The book offers a comprehensive guide to building scalable, fault-tolerant systems using the Erlang programming language and the OTP framework.
+
+The authors begin by introducing the principles of scalability and fault tolerance, and then delve into the features of the Erlang programming language that make it particularly suited to building scalable systems. They cover the key concepts of Erlang, including processes, message passing, and pattern matching.
+
+The book then moves on to explore the OTP framework, which provides a set of design patterns and libraries for building large, fault-tolerant systems in Erlang. The authors cover OTP's supervision trees, event handlers, and other features that help make Erlang systems robust and resilient.
+
+Throughout the book, the authors use real-world examples to illustrate the concepts and techniques they are discussing. They show how Erlang and OTP have been used to build high-profile, high-traffic systems, such as WhatsApp, RabbitMQ, and Riak.
+
+In summary, Designing for Scalability with Erlang/OTP provides a practical guide to building fault-tolerant, scalable systems using Erlang and OTP. It is a valuable resource for anyone interested in building distributed systems, particularly those in industries such as telecommunications, finance, and gaming, where high availability and fault tolerance are critical.
+
 ### [Site Reliability Engineering: How Google Runs Production Systems](https://www.goodreads.com/book/show/27968891-site-reliability-engineering)
 
 ![]({{ site.url }}/static/img/sa-books/sre.jpg)
