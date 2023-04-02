@@ -20,6 +20,20 @@ In a future post I will summarize a list of resources which can help you nurture
 
 ## References & Reviews
 
+### [The Software Craftsman: Professionalism, Pragmatism, Pride, Sandro Mancuso](https://www.goodreads.com/book/show/23215733-the-software-craftsman?ref=nav_sb_ss_2_19)
+
+![]({{ site.url }}/static/img/sa-books/the-software-craftsman.jpg)
+
+Sandro Mancuso promotes a new approach to software development. The book advocates for software development to be treated as a craft, with practitioners striving to become software craftsmen rather than mere developers.
+
+The author argues that software development is not just about writing code, but also about creating high-quality, maintainable software that adds value to the business. He stresses the importance of professionalism, including continuous learning, code quality, and working closely with stakeholders.
+
+The book also emphasizes the value of pragmatism in software development, encouraging developers to balance the ideal with the practical, to make trade-offs and focus on delivering value. The author suggests that software craftsmanship is not about dogmatically adhering to particular methodologies or technologies, but rather about being flexible and adaptable.
+
+Finally, the book emphasizes the importance of pride in software craftsmanship, encouraging developers to take ownership of their work and strive for excellence. The author suggests that software craftsmen should have a sense of purpose and passion for their work, and take pride in creating high-quality software that meets the needs of the business.
+
+In summary, The Software Craftsman: Professionalism, Pragmatism, Pride is a book that advocates for a new approach to software development, one that values craftsmanship, professionalism, pragmatism, and pride. It is a valuable resource for software developers who want to improve their craft and create high-quality, maintainable software that adds value to the business.
+
 ### [Clean Code: A Handbook of Agile Software Craftsmanship, by Robert C. Martin](https://www.goodreads.com/book/show/3735293-clean-code)
 
 ![]({{ site.url }}/static/img/sa-books/clean-code.jpg)
