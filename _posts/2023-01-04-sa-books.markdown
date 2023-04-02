@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Books which helped me grow my software architecture design skills"
-date:   2023-01-04 00:18:23 +0700
+date:   2023-04-01 00:18:23 +0700
 categories: [architecture, scaling, data model queries]
 ---
 
