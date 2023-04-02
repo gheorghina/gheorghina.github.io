@@ -7,7 +7,7 @@ categories: [architecture, scaling, data model queries]
 
 ## Introduction
 
-There is no single book which contains all the answers to the mysteries of the universe, each one will have a few ideas you can learn among the others. Staying current may be overwhelming these days with how fast the technology advances, and in addition, with how complex the systems became. 
+There is no single book which contains all the answers to the mysteries of the universe, each one will give you a few ideas to learn among the others. Staying current may be overwhelming these days with how fast the technology advances, and in addition, with how complex the systems became. 
 
 In this blog post I will write a few books recommendations which helped me grow. 
 
