@@ -235,5 +235,7 @@ It offers a very interesting insight into the different leadership approaches th
 
 ### [Fundamentals of Software Architecture: An Engineering Approach](https://www.goodreads.com/book/show/44144493-fundamentals-of-software-architecture?from_search=true&from_srp=true&qid=0Db613jeAR&rank=1)
 
+![]({{ site.url }}/static/img/sa-books/fundamentals-of-software-architecture.jpg)
+
 
 If you have more tips and tricks, please write bellow, or feel free to add me as a friend on [goodreads](https://www.goodreads.com/user/show/33537328-gheorghina)
