@@ -121,29 +121,41 @@ On all three AWS, GCP and Azure it's crucial to follow security best practices, 
 
 ### The most common used tools in cybersecurity
 
-#### Wireshark
+
+### Wireshark
+
 
 [Wireshark](https://www.wireshark.org/) is a popular open-source network protocol analyzer. It is a software tool used for capturing, analyzing, and troubleshooting network traffic. Wireshark allows you to inspect and dissect network packets in real-time or from saved capture files.
 
+
 Some key features and functionalities of Wireshark:
+
 
 **Packet Capture**: Wireshark captures network packets from a live network interface or from pre-recorded capture files. It supports various capture formats, including Ethernet, Wi-Fi, USB, and more.
 
+
 **Protocol Analysis**: Wireshark decodes and analyzes network protocols at different layers of the network stack, including Ethernet, IP, TCP, UDP, HTTP, DNS, SSL/TLS, and many others. It provides detailed information about each packet and the corresponding protocol headers.
+
 
 **Filtering and Search**: Wireshark allows you to apply filters to focus on specific network traffic based on criteria such as source/destination IP addresses, ports, protocols, or packet contents. It also provides search capabilities to locate specific packets or packet patterns within a capture file.
 
+
 **Packet Inspection**: Wireshark provides a comprehensive view of network packets, allowing you to inspect the contents of individual packets, including payload data, protocol-specific fields, and metadata.
+
 
 **Statistics and Analysis**: Wireshark offers various statistics and analysis tools to help you understand network behavior and identify anomalies. This includes graphical representations of packet flow, conversation analysis, and protocol-specific statistics.
 
+
 **Protocol Dissection and Decoding**: Wireshark understands numerous network protocols and can dissect and decode their data structures, providing meaningful information about each protocol layer.
+
 
 **Export and Reporting**: Wireshark allows you to export captured packets or analysis results in various formats, such as plain text, CSV, XML, or even as an image for reporting or further analysis.
 
+
 Wireshark is widely used by network administrators, security professionals, developers, and researchers for a range of purposes, including network troubleshooting, network monitoring, security analysis, protocol debugging, and educational purposes. Its rich set of features and extensive protocol support make it a powerful tool for network analysis and understanding network behavior.
 
-#### Honeypot
+### Honeypot
+
 
 [Honeypot](https://honeypot.is/) is a cybersecurity technique or tool that is used to deceive and gather information about attackers or malicious activities. It is essentially a trap or decoy system designed to attract and divert unauthorized users or potential attackers.
 
@@ -155,49 +167,65 @@ There are different types of honeypots, including low-interaction honeypots, whi
 
 It's important to note that honeypots should be used with caution and deployed by experienced cybersecurity professionals. Improperly configured or unmonitored honeypots can potentially be used against an organization or cause unintended consequences.
 
-#### Additional ones
+
+### Additional cybersecurity tools
+
 
 **Nmap**: A powerful and widely used network scanning tool that helps identify open ports, services running on systems, and potential vulnerabilities in a network.
 
+
 **Metasploit**: A penetration testing framework that provides a wide range of exploits, payloads, and tools to test the security of systems and identify vulnerabilities.
+
 
 **Nessus**: A popular vulnerability scanning tool that identifies vulnerabilities in systems and provides recommendations for remediation. It helps organizations assess and manage their security posture.
 
+
 **Snort**: An open-source intrusion detection and prevention system (IDS/IPS) that monitors network traffic for suspicious patterns or known attack signatures and alerts administrators.
+
 
 **Burp Suite**: A comprehensive web application security testing tool that allows for manual and automated scanning of web applications, identifying security flaws and vulnerabilities.
 
+
 **Splunk**: A log management and analysis platform that helps collect, monitor, and analyze logs from various sources, enabling organizations to detect security incidents and investigate anomalies.
+
 
 **OpenVAS**: An open-source vulnerability assessment tool that scans systems for known vulnerabilities and provides detailed reports for remediation.
 
+
 **GnuPG**: A free and open-source implementation of the Pretty Good Privacy (PGP) encryption standard, providing cryptographic privacy and authentication for communication and file encryption.
+
 
 **Security Information and Event Management (SIEM) Tools**: These include tools like Splunk Enterprise Security, IBM QRadar, and LogRhythm, which collect and analyze security event logs from various sources to identify and respond to security incidents.
 
+
 **Password Managers**: Tools like LastPass, KeePass, and Dashlane help generate and securely store complex passwords, ensuring strong password management practices.
+
 
 
 ### A learning framework for getting up to speed in cybersecurity 
 
 Becoming an expert in cybersecurity requires a combination of theoretical knowledge and practical experience. Here's a general outline for a training program that can help you develop the necessary skills and knowledge in this field:
 
-1. Foundational Knowledge:
+1. **Foundational Knowledge**: 
 
-Start by gaining a solid understanding of computer networks, operating systems, and programming languages like Python and C/C++. Familiarize yourself with TCP/IP protocols, network architecture, and common vulnerabilities.
-Study cryptography principles, including encryption algorithms, digital signatures, and secure key management.
 
-2. Cybersecurity Fundamentals:
+    Start by gaining a solid understanding of computer networks, operating systems, and programming languages like Python and C/C++. Familiarize yourself with TCP/IP protocols, network architecture, and common vulnerabilities.
 
-- Learn the basics of cybersecurity, including threat landscape, types of attacks (e.g., malware, social engineering, phishing), risk management, and security frameworks (e.g., NIST Cybersecurity Framework).
+    Study cryptography principles, including encryption algorithms, digital signatures, and secure key management.
 
-- Familiarize yourself with legal and ethical considerations in cybersecurity, such as privacy laws, compliance regulations, and ethical hacking guidelines.
+
+2. **Cybersecurity Fundamentals**: 
+
+    Learn the basics of cybersecurity, including threat landscape, types of attacks (e.g., malware, social engineering, phishing), risk management, and security frameworks (e.g., NIST Cybersecurity Framework).
+
+    Familiarize yourself with legal and ethical considerations in cybersecurity, such as privacy laws, compliance regulations, and ethical hacking guidelines.
+
 
 3. Network Security:
 
-- Dive deeper into network security concepts, including firewalls, intrusion detection/prevention systems (IDS/IPS), virtual private networks (VPNs), and secure protocols (e.g., SSL/TLS).
+    Dive deeper into network security concepts, including firewalls, intrusion detection/prevention systems (IDS/IPS), virtual private networks (VPNs), and secure protocols (e.g., SSL/TLS).
 
-- Understand network monitoring and analysis tools, such as Wireshark, and learn how to analyze network traffic for detecting and investigating security incidents.
+    Understand network monitoring and analysis tools, such as Wireshark, and learn how to analyze network traffic for detecting and investigating security incidents.
 
 
 **"Computer Networks: A Systems Approach" by Larry L. Peterson and Bruce S. Davie**: This book provides a comprehensive introduction to computer networks and covers both the fundamentals and advanced concepts. It offers a practical, hands-on approach to understanding networks and includes discussions on network protocols, network architecture, network security, and more. The book also includes real-world examples and case studies to reinforce the concepts.
