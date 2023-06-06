@@ -228,35 +228,38 @@ Becoming an expert in cybersecurity requires a combination of theoretical knowle
     Understand network monitoring and analysis tools, such as Wireshark, and learn how to analyze network traffic for detecting and investigating security incidents.
 
 
-**"Computer Networks: A Systems Approach" by Larry L. Peterson and Bruce S. Davie**: This book provides a comprehensive introduction to computer networks and covers both the fundamentals and advanced concepts. It offers a practical, hands-on approach to understanding networks and includes discussions on network protocols, network architecture, network security, and more. The book also includes real-world examples and case studies to reinforce the concepts.
+    Recommended books for beginners:
 
-**"Network Security Bible" by Eric Cole**: This book serves as a beginner's guide to network security, covering a wide range of topics. It explains fundamental concepts, such as network vulnerabilities, threats, and defense mechanisms. It also delves into practical aspects of network security, including firewalls, intrusion detection systems, VPNs, wireless security, and incident response. The book provides clear explanations, real-world examples, and practical tips for securing networks.
+    **"Computer Networks: A Systems Approach" by Larry L. Peterson and Bruce S. Davie**: This book provides a comprehensive introduction to computer networks and covers both the fundamentals and advanced concepts. It offers a practical, hands-on approach to understanding networks and includes discussions on network protocols, network architecture, network security, and more. The book also includes real-world examples and case studies to reinforce the concepts.
 
-Both of these books offer a solid foundation for beginners in the field of networking and network security. They are highly regarded for their clarity, depth of coverage, and practical approach. It's worth noting that the field of network security is continually evolving, so supplementing your learning with up-to-date online resources, tutorials, and practical exercises will also be beneficial.
+    **"Network Security Bible" by Eric Cole**: This book serves as a beginner's guide to network security, covering a wide range of topics. It explains fundamental concepts, such as network vulnerabilities, threats, and defense mechanisms. It also delves into practical aspects of network security, including firewalls, intrusion detection systems, VPNs, wireless security, and incident response. The book provides clear explanations, real-world examples, and practical tips for securing networks.
+
+    Both of these books offer a solid foundation for beginners in the field of networking and network security. They are highly regarded for their clarity, depth of coverage, and practical approach. It's worth noting that the field of network security is continually evolving, so supplementing your learning with up-to-date online resources, tutorials, and practical exercises will also be beneficial.
 
 4. System and Application Security:
 
-- Explore secure system configuration, hardening techniques, and secure coding practices.
+    Explore secure system configuration, hardening techniques, and secure coding practices.
 
-- Study web application security, including common vulnerabilities (e.g., SQL injection, cross-site scripting), secure development methodologies (e.g., OWASP Top Ten), and tools like Burp Suite or OWASP ZAP.
+    Study web application security, including common vulnerabilities (e.g., SQL injection, cross-site scripting), secure development methodologies (e.g., OWASP Top Ten), and tools like Burp Suite or OWASP ZAP.
 
 5. Threat Intelligence and Incident Response:
 
-- Gain knowledge of threat intelligence concepts, including threat modeling, threat hunting, and security information and event management (SIEM) systems.
+    Gain knowledge of threat intelligence concepts, including threat modeling, threat hunting, and security information and event management (SIEM) systems.
 
-- Learn incident response procedures, including incident detection, containment, eradication, and recovery. Understand forensic analysis techniques and incident reporting.
+    Learn incident response procedures, including incident detection, containment, eradication, and recovery. Understand forensic analysis techniques and incident reporting.
 
 6. Secure Infrastructure and Cloud Security:
 
-- Familiarize yourself with secure infrastructure design principles, including secure network architecture, access control, and identity management.
+    Familiarize yourself with secure infrastructure design principles, including secure network architecture, access control, and identity management.
 
-- Gain knowledge of cloud security concepts, such as secure cloud deployment models, data encryption, access controls, and security monitoring in cloud environments.
+    Gain knowledge of cloud security concepts, such as secure cloud deployment models, data encryption, access controls, and security monitoring in cloud environments.
 
 7. Continuous Learning and Professional Certifications:
 
-- Stay updated with the latest trends, vulnerabilities, and technologies in cybersecurity through continuous learning, attending conferences, and reading industry publications.
+    Stay updated with the latest trends, vulnerabilities, and technologies in cybersecurity through continuous learning, attending conferences, and reading industry publications.
 
-- Pursue relevant certifications, such as CompTIA Security+, Certified Information Systems Security Professional (CISSP), Certified Ethical Hacker (CEH), or Offensive Security Certified Professional (OSCP).
+    Pursue relevant certifications, such as CompTIA Security+, Certified Information Systems Security Professional (CISSP), Certified Ethical Hacker (CEH), or Offensive Security Certified Professional (OSCP).
+
 
 The practical experience is crucial for becoming an expert in cybersecurity. Seek opportunities for hands-on experience through internships, Capture the Flag (CTF) competitions, bug bounty programs, or by participating in open-source security projects. Additionally, joining cybersecurity communities and engaging with professionals in the field can provide valuable networking opportunities and mentorship.
 
