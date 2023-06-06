@@ -64,27 +64,21 @@ By following the NIST Cybersecurity Framework, organizations can establish a sys
 
 #### AWS Resources
 
-- https://www.amazon.com/security
+- [AWS WA](https://aws.amazon.com/well-architected-tool/) is designed to help review the state of applications and workloads against architectural best practices. It identifies opportunities for improvement, and tracks progress over time.
 
-- https://aws.amazon.com/architecture/well-architected/ 
+- [AWS Well Architected](https://aws.amazon.com/architecture/well-architected/) 
 
-- https://docs.aws.amazon.com/securityhub/latest/userguide/what-is-securityhub.html
+- [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/2023-04-10/framework/sec_appsec_perform_regular_penetration_testing.html)
 
-- https://docs.aws.amazon.com/whitepapers/latest/aws-security-incident-response-guide/preparation.html
+- [AWS Security Hub](https://docs.aws.amazon.com/securityhub/latest/userguide/what-is-securityhub.html)
 
-- https://docs.aws.amazon.com/wellarchitected/2023-04-10/framework/sec_appsec_perform_regular_penetration_testing.html
+- [AWS Security Incident Response Guide](https://docs.aws.amazon.com/whitepapers/latest/aws-security-incident-response-guide/preparation.html)
 
-- https://aws.amazon.com/blogs/security/ransomware-mitigation-top-5-protections-and-recovery-preparation-actions/
+- [Ransomware mitigation: Top 5 protections and recovery preparation actions](https://aws.amazon.com/blogs/security/ransomware-mitigation-top-5-protections-and-recovery-preparation-actions/)
 
-- https://docs.aws.amazon.com/whitepapers/latest/aws-security-incident-response-guide/preparation.html
+- [Organizing Your AWS Environment Using Multiple Accounts](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/advanced-organization.html)
 
-- https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/advanced-organization.html
-
-- https://aws.amazon.com/blogs/networking-and-content-delivery/vpc-sharing-a-new-approach-to-multiple-accounts-and-vpc-management/ 
-
-#### AWS Well Architected Tool
-
-[AWS WA](https://aws.amazon.com/well-architected-tool/) is designed to help review the state of applications and workloads against architectural best practices. It identifies opportunities for improvement, and tracks progress over time.
+- [VPC sharing: A new approach to multiple accounts and VPC management](https://aws.amazon.com/blogs/networking-and-content-delivery/vpc-sharing-a-new-approach-to-multiple-accounts-and-vpc-management/)
 
 ### GCP Security Support
 
