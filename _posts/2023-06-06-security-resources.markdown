@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Getting up to speed in Cybersecurity"
-date:   2022-15-02 00:18:23 +0700
+date:   2023-06-02 00:18:23 +0700
 categories: [distributed systems, cybersecurity, best practices]
 ---
 
