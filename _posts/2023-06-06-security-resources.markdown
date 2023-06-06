@@ -221,7 +221,7 @@ Becoming an expert in cybersecurity requires a combination of theoretical knowle
     Familiarize yourself with legal and ethical considerations in cybersecurity, such as privacy laws, compliance regulations, and ethical hacking guidelines.
 
 
-3. Network Security:
+3. **Network Security**:
 
     Dive deeper into network security concepts, including firewalls, intrusion detection/prevention systems (IDS/IPS), virtual private networks (VPNs), and secure protocols (e.g., SSL/TLS).
 
@@ -236,25 +236,25 @@ Becoming an expert in cybersecurity requires a combination of theoretical knowle
 
     Both of these books offer a solid foundation for beginners in the field of networking and network security. They are highly regarded for their clarity, depth of coverage, and practical approach. It's worth noting that the field of network security is continually evolving, so supplementing your learning with up-to-date online resources, tutorials, and practical exercises will also be beneficial.
 
-4. System and Application Security:
+4. **System and Application Security**:
 
     Explore secure system configuration, hardening techniques, and secure coding practices.
 
     Study web application security, including common vulnerabilities (e.g., SQL injection, cross-site scripting), secure development methodologies (e.g., OWASP Top Ten), and tools like Burp Suite or OWASP ZAP.
 
-5. Threat Intelligence and Incident Response:
+5. **Threat Intelligence and Incident Response**:
 
     Gain knowledge of threat intelligence concepts, including threat modeling, threat hunting, and security information and event management (SIEM) systems.
 
     Learn incident response procedures, including incident detection, containment, eradication, and recovery. Understand forensic analysis techniques and incident reporting.
 
-6. Secure Infrastructure and Cloud Security:
+6. **Secure Infrastructure and Cloud Security**:
 
     Familiarize yourself with secure infrastructure design principles, including secure network architecture, access control, and identity management.
 
     Gain knowledge of cloud security concepts, such as secure cloud deployment models, data encryption, access controls, and security monitoring in cloud environments.
 
-7. Continuous Learning and Professional Certifications:
+7. **Continuous Learning and Professional Certifications**:
 
     Stay updated with the latest trends, vulnerabilities, and technologies in cybersecurity through continuous learning, attending conferences, and reading industry publications.
 
