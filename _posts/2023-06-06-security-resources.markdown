@@ -294,6 +294,7 @@ There are several highly regarded cybersecurity certifications that can help pro
 - Schneier on Security
 - The CyberWire
 
+
 **Online Security Communities and Forums**:  
 
 - Reddit's /r/netsec and /r/cybersecurity subreddits
@@ -301,6 +302,7 @@ There are several highly regarded cybersecurity certifications that can help pro
 - OWASP (Open Web Application Security Project) community
 - ISC2 Community forums
 - DEF CON Forums
+
 
 **Security Conferences and Events**:  
 
@@ -319,6 +321,7 @@ There are several highly regarded cybersecurity certifications that can help pro
 - edX, 
 - Cybrary
 
+
 **Podcasts**:
 
 - Security Now!
@@ -326,6 +329,7 @@ There are several highly regarded cybersecurity certifications that can help pro
 - Risky Business
 - The CyberWire
 - Smashing Security
+
 
 **Research Papers and Whitepapers:** Read research papers and whitepapers published by reputable organizations, security vendors, and academic institutions. These often provide in-depth analysis of vulnerabilities, techniques, and emerging technologies.
 
@@ -336,20 +340,18 @@ There are several highly regarded cybersecurity certifications that can help pro
 
 - [Automating Incident Response and Forensics](https://www.youtube.com/watch?v=f_EcwmmXkXk&ab_channel=AmazonWebServices)
 
-- https://www.udemy.com/course/cissp-domain-1-2/ 
+- [CISSP Certification: CISSP Domain 1 & 2 Boot Camp UPDATED 23](https://www.udemy.com/course/cissp-domain-1-2/)
 
-- https://www.isc2.org/Certifications/CISSP   
+- [CISSP](https://www.isc2.org/Certifications/CISSP)     
 
-- https://www.forbes.com/sites/stevemorgan/2016/01/02/one-million-cybersecurity-job-openings-in-2016/2/#6874bcd17ca9   
+- [(ISC)² Certificates](https://www.isc2.org/Certifications/Associate)   
 
-- https://www.isc2.org/Certifications/Associate   
+- [(ISC)² Code Of Ethics](https://www.isc2.org/Ethics)   
 
-- https://www.isc2.org/Ethics   
+- [ 2017 CISSP Detailed Content Outline (DCO) with Weights Final](https://downloads.isc2.org/credentials/cissp/CISSP-Detailed-Content-Outline.pdf)
 
-- https://downloads.isc2.org/credentials/cissp/CISSP-Detailed-Content-Outline.pdf 
+- [Compliance made easy with Wiz](https://www.wiz.io/blog/compliance-made-easy-with-wiz)
 
-- https://www.wiz.io/blog/compliance-made-easy-with-wiz
+- [Data Integrity: Identifying and Protecting Assets Against Ransomware and Other Destructive Events](https://www.nccoe.nist.gov/publication/1800-25/)
 
-- https://www.nccoe.nist.gov/publication/1800-25/
-
-- https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1800-25.pdf
+- [NIST SPECIAL PUBLICATION 1800-25](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1800-25.pdf)
