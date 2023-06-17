@@ -1,7 +1,7 @@
 
 ---
 layout: post
-title:  "Map Reduce"
+title:  "MapReduce: Simplifying Big Data Processing"
 date:   2020-10-03 00:18:23 +0700
 categories: [concurrency, scaling, map reduce]
 ---
