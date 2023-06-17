@@ -6,7 +6,7 @@ date:   2020-10-03 00:18:23 +0700
 categories: [concurrency, scaling, map reduce]
 ---
 
-In the world of big data, efficient processing of vast amounts of information is essential. MapReduce, a programming model and framework, has revolutionized how we handle and analyze massive datasets. By breaking down complex tasks into simpler operations, MapReduce simplifies distributed computing and enables scalable processing. In this blog, we'll explore the most important concepts of MapReduce, giving you a solid understanding of its power and potential.
+In the world of big data, efficient processing of vast amounts of information is essential. MapReduce, a programming model and framework, has revolutionized how we handle and analyze massive datasets. By breaking down complex tasks into simpler operations, MapReduce simplifies distributed computing and enables scalable processing. 
 
 ## What is MapReduce?
 
