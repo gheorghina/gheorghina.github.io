@@ -6,15 +6,15 @@ permalink: /about/
 
 Hi,
 
-My name is Gheorghina, but you can call me Georgina or just Gheo.
+I am Gheorghina, a results-driven, versatile Principal Software Engineer with 15+ years of progressive experience managing large, global, and continuously evolving technical initiatives, while ensuring transformational, cost-effective, and quality delivery. 
 
-I have experience in building distributed systems while helping other colleagues grow.
+I have demonstrated ability in developing / nurturing strong relationships with internal and external stakeholders, managing value delivery, and continuous change, while driving business process transformation. 
 
-I started my tech career in March 2008, and I continued working with Microsoft solutions for more than 9 years, after which I found a really nice opportunity which allowed me to switch from .net to elixir, allowing me to cultivate my passion and curiosity on distributed systems. 
+I have proven track record of managing multiple enterprise-wide IT initiatives from vision to benefits realization in various industries: home automation, big pharma, cloud collaboration, banking and logistics.
 
-From business perspective, I worked on designing and developing solutions for pharmaceutical, home automation, cloud communication, fintech and logistics areas. 
+I am recognized for the ability to leverage technology to solve problems, streamline processes, and implement solutions through creation of innovative digital solutions. 
 
-Since 2013 I was involved in presales, systems design and tech leading activities for redesigning a suite of complex backend solutions in order to reduce maintenance costs, for ensuring the system's scalability and ability to cope with load.   
+I am experienced in the strategic detail planning, execution, and leadership of enterprise-wide technology initiatives, which support business goals, deliver continuous improvement, and enhance productivity levels.  
 
 Even though I don't find it mandatory to work with a single dedicate framework, I do consider some support better than others both the developer productivity and the product needs in terms of simplicity, fast and reliable releases while being flexible towards change and resilient towards faults. 
 
