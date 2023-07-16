@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "Graph Data Models: Unveiling Connections in the Digital World"

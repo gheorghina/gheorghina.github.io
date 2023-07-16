@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "driving Digital Change"
+title:  "Driving Digital Change"
 date:   2023-07-17 00:18:23 +0700
 categories: [lead dev, leadership, architecture, digital change]
 ---
