@@ -5,7 +5,7 @@ date:   2023-07-16 00:18:23 +0700
 categories: [lead dev, leadership, architecture, digital change]
 ---
 
-When starting a huge integration software project, or any other project with increased level of uncertainty and risks, with no clear requirements, there are several best practices and steps that a technical lead(Principal Software Engineer, EM, Staff Software Engineer, Software Engineer.. or anyone else who has the skills) can follow.
+When starting a huge integration software projects, or any other project with increased level of uncertainty and risks, with no clear requirements, there are several best practices and steps that a technical lead(Principal Software Engineer, EM, Staff Software Engineer, Software Engineer.. or anyone else who has the skills) can follow.
 
 The end goal to keep in mind and strike for is to bring uncertainty to actionable outcomes, to improve visibility and enhance the transparency to various stakeholders from both product and tech side.
 
@@ -57,13 +57,13 @@ The lack of having a glossary can introduce a considerable degree of misundersta
     - Business Process model / flow or activity diagrams
         - [Activity Diagrams](https://en.wikipedia.org/wiki/Activity_diagram)
         - [Flow Charts](https://en.wikipedia.org/wiki/Flowchart)
-    - Product Requirements Documents defined at the epic level. A guideline template is provided bellow.
+    - Product Requirements Documents defined at the epic level. A guideline template is provided below.
 
-11. If the solution is not completely new, but built on an existing solution, then documenting the high level **Architecture System Status Quo** and **The Context Details** is a must. As the new solution will be build on top of the existing one, the project plan in the end will have to reflect how one can get from the existing status quo to the vision.
+11. If the solution is not completely new, but built on an existing solution, then documenting the high level **Architecture System Status Quo** and **The Context Details** is a must. As the new solution will be built on top of the existing one, the project plan in the end will have to reflect how one can get from the existing status quo to the vision.
 
 12. Define a minimum viable product (MVP) scope: Develop an MVP that addresses the most critical aspects of the integration software project. The MVP should deliver value to users and help validate assumptions and requirements.
 
-13. For the aligned and defined shrinked scope in the PRD, document the expected systems architecture, design decisions, and technical specification details.
+13. For the aligned and defined reduced scope in the PRD, document the expected systems architecture, design decisions, and technical specification details.
 
     Expected Artifacts for the new **Architecture System Vision**:
 
@@ -100,7 +100,7 @@ The lack of having a glossary can introduce a considerable degree of misundersta
 
 16. Schedule retros for allowing the chance to have feedback sessions. These are helpful for calibration with the team before moving further. 
 
-17. Reiterate, 
+17. Reiterate and Adapt
 
 18. Execution
 
