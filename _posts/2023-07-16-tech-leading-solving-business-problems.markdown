@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Driving Digital Change"
+title:  "Solving Business Problems, a View from a Technical Leading Perspective"
 date:   2023-07-16 00:18:23 +0700
 categories: [lead dev, leadership, architecture, digital change]
 ---
@@ -27,27 +27,33 @@ The three key elements that define RUP are:
 
 ### Tailored minimum key practices and steps
 
-1. Establish a cross-functional team: Assemble a team comprising of members from different domains such as engineering, product management, quality assurance, and operations. This ensures diverse perspectives and expertise are considered. 
+1. **A Cross-Functional Team** Establish a cross-functional team: Assemble a team comprising of members from different domains such as engineering, product management, quality assurance, and operations. This will ensure that the team has the necessary skills and expertise to deliver the project.
 
-2. Decide the cadence of meeting for aligning on both findings but also the next steps: weekly, bi-weekly, online/on site workshops(with the involved parties)
+Depending on the nature of the problem, broader experience can help reduce the uncertainty, get clarity in shaping the requirements, speed up the shaping process and ensure the buy-in of the final solution of various stakeholders.
 
-3. Define the [RACI Matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix). As per wiki: "A responsibility assignment matrix(RAM), also known as RACI matrix or linear responsibility chart (LRC), describes the participation by various roles in completing tasks or deliverables for a project or business process. RACI is an acronym derived from the four key responsibilities most typically used: responsible, accountable, consulted, and informed. It is used for clarifying and defining roles and responsibilities in cross-functional or departmental projects and processes. There are a number of alternatives to the RACI model." 
+2. **Team Meeting Frequency** Decide the cadence of meeting for aligning on both findings but also the next steps: weekly, bi-weekly, online/on site workshops(with the involved parties)
 
-4. Identify and engage key stakeholders: Identify all relevant stakeholders, including both product and technical stakeholders. Engage them early on and throughout the project to ensure their concerns and expectations are understood and addressed.
+3. **Define the [RACI Matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix)**. As per wiki: "A responsibility assignment matrix(RAM), also known as RACI matrix or linear responsibility chart (LRC), describes the participation by various roles in completing tasks or deliverables for a project or business process. RACI is an acronym derived from the four key responsibilities most typically used: responsible, accountable, consulted, and informed. It is used for clarifying and defining roles and responsibilities in cross-functional or departmental projects and processes. There are a number of alternatives to the RACI model." 
+
+It is used for clarifying and defining roles and responsibilities in cross-functional or departmental projects and processes. This is a great tool for bringing clarity on who will do what with regards to the project. This will reduce the misunderstanding, stepping on each other toes and will ensure the informed parties or other stakeholders are clarified.
+
+4. **Stakeholders Management** Identify and engage key stakeholders: Identify all relevant stakeholders, including both product and technical stakeholders. Engage them early on and throughout the project to ensure their concerns and expectations are understood and addressed.
 
 5. Decide on the cadence of informing the stakeholders and the format(email, status snapshots slides, monthly steer-co sessions)
 
-6. Create a project workspace which shall have the goal to centralize as single source of truth the entire documentation and process based on a tailored version of the standard software development process framework RUP.
+6. **Single source of truth for the project documentation** - Create a project workspace which shall have the goal to centralize as single source of truth the entire documentation and process based on a tailored version of the standard software development process framework RUP.
 
 *At this stage we are interested in focusing on the first two phases definitions from RUP: Inception and Elaboration*
 
-7. Define the project vision and the goals: Work with the stakeholders to establish a clear vision alignment and high-level goals for the project. This will provide a guiding direction for the team and ensure the initial alignment. 
+7. **Define the project vision and the goals**: Work with the stakeholders to establish a clear vision alignment and high-level goals for the project. This will provide a guiding direction for the team and ensure the initial alignment. 
 
     *Depending on the complexity or level of uncertainty of the project, if the product vision details cannot be defined, it is important to compile a strategy plan on how to get to the Vision definition. This is a good enough exercise to align the team members and the stakeholders on what will be the next steps.*
 
-8. Conduct a project discovery phase: Dedicate time for a discovery phase to explore the problem space, understand the business context, and identify potential risks and challenges. The outcome of this phase could be a project charter or a discovery report summarizing the findings.
+8. **Discovery phase** - Dedicate time for a discovery phase to explore the problem space, understand the business context, the user needs and identify potential risks and challenges. The outcome of this phase could be a project charter or a discovery report summarizing the findings.
 
-9. **Define a glossary**. This component is key to ensure that the involved parties refer to the same aspect while using a given terminology.  
+    Various team members will have a different role and purpose through the discovery phase, but the end goal is to bring clarity on the WHAT and on the HOW to the level of details that a scope can be shaped for implementation. 
+
+9. **Define a glossary** This component is key to ensure that the involved parties refer to the same aspect while using a given terminology.  
 The lack of having a glossary can introduce a considerable degree of misunderstandings and misalignments, leading to an unwanted increased solution complexity. 
 
 10. Document the identified **business use cases**, **business process models**, **business process flows**. 
@@ -74,7 +80,7 @@ The lack of having a glossary can introduce a considerable degree of misundersta
     - [Testing Strategies](https://en.wikipedia.org/wiki/Test_strategy)
     - Any other diagrams which may bring clarity and faster alignment
 
-14. Risk Assessment, Documentation and Management
+14. **Risk Assessment, Documentation and Management**
 
     Risk management is an important function in the organizations today. Nowadays, the undertaken projects are increasingly complex and ambitious. They must be executed successfully, in an uncertain and often risky environment.
 
@@ -96,9 +102,11 @@ The lack of having a glossary can introduce a considerable degree of misundersta
 
     - [NIST Risk Management Framework](https://csrc.nist.gov/projects/risk-management/about-rmf)
 
-15. Roadmap plan: how to get from the status quo to the vision.
+15. **Roadmap plan**: Define the roadmap plan. This is a joined effort between tech and product to ensure alignment on how the teams will move further.
 
-16. Schedule retros for allowing the chance to have feedback sessions. These are helpful for calibration with the team before moving further. 
+It can be that the scope is to big, so prioritization or split in multiple phases may be necessary. On top of that it can give clarity on the expected checkpoints throughout the delivery process.
+
+16. Schedule retros for allowing the chance to have feedback sessions. These are helpful for calibration with the team before moving further.It is important for creating the open feedback culture to encourage growth and support of each other. 
 
 17. Reiterate and Adapt
 
