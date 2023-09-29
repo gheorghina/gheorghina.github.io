@@ -5,9 +5,9 @@ date:   2023-07-16 00:18:23 +0700
 categories: [lead dev, leadership, architecture, digital change]
 ---
 
-When starting a huge integration software projects, or any other project with increased level of uncertainty and risks, with no clear requirements, there are several best practices and steps that a technical lead(Principal Software Engineer, EM, Staff Software Engineer, Software Engineer.. or anyone else who has the skills) can follow.
+When embarking on substantial integration software projects or any other endeavors characterized by elevated levels of uncertainty and risk, especially when there are no clear requirements in sight, there are several best practices and steps that a technical leader (Principal Software Engineer, Engineering Manager, Staff Software Engineer, Software Engineer, or anyone with the requisite skills) can follow.
 
-The end goal to keep in mind and strike for is to bring uncertainty to actionable outcomes, to improve visibility and enhance the transparency to various stakeholders from both product and tech side.
+The ultimate goal to keep in mind and strive for is to transform uncertainty into actionable outcomes, enhance visibility, and improve transparency for various stakeholders from both the product and technology sides.
 
 This blog post will define the key steps and artifacts defined by the well known software development process RUP. At the end of the blog post, the second well known development process, [Systems Development Life Cycle(SDLC)](https://en.wikipedia.org/wiki/Systems_development_life_cycle) will be discussed in comparison to RUP. 
 
@@ -15,15 +15,13 @@ This blog post will define the key steps and artifacts defined by the well known
 
 RUP is an iterative software development process framework created by the Rational Software Corporation, a division of IBM since 2003, and has since become one of the most widely used software development methodologies.
 
-RUP is not a single concrete prescriptive process, but rather an adaptable process framework, intended to be tailored by the development organizations and software project teams that will select the elements of the process that are appropriate for their needs. RUP is a specific implementation of the Unified Process. 
+RUP is not a single, concrete, prescriptive process but rather an adaptable process framework intended to be tailored by development organizations and software project teams. These teams can select the elements of the process that are suitable for their specific needs. RUP is a specific implementation of the Unified Process.
 
 The three key elements that define RUP are:
 
-- Software development guidelines that provide a foundation for success.
-
-- A framework that encompasses reusable building blocks for method content and processes from which you can create customized procedures and method setups.
-
-- A language that describes methods and processes.
+1. Software Development Guidelines: These provide a foundation for success.
+2. A Framework: This encompasses reusable building blocks for method content and processes from which customized procedures and method setups can be created.
+3. A Language: It describes methods and processes.
 
 ### Tailored minimum key practices and steps
 
