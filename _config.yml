@@ -32,7 +32,7 @@ share:
 urls:
     - text: About Me
       url: /about/
-    - text: Good Reads Challenges
+    - text: Goodreads Challenges
       url: /goodreads_challenges/
     - text: Bookshelf Recommendations
       url: /bookshelf_recommendations/
