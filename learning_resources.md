@@ -25,7 +25,7 @@ permalink: /learning_resources/
 
 - [Udemy](https://www.udemy.com)
 
-- [PluralSight](https://www.pluralsight.com/)
+- [Pluralsight](https://www.pluralsight.com/)
 
 - [Cloudguru](https://acloud.guru/)
 
@@ -49,3 +49,5 @@ permalink: /learning_resources/
 - [Security Cryptography Whatever](https://securitycryptographywhatever.com/)
 
 - [AWS Well Architected](https://aws.amazon.com/architecture/well-architected/)
+
+- [Martin Kleppmann's blog](https://martin.kleppmann.com/)
