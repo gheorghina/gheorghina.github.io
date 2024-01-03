@@ -4,7 +4,7 @@ title: Learning Resources
 permalink: /learning_resources/
 ---
 
-## Email Subscriptions
+#### Email Subscriptions
 
 - [bytebytego.com](https://bytebytego.com/newsletter)
 
@@ -19,7 +19,7 @@ permalink: /learning_resources/
 - [AlphaSignal](https://alphasignal.substack.com/)
 
 
-## Learning Resources
+#### Learning Resources
 
 - [Exercism](https://exercism.org/dashboard)
 
@@ -32,7 +32,7 @@ permalink: /learning_resources/
 - [EDX](https://www.edx.org/)
 
 
-## Blogs
+#### Blogs
 
 - [High Scalability - All time Favorites](http://highscalability.com/all-time-favorites/)
 

@@ -7,31 +7,31 @@ permalink: /tech_radar/
 Random points of interest.
 
 
-### Distributed Tracing
+#### Distributed Tracing
 
 - [Zipkin](https://zipkin.io/)
 
 
-### Service Mesh
+#### Service Mesh
 
 - [Istio](https://istio.io/)
 
 - [Dapr](https://dapr.io/)
 
 
-### API Gateway
+#### API Gateway
 
 - [Kong](https://konghq.com/)
 
 
-### BPM
+#### BPM
 
 - [Camunda](https://camunda.com/)
 
 - [Zeebe](https://zeebe.io/)
 
 
-### Practices
+#### Practices
 
 - [SAFE](https://www.scaledagileframework.com/)
 
@@ -40,31 +40,31 @@ Random points of interest.
 - [OPA](https://www.openpolicyagent.org/)
 
 
-### Security
+#### Security
 
 - [CISSP](https://www.isc2.org/Certifications/CISSP)
 
 - [AWS Security](https://aws.amazon.com/security/)
 
 
-### Edge Computing
+#### Edge Computing
 
 - [AWS Outposts](https://aws.amazon.com/outposts/)
 
 - [5G](https://www.5g.org.nz/)
 
 
-### Microfrontends
+#### Microfrontends
 
 - [Microfrontends](https://micro-frontends.org/)
 
 
-### ROS
+#### ROS
 
 - [ROS](https://www.ros.org/)
 
 
-### Geospatial
+#### Geospatial
 
 - [GeoServer](https://geoserver.org/)
 
@@ -73,17 +73,17 @@ Random points of interest.
 - [gdal](https://gdal.org/)
 
 
-### Farm out work to other machines
+#### Farm out work to other machines
 
 - [Gearman](https://gearman.org/)
 
 
-### Scaling Application Security Practices report
+#### Scaling Application Security Practices report
 
 - [Snyk](https://snyk.io/wp-content/uploads/Scaling-Application-Security-Practices-Report-2020.pdf)
 
 
-### Feature Flags
+#### Feature Flags
 
 - [LaunchDarkly](https://launchdarkly.com/)
 
@@ -92,7 +92,7 @@ Random points of interest.
 - [unleash](https://unleash.github.io/)
 
 
-### Microservices Troubleshooting
+#### Microservices Troubleshooting
 
 - [Sleuth](https://spring.io/projects/spring-cloud-sleuth)
 
@@ -105,7 +105,7 @@ Random points of interest.
 - [OpenTracing](https://opentracing.io/)
 
 
-### Diagrams Makers
+#### Diagrams Makers
 
 - [draw.io](https://app.diagrams.net/)
 
@@ -119,7 +119,7 @@ Random points of interest.
 
 - [swimlanes.io](https://swimlanes.io/)
 
-### ITIL
+#### ITIL
 
 - [ITIL](https://www.axelos.com/best-practice-solutions/itil)
 
