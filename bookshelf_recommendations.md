@@ -69,7 +69,7 @@ Therefore in the bellow lists, you will find books that I have read and that I c
 
 - [Designing for Scalability with Erlang/OTP: Implement Robust, Fault-Tolerant Systems](https://www.goodreads.com/book/show/18324312-designing-for-scalability-with-erlang-otp) by Francesco Cesarini, Steve Vinoski
 
-- [Programming Elixir: Functional |> Concurrent |> Pragmatic |> Fun](https://www.goodreads.com/book/show/17971957-programming-elixir) by Dave Thomas
+- [Programming Elixir: Functional | Concurrent | Pragmatic | Fun](https://www.goodreads.com/book/show/17971957-programming-elixir) by Dave Thomas
 
 - [Designing Elixir Systems with OTP](https://www.goodreads.com/book/show/45159167-designing-elixir-systems-with-otp) by James Edward Gray II
 
