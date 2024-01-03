@@ -21,7 +21,7 @@ social:
     - icon: fa-linkedin
       link: "https://www.linkedin.com/in/gheorghina-gligor-2000a148/"
     - icon: fa-stack-exchange
-      link: "#"
+      link: "https://www.goodreads.com/user/show/33537328-gheorghina"
     - icon: fa-github
       link: "https://github.com/gheorghina"
 
@@ -32,8 +32,10 @@ share:
 urls:
     - text: About Me
       url: /about/
-    # - text: My Projects
-    #   url: /projects/
+    - text: Good Reads Challenges
+      url: /goodreads_challenges/
+    - text: Bookshelf Recommendations
+      url: /bookshelf_recommendations/
     - text: Talks and Workshops
       url: /workshops
 

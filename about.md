@@ -6,19 +6,14 @@ permalink: /about/
 
 Hi,
 
-I am Gheorghina, a results-driven, versatile Principal Software Engineer with 15+ years of progressive experience managing large, global, and continuously evolving technical initiatives, while ensuring transformational, cost-effective, and quality delivery. 
+I am Gheorghina, a passionate, results driven Principal Software Engineer / Solution Architect with 16+ years of engineering experience out of which 9+ in
+leading and managing large technical initiatives across multiple teams(5-25 teams).
 
-I have demonstrated ability in developing / nurturing strong relationships with internal and external stakeholders, managing value delivery, and continuous change, while driving business process transformation. 
+Designed and implemented technical solutions across various industries: Home Automation, Big Pharma, Cloud Collaboration, Banking and Logistics. 
 
-I have proven track record of managing multiple enterprise-wide IT initiatives from vision to benefits realization in various industries: home automation, big pharma, cloud collaboration, banking and logistics.
+Some of the solutions were designed in highly secure and regulated environments, some solutions were heavily supporting IOT with high throughput and low latency.
 
-I am recognized for the ability to leverage technology to solve problems, streamline processes, and implement solutions through creation of innovative digital solutions. 
-
-I am experienced in the strategic detail planning, execution, and leadership of enterprise-wide technology initiatives, which support business goals, deliver continuous improvement, and enhance productivity levels.  
-
-Even though I don't find it mandatory to work with a single dedicate framework, I do consider some support better than others both the developer productivity and the product needs in terms of simplicity, fast and reliable releases while being flexible towards change and resilient towards faults. 
-
-Nowadays I am trying to continuously grow on the technical side while also trying to bring positive customer impact through the solutions me and the teams I collaborate with build.  
+Fell in love with Elixir, did C#. Eager to learn new things while dragging others in the process. I love science, gardening, coffee & to travel.
 
 In this blog I will mainly keep my notes but I will also try to write advices and recommendations that may also help you.
 
