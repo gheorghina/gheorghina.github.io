@@ -4,9 +4,9 @@ title: Bookshelf Recommendations
 permalink: /bookshelf_recommendations/
 ---
 
-It should be no mistery that I really enjoy giving advice for those who are operating in the Software Engineering world to take advice from other areas as well.
+It should be no mystery that I really enjoy giving suggestions for those who are operating in the Software Engineering world to take inspiration from non tech areas as well.
 
-Therefore in the bellow lists, you will find books that I have read and that I consider to be of great value, including the non technical ones.
+Therefore in the bellow lists, you will find books that I have read and that I consider to be of great value from more than just the tech world.
 
 ## For those who love to code 
 
