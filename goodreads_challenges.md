@@ -6,6 +6,8 @@ permalink: /goodreads_challenges/
 
 ## [2023 Reading Challenge](https://www.goodreads.com/user_challenges/40208864)
 
+ ![]({{ site.url }}/static/img/goodreads/gd_2023.png)
+
 1. [The TOGAF® Standard, 10th Edition — Introduction and Core Concepts](https://www.goodreads.com/book/show/56563869-the-togaf-standard-10th-edition-introduction-and-core-concepts) by The Open Group 
 
 2. [Mastering Python High Performance by Fernando Doglio](https://www.goodreads.com/book/show/36598365-mastering-python-high-performance) by Fernando Doglio 
@@ -73,6 +75,8 @@ permalink: /goodreads_challenges/
 
 
 ## [2022 Reading Challenge](https://www.goodreads.com/user_challenges/36482581) 
+
+ ![]({{ site.url }}/static/img/goodreads/gd_2022.png)
 
 1. [Range: Why Generalists Triumph in a Specialized World](https://www.goodreads.com/book/show/41795733-range) by David Epstein 
 
