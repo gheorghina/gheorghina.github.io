@@ -4,9 +4,7 @@ title: Goodreads Challenges
 permalink: /goodreads_challenges/
 ---
 
-## 2023 Reading Challenge
-
-[Goodreads reference](https://www.goodreads.com/user_challenges/40208864) in no particular order:
+## [2023 Reading Challenge](https://www.goodreads.com/user_challenges/40208864)
 
 1. [The TOGAF® Standard, 10th Edition — Introduction and Core Concepts](https://www.goodreads.com/book/show/56563869-the-togaf-standard-10th-edition-introduction-and-core-concepts) by The Open Group 
 
@@ -20,111 +18,63 @@ permalink: /goodreads_challenges/
 
 6. [The Myth of Normal: Trauma, Illness, and Healing in a Toxic Culture](https://www.goodreads.com/book/show/58537332-the-myth-of-normal) by Gabor Maté, Daniel Maté
 
-    Challenging societal norms surrounding trauma and healing.
-
 7. [The Culture Map: Breaking Through the Invisible Boundaries of Global Business](https://www.goodreads.com/book/show/22085568-the-culture-map) by Erin Meyer
-
-    Navigating the complexities of cross-cultural business interactions.
 
 8. [Turn the Ship Around!: A True Story of Turning Followers into Leaders](https://www.goodreads.com/book/show/16158601-turn-the-ship-around) by L. David Marquet
 
-    Leadership lessons from turning a ship's command structure on its head.
-
 9. [Lean In: Women, Work, and the Will to Lead](https://www.goodreads.com/book/show/16071764-lean-in) by Sheryl Sandberg
-
-    Insights into gender and leadership dynamics in the workplace.
 
 10. [Pictura baroca by Stefano Zuffi](https://www.goodreads.com/book/show/15813108-pictura-baroca) by Francesca Castria, Mircea Vasilescu 
 
 11. [The Founder's Dilemmas: Anticipating and Avoiding the Pitfalls That Can Sink a Startup](https://www.goodreads.com/book/show/13234710-the-founder-s-dilemmas) by Noam Wasserman
 
-    Noam Wasserman's book explores the challenges and pitfalls faced by startup founders, providing valuable insights into anticipating and navigating the dilemmas that can impact the success of a startup.
-
 12. [Three Apples Fell from the Sky](https://www.goodreads.com/book/show/58612458-din-cer-au-c-zut-trei-mere) by Narine Abgaryan 
 
 
 13. [The Cancer Code: A Revolutionary New Understanding of a Medical Mystery](https://www.goodreads.com/book/show/52163526-the-cancer-code) by Jason Fung
-        
-    Jason Fung presents a revolutionary understanding of the mysteries surrounding cancer in this insightful book, offering a fresh perspective on medical approaches to the disease.
 
 14. [The Complete Guide to Fasting: Heal Your Body Through Intermittent, Alternate-Day, and Extended Fasting](https://www.goodreads.com/book/show/32670670-the-complete-guide-to-fasting) by Jason Fung
-    
-    Dr. Jason Fung's guide delves into the healing potential of intermittent, alternate-day, and extended fasting, providing a comprehensive resource for those interested in exploring fasting as a health practice.
 
 15. [Escaping the Build Trap: How Effective Product Management Creates Real Value](https://www.goodreads.com/book/show/42611483-escaping-the-build-trap) by Melissa Perri
-    
-    Melissa Perri's book uncovers the keys to effective product management, emphasizing the creation of real value in the product development process and escaping common pitfalls.
 
 16. [Designing Data-Intensive Applications](https://www.goodreads.com/book/show/23463279-designing-data-intensive-applications) by Martin Kleppmann
-    
-    Martin Kleppmann's comprehensive guide navigates the complexities of designing data-intensive applications, offering valuable insights for architects and developers working on data-centric systems.
 
 17. [The Psychopath Test: A Journey Through the Madness Industry](https://www.goodreads.com/book/show/12391521-the-psychopath-test) by Jon Ronson
 
-    Jon Ronson takes readers on a captivating journey through the world of the "madness industry," exploring the psychopath test and its implications for understanding human behavior.
-
 18. [And Quiet Flows the Don](https://www.goodreads.com/book/show/78024.And_Quiet_Flows_the_Don) by Mikhail Sholokhov
-    
-    A classic novel by Mikhail Sholokhov, "And Quiet Flows the Don" provides a sweeping portrayal of life during the Russian Revolution and Civil War, capturing the complexities of human relationships against a backdrop of historical turmoil.
 
 19. [The New Abnormal: The Rise of the Biomedical Security State](https://www.goodreads.com/book/show/61054806-the-new-abnormal) by Aaron Kheriaty
-    
-    Aaron Kheriaty's book examines the rise of the biomedical security state, exploring the ethical and societal implications of advancements in biotechnology and medical surveillance.
 
 20. [Genius Foods: Become Smarter, Happier, and More Productive While Protecting Your Brain for Life]() by Max Lugavere
-    
-    Max Lugavere explores the connection between nutrition and brain health, offering insights and strategies for optimizing cognitive function and overall well-being.
 
 21. [The Intelligent Investor](https://www.goodreads.com/book/show/106835.The_Intelligent_Investor) by Benjamin Graham
 
 22. [Mastering Python High Performance](https://www.goodreads.com/book/show/26781635-mastering-python-high-performance) by Fernando Doglio 
 
 23. [NLP: The Essential Guide to Neuro-Linguistic Programming](https://www.goodreads.com/book/show/18868375-nlp) by NLP Comprehensive, Tom Dotz, Tom Hoobyar
-    
-    An essential guide to Neuro-Linguistic Programming (NLP), offering comprehensive insights into the techniques and principles of this transformative approach to communication and personal development.
 
 24.  [The Pocket Complete Color Harmony: 1,500 Plus Color Palettes for Designers, Artists, Architects, Makers, and Educators](https://www.goodreads.com/book/show/50999271-the-pocket-complete-color-harmony)
 
 25. [The Psychology of Money](https://www.goodreads.com/book/show/41881472-the-psychology-of-money) by Morgan Housel
-    
-    Morgan Housel explores the complex relationship between psychology and financial decision-making, offering valuable insights into how human behavior influences our approach to money.
 
 26. [Glucose Revolution: The Life-Changing Power of Balancing Your Blood Sugar](https://www.goodreads.com/book/show/58438618-glucose-revolution) by Jessie Inchauspé
-    
-    A guide to understanding the impact of blood sugar balance on overall health and well-being, providing practical tips for achieving and maintaining optimal glucose levels.
 
-27. [Outlive: The Science and Art of Longevity](https://www.goodreads.com/book/show/61153739-outlive) by Peter Attia, Bill Gifford  
-
-    Exploring the science and strategies behind longevity, this book by Peter Attia and Bill Gifford offers a comprehensive look at the factors that contribute to a longer and healthier life.
+27. [Outlive: The Science and Art of Longevity](https://www.goodreads.com/book/show/61153739-outlive) by Peter Attia, Bill Gifford
 
 28. [The Lost City of Z: A Legendary British Explorer's Deadly Quest to Uncover the Secrets of the Amazon](https://www.goodreads.com/book/show/21387694-the-lost-city-of-z) by David Grann
-    
-    A gripping narrative of the legendary British explorer Percy Fawcett's quest to uncover the mysteries of the Amazon, delving into the dangers and intrigue of his ill-fated expedition.
 
 29. [The Almanack of Naval Ravikant: A Guide to Wealth and Happiness](https://www.goodreads.com/book/show/54898389-the-almanack-of-naval-ravikant) by Eric Jorgenson
-    
-    Eric Jorgenson compiles the wisdom of Naval Ravikant, a prominent entrepreneur and thinker, into a guide that explores the intersections of wealth and happiness, offering valuable insights for personal growth.
 
 30. [Corruptible: Who Gets Power and How It Changes Us](https://www.goodreads.com/book/show/56898187-corruptible) by Brian Klaas
-    
-    Brian Klaas examines the dynamics of power and its transformative effects on individuals and societies, shedding light on the corruptible nature of those in positions of authority.
 
 31. [The Fabric of Civilization: How Textiles Made the World](https://www.goodreads.com/book/show/52686790-the-fabric-of-civilization) by Virginia Postrel
-    
-    Virginia Postrel takes readers on a fascinating journey through history, exploring the profound impact of textiles on the development of civilization, from ancient times to the modern era.
 
 32. [The Art of Color: The Subjective Experience and Objective Rationale of Color](https://www.goodreads.com/book/show/967310.The_Art_of_Color) by Johannes Itten
-    
-    A comprehensive guide to color theory, Johannes Itten's book explores the subjective experience and objective rationale of color, providing valuable insights for artists, designers, and anyone interested in color.
 
 
-## 2022 Reading Challenge
+## [2022 Reading Challenge](https://www.goodreads.com/user_challenges/36482581) 
 
-[Goodreads reference](https://www.goodreads.com/user_challenges/36482581)
-
-1. [Range: Why Generalists Triumph in a Specialized World](https://www.goodreads.com/book/show/41795733-range) by David Epstein
-
-    David Epstein's book explores the value of generalization in a world that increasingly values specialization, offering valuable insights for navigating the complexities of modern life.
+1. [Range: Why Generalists Triumph in a Specialized World](https://www.goodreads.com/book/show/41795733-range) by David Epstein 
 
 2. [Talking to Strangers: What We Should Know About the People We Don’t Know](https://www.goodreads.com/book/show/43848929-talking-to-strangers) by Malcolm Gladwell
 
