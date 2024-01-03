@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About Me
-permalink: /about/
+title: Bookshelf Recommendations
+permalink: /bookshelf_recommendations/
 ---
 
 It should be no mistery that I really enjoy giving advice for those who are operating in the Software Engineering world to take advice from other areas as well.
