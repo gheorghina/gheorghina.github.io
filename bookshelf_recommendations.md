@@ -84,7 +84,7 @@ Therefore in the bellow lists, you will find books that I have read and that I c
 - [Mastering Python High Performance](https://www.goodreads.com/book/show/26781635-mastering-python-high-performance) by Fernando Doglio
 
 
-## For those who like to engineer systems and solve problems, aka the Architects in the room
+## For the Architects
 
 - [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.goodreads.com/book/show/179133.Domain_Driven_Design) by Eric Evans
 
