@@ -31,6 +31,8 @@ permalink: /learning_resources/
 
 - [EDX](https://www.edx.org/)
 
+- [educative.io](https://www.educative.io/)
+
 
 #### Blogs
 

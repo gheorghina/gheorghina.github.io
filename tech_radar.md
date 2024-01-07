@@ -119,6 +119,8 @@ Random points of interest.
 
 - [swimlanes.io](https://swimlanes.io/)
 
+- [ArchiMate](https://www.archimatetool.com/)
+
 #### ITIL
 
 - [ITIL](https://www.axelos.com/best-practice-solutions/itil)
