@@ -61,7 +61,7 @@ By nature, the projects I was leading in the last 8 years were no joke, in terms
 
 As a Software Engineer at my core, I am deeply invested in honing my craft. I do want to practice and get better at driving complex architectural changes, which can bring value to the customer, and which would not leave victims behind, but rather bring everyone on the same boat, fighting for the same goal, learning as they go and having fun while doing it.
 
-I care a lot about learning from mistakes and be able to replicate successes by being able to pin point exactly what worked, what didn't and why. Over the course of 16 years in the industry, I've cultivated my own frameworks, methodologies, and tailoring mechanisms, drawing from experiences with RUP and SDP.
+I care a lot about learning from mistakes and be able to replicate successes by being able to pin point exactly what worked, what didn't and why. Over the course of 16 years in the industry, I've cultivated my own frameworks, methodologies, and tailoring mechanisms, drawing from experiences with RUP and SDLC.
 
 I do read a lot, I do practice a lot, I do fail a lot, I do learn a lot. Despite being aware of TOGAF, I had consistently dismissed the idea of exploring it.
 
