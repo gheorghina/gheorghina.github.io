@@ -5,22 +5,21 @@ date:   2024-01-16 00:18:23 +0700
 categories: [architecture, enterprise, togaf]
 ---
 
-Even though I passed successfully the The Open Group Certified: TOGAF® Enterprise Architecture Foundation and Practitioner certifications, I wanted to restrain myself from making it public. Why can that be? 
+Even though I successfully completed The Open Group Certified: TOGAF® Enterprise Architecture Foundation and Practitioner certifications, I hesitated to share this achievement publicly. Why might that be?
 
+Could it be due to the awareness that a significant portion of my network might disapprove? Perhaps the highly technical individuals, the proficient coders, who prioritize pragmatic solutions and harbor a disdain for architectural frameworks and extensive documentation, considering them incompatible with agility?
 
-Can it be because I know half of my network would disapprove of it? The super smart part of it, the heavy coders, focusing on getting things done, disliking the idea of any architecture or the idea of having any diagrams and documentations preceding or accompanying their code, disqualifying them as non agile? 
-
-Or can it be because of my personal preconceptions and critical eyes? Of not wanting to waste time on boring materials, instead of writing some code?
+Alternatively, is it possible that my reluctance stems from personal biases and a critical eye? Could it be that I resist the idea of investing time in what I perceive as dull materials instead of engaging in the more dynamic activity of writing some code?
 
 ## On Human Nature 
 
-Why would I care of any of the two from above? The yin and yang of my brain are fighting each other.
+Why should I concern myself with either of the two perspectives mentioned above? The yin and yang of my brain are fighting each other.
 
-On one side, by saying:
+On one side, acknowledging that:
 
 *"Humans are, by nature, social animals. That's why we care what others think of us: We want to belong, to be accepted, and to bond with other members of our social "pack." Caring about other people's opinions of us is a survival mechanism as old as humanity itself"[[williamsburgtherapygroup]](https://williamsburgtherapygroup.com/blog/why-do-i-care-so-much-what-other-people-think)*
 
-And on the other side by having my muse whispering: 
+Contrasted by my internal muse insisting: 
 
 *"I do not care what other people think of me. I do not think about it. I really don't care. I wouldn't change the way I dress, and I wouldn't change the way I think, and I wouldn't change the way I act. I am what I am, and I'm going to continue to be that way." - Richard Feynman*
 
@@ -28,7 +27,7 @@ and...
 
 *"Study hard what interests you the most in the most undisciplined, irreverent and original manner possible." - Richard Feynman*
 
-With the above long intro, I will try to bring you back and tackle the following points:
+With this backdrop, let's refocus and delve into the following points:
 
 1. Stereotypes and Preconceptions
 2. What's in it for me? What can be in it for you?
@@ -39,19 +38,18 @@ With the above long intro, I will try to bring you back and tackle the following
 
 ## Stereotypes and Preconceptions, Twisted Brains
 
-I started by saying I am anxious about making it public that I passed the TOGAF® Enterprise Architecture certification due to my network. 
+I began with a sense of unease about publicly sharing my achievement in passing the TOGAF® Enterprise Architecture certification, primarily driven by concerns within my network. 
 
-But quoting my favorite teacher again, he says: ""The first principle is that you must not fool yourself, and you are the easiest person to fool." - Richard Feynman
+However, recalling the wisdom of my favorite teacher, Richard Feynman, who emphasized, *"The first principle is that you must not fool yourself, and you are the easiest person to fool,"* I confronted the truth — it was largely my own preconceptions influencing my reservations.
 
-Truth is it was mostly because of my own preconceptions.
 
 I started the journey with a critical and a very skeptical eye. I was sure this is all about processes invented by middle men sitting in ivory towers, dictating solution architectures to the poor developers, who are not allowed to think for themselves, forcing stakeholders to sign off on documents they do not understand, and so on.
 
 I was wrong.
 
-I was in the middle of a training, not paying attention, just hoping my brain will absorb bullshit ideas and magically be able to understand, but then I will for sure ensure I will quickly forget everything.
+I was in the middle of a training, not paying attention, just hoping my brain will absorb what I deemed to be impractical ideas, anticipating a I will be magically able to understand ideas followed by a swift forgetting thereafter. 
 
-I was doing the practice exercises with the above mindset, just to give it a try, and then I obviously failed. My twisted thought process was that I was choosing options based on the stereotype I created in my mind thinking from a 3rd person perspective: *What would a group of middle men doing only excel and powerpoints, sitting in an ivory tower, enforce on poor people in this situation?*
+Engaging in practice exercises with this mindset, I approached them as an experiment, ultimately leading to failure. My distorted thought process had me selecting options based on a stereotype I had constructed: *What would a group of detached decision-makers, proficient only in Excel and PowerPoint, orchestrating mandates from their ivory tower onto the less fortunate do in this situation?*
 
 And then I failed successfully ...
 
