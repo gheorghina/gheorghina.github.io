@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Stereotypes and Misconceptions on TOGAF® Enterprise Architecture Certifications?"
+title:  "Stereotypes and Misconceptions on TOGAF® Enterprise Architecture Certifications"
 date:   2024-01-16 00:18:23 +0700
 categories: [architecture, enterprise, togaf]
 ---
