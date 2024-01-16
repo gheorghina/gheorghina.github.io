@@ -18,15 +18,15 @@ Why would I care of any of the two from above? The yin and yang of my brain are 
 
 On one side, by saying:
 
-    "Humans are, by nature, social animals. That's why we care what others think of us: We want to belong, to be accepted, and to bond with other members of our social "pack." Caring about other people's opinions of us is a survival mechanism as old as humanity itself"[[williamsburgtherapygroup]](https://williamsburgtherapygroup.com/blog/why-do-i-care-so-much-what-other-people-think)
+*"Humans are, by nature, social animals. That's why we care what others think of us: We want to belong, to be accepted, and to bond with other members of our social "pack." Caring about other people's opinions of us is a survival mechanism as old as humanity itself"[[williamsburgtherapygroup]](https://williamsburgtherapygroup.com/blog/why-do-i-care-so-much-what-other-people-think)*
 
 And on the other side by having my muse whispering: 
 
-    "I do not care what other people think of me. I do not think about it. I really don't care. I wouldn't change the way I dress, and I wouldn't change the way I think, and I wouldn't change the way I act. I am what I am, and I'm going to continue to be that way." - Richard Feynman
+*"I do not care what other people think of me. I do not think about it. I really don't care. I wouldn't change the way I dress, and I wouldn't change the way I think, and I wouldn't change the way I act. I am what I am, and I'm going to continue to be that way." - Richard Feynman*
 
 and...
 
-    "Study hard what interests you the most in the most undisciplined, irreverent and original manner possible." - Richard Feynman
+*"Study hard what interests you the most in the most undisciplined, irreverent and original manner possible." - Richard Feynman*
 
 With the above long intro, I will try to bring you back and tackle the following points:
 
@@ -51,9 +51,7 @@ I was wrong.
 
 I was in the middle of a training, not paying attention, just hoping my brain will absorb bullshit ideas and magically be able to understand, but then I will for sure ensure I will quickly forget everything.
 
-I was doing the practice exercises with the above mindset, just to give it a try, and then I obviously failed. My twisted thought process was that I was choosing options based on the stereotype I created in my mind thinking from a 3rd person perspective: 
-
-    What would a group of middle men doing only excel and powerpoints, sitting in an ivory tower, enforce on poor people in this situation?
+I was doing the practice exercises with the above mindset, just to give it a try, and then I obviously failed. My twisted thought process was that I was choosing options based on the stereotype I created in my mind thinking from a 3rd person perspective: *What would a group of middle men doing only excel and powerpoints, sitting in an ivory tower, enforce on poor people in this situation?*
 
 And then I failed successfully ...
 
@@ -87,11 +85,13 @@ An here I throw some other famous quotes:
 
 Before I proceed with the classical "it depends", let's get together on some common ground, and then let you answer the question further.
 
+
 ### What is an Enterprise as per TOGAF? 
 
 In The Open Group Architecture Framework (TOGAF), an "enterprise" is a comprehensive entity that goes beyond the boundaries of a single organization. It is defined as any collection of organizations that has a common set of goals and is created to produce a product or deliver a service. It includes people, processes, business capabilities, information, and technology. The term "enterprise" in TOGAF is not limited to a single organization; it can encompass multiple organizations that collaborate to achieve a common set of objectives.
 
 The suitability of The Open Group Architecture Framework (TOGAF) depends on the specific context and needs of an organization.
+
 
 ### Why would one need Enterprise Architecture?
 
@@ -101,6 +101,7 @@ In The Open Group Architecture Framework (TOGAF), the EA is a strategic asset th
 - It facilitates governance, risk management and exploitation of opportunities
 - It directs and controls the change activity
 - It provides a strategic context for the evolution of the enterprise.
+
 
 ### How can one judge if this complexity can fit a specific organization?
 
