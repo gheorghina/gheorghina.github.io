@@ -149,7 +149,7 @@ As each person learns differently, you can choose:
 
 ## Ending Note
 
-Concluding on a positive note, I found it pleasantly surprising that TOGAF does not impose rigid waterfall processes, lofty ivory towers, prescriptive solution mandates, burdensome documentation, extensive procedures, or overbearing governance. If this is your case, then it must be as always, a people problem.
+Concluding on a positive note, I found it pleasantly surprising that TOGAF does not impose rigid waterfall processes, lofty ivory towers, prescriptive solution mandates, burdensome documentation, extensive procedures, or overbearing governance. If this is not your case, then it must be as always, a people problem.
 
 Instead, it revolves around common sense and the flexibility to tailor the framework according to an enterprise's needs.
 
