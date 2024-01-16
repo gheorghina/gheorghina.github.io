@@ -154,3 +154,9 @@ Concluding on a positive note, I found it pleasantly surprising that TOGAF does 
 Instead, it revolves around common sense and the flexibility to tailor the framework according to an enterprise's needs.
 
 Motivated by this realization, I've chosen to share my personal experience and reflections on the subject. Whether this information proves beneficial for you is entirely at your discretion. You are the best judge of your context.
+
+## References
+
+- [togaf-certification-portfolio](https://www.opengroup.org/certifications/togaf-certification-portfolio)
+
+- [togaf 10 specifications](https://publications.opengroup.org/standards/togaf/specifications/c220)
