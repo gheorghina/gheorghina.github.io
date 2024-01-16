@@ -69,9 +69,9 @@ In essence, my interest lies not only in Enterprise Architecture but, more signi
 
 To underscore my perspective, I turn to a couple of renowned quotes:
 
-"If I have seen further, it is by standing on the shoulders of giants." - Sir Isaac Newton
+*"If I have seen further, it is by standing on the shoulders of giants." - Sir Isaac Newton*
 
-"Innovation is the result of a collaborative effort, not of isolated individuals." - Grace Murray Hopper
+*"Innovation is the result of a collaborative effort, not of isolated individuals." - Grace Murray Hopper*
 
 
 ## An honest opinion weather it is worthed to check the TOGAF® ?
@@ -149,8 +149,8 @@ As each person learns differently, you can choose:
 
 ## Ending Note
 
-Concluding on a positive note, I found it pleasantly surprising that TOGAF does not impose rigid waterfall processes, lofty ivory towers, prescriptive solution mandates, burdensome documentation, extensive procedures, or overbearing governance.
+Concluding on a positive note, I found it pleasantly surprising that TOGAF does not impose rigid waterfall processes, lofty ivory towers, prescriptive solution mandates, burdensome documentation, extensive procedures, or overbearing governance. If this is your case, then it must be as always, a people problem.
 
-Instead, it revolves around common sense and the flexibility to tailor the framework according to individual needs.
+Instead, it revolves around common sense and the flexibility to tailor the framework according to an enterprise's needs.
 
-Motivated by this realization, I've chosen to share my personal experience and reflections on the subject. Whether this information proves beneficial for you is entirely at your discretion. You are the best judge of your context and requirements.
+Motivated by this realization, I've chosen to share my personal experience and reflections on the subject. Whether this information proves beneficial for you is entirely at your discretion. You are the best judge of your context.
