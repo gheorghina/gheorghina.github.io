@@ -42,8 +42,7 @@ I began with a sense of unease about publicly sharing my achievement in passing 
 
 However, recalling the wisdom of my favorite teacher, Richard Feynman, who emphasized, *"The first principle is that you must not fool yourself, and you are the easiest person to fool,"* I confronted the truth — it was largely my own preconceptions influencing my reservations.
 
-
-I started the journey with a critical and a very skeptical eye. I was sure this is all about processes invented by middle men sitting in ivory towers, dictating solution architectures to the poor developers, who are not allowed to think for themselves, forcing stakeholders to sign off on documents they do not understand, and so on.
+I started the journey with a critical and a very skeptical eye. I was sure this is all about processes invented by group of detached decision-makers sitting in ivory towers, dictating solution architectures to the poor developers, who are not allowed to think for themselves, forcing stakeholders to sign off on documents they do not understand, and so on.
 
 I was wrong.
 
@@ -60,19 +59,15 @@ Let's keep this short.
 
 By nature, the projects I was leading in the last 8 years were no joke, in terms of size, impact and complexity.
 
-I am a Software Engineer at core, so therefore I do care about my craft. I do want to practice and get better at driving complex architectural changes, which can bring value to the customer, and which would not leave victims behind, but rather bring everyone on the same boat, fighting for the same goal, learning as they go and having fun while doing it.
+As a Software Engineer at my core, I am deeply invested in honing my craft. I do want to practice and get better at driving complex architectural changes, which can bring value to the customer, and which would not leave victims behind, but rather bring everyone on the same boat, fighting for the same goal, learning as they go and having fun while doing it.
 
-I care a lot about learning from mistakes and be able to replicate successes by being able to pin point exactly what worked and what didn't and why.
+I care a lot about learning from mistakes and be able to replicate successes by being able to pin point exactly what worked, what didn't and why. Over the course of 16 years in the industry, I've cultivated my own frameworks, methodologies, and tailoring mechanisms, drawing from experiences with RUP and SDP.
 
-I have my own frameworks, approaches and tailoring mechanisms developed based on RUP, SDP and 16 years of being in the industry.
+I do read a lot, I do practice a lot, I do fail a lot, I do learn a lot. Despite being aware of TOGAF, I had consistently dismissed the idea of exploring it.
 
-I do read a lot, I do practice a lot, I do fail a lot, I do learn a lot.
+In essence, my interest lies not only in Enterprise Architecture but, more significantly, in elevating my craft. I seek professional feedback on my methodologies, aspiring to learn from those who navigate intricate projects while upholding core principles. My goal is to enhance my ability to replicate successes.
 
-I did know about TOGAF, but I always rejected the thought of even looking at it. 
-
-Long story short, I am interested in Enterprise Architecture, but even more than that, I am interested in getting better at my craft, in getting professional feedback on my own approaches. I want to learn from others who drive complex projects while respecting the above principles. I want to be better at replicating successes.
-
-An here I throw some other famous quotes:
+To underscore my perspective, I turn to a couple of renowned quotes:
 
 "If I have seen further, it is by standing on the shoulders of giants." - Sir Isaac Newton
 
@@ -124,19 +119,19 @@ I am listing here some scenarios in which the framework can be suitable, and fee
 
 ## Can you pass the exams by memorizing the answers from the practice tests? 
 
-Continuing on the same comical and ignorant manner, as with the preconceptions I describe above, I really thought this is the case.
-
-I thought I will just quickly check a box for my CV and put it to rest, forget about it, and move on.
+Continuing on the same comical and ignorant manner, mirroring the preconceptions I describe  earlier, I initially believed that obtaining the TOGAF certification would be a swift checkbox on my CV—an item to be completed and promptly forgotten.
 
 I was wrong.
 
-Long story short, the exam can be passed rather easily within one month period of effort investment, but there is no way in which one can memorize the questions and answers and just move on.
+In brief, while it's feasible to pass the exam with about a month of dedicated effort, there's no shortcut involving memorizing questions and answers.
 
 The exam has to parts: 
 
-1. a theoretical part, consisting of 40 questions, in which yes, you can find similar questions in the practice tests, but I can guarantee this will not give you a 100% successful pass rate. You need to understand the logic of the framework, and you need to understand the context in which the questions are asked. It can be very easy to mix and match the answers.
+1. **Theoretical Part**: Featuring 40 questions, some of which may resemble those found in practice tests. However, I can assure you that merely relying on these won't guarantee a 100% success rate. You need to understand the logic of the framework, and you need to understand the context in which the questions are asked.  It's deceptively easy to mix and match answers.
 
-2. a practical part, consisting of 8 complex questions, in which you are given a scenario. In this exam, one is allowed in with the material support. This is the part where you cannot rely on memorization. You need to understand the concepts, and you need to understand the context in which they are applied.
+2. **Practical Part**: Comprising 8 complex questions, this section presents you with scenarios. This is an open book exam, in which the course material as added as support. This is the part where you cannot rely on memorization. You need to understand the concepts, and you need to understand the context in which they are applied.
+
+In essence, the TOGAF certification isn't a mere checkbox; it demands a genuine grasp of the framework's intricacies and the ability to navigate real-world scenarios.
 
 
 ## How can you prepare for the exams?
@@ -154,10 +149,8 @@ As each person learns differently, you can choose:
 
 ## Ending Note
 
-On the ending note, I was pleasantly surprised, to discover there are no enforced waterfall processes, no ivory towers, no dictating of solutions, no heavy documentation, no heavy processes, no heavy governance, no heavy anything. 
+Concluding on a positive note, I found it pleasantly surprising that TOGAF does not impose rigid waterfall processes, lofty ivory towers, prescriptive solution mandates, burdensome documentation, extensive procedures, or overbearing governance.
 
-It is all about common sense, and it is all about tailoring the framework to your own needs.
+Instead, it revolves around common sense and the flexibility to tailor the framework according to individual needs.
 
-That is why I decided to share my own experience, and my own thoughts on the matter.
-
-Weather it can help you or not, it is up to you to decide. You know better your own context and your own needs.
+Motivated by this realization, I've chosen to share my personal experience and reflections on the subject. Whether this information proves beneficial for you is entirely at your discretion. You are the best judge of your context and requirements.
