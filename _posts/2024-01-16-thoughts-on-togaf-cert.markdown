@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My own stereotypes and misconceptions on TOGAF® Enterprise Architecture Certifications? Are they worth any time?"
-date:   2023-04-01 00:18:23 +0700
+date:   2024-01-16 00:18:23 +0700
 categories: [architecture, enterprise, togaf]
 ---
 
