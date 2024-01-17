@@ -160,3 +160,5 @@ Motivated by this realization, I've chosen to share my personal experience and r
 - [togaf-certification-portfolio](https://www.opengroup.org/certifications/togaf-certification-portfolio)
 
 - [togaf 10 specifications](https://publications.opengroup.org/standards/togaf/specifications/c220)
+
+- [My Badge on The Open Group Certified: Applied TOGAF® Enterprise Architecture Practitioner](https://www.credly.com/badges/f7087b1a-6903-4270-a4e3-bbe35ac64d8e/public_url)
