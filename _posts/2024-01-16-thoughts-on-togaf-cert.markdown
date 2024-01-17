@@ -46,7 +46,7 @@ I started the journey with a critical and a very skeptical eye. I was sure this 
 
 I was wrong.
 
-I was in the middle of a training, not paying attention, just hoping my brain will absorb what I deemed to be impractical ideas, anticipating a I will be magically able to understand ideas followed by a swift forgetting thereafter. 
+I was in the middle of a training, not paying attention, just hoping my brain will absorb what I deemed to be impractical ideas, hoping I will be magically able to understand ideas followed by a swift forgetting thereafter. 
 
 Engaging in practice exercises with this mindset, I approached them as an experiment, ultimately leading to failure. My distorted thought process had me selecting options based on a stereotype I had constructed: *What would a group of detached decision-makers, proficient only in Excel and PowerPoint, orchestrating mandates from their ivory tower onto the less fortunate do in this situation?*
 
@@ -61,7 +61,7 @@ By nature, the projects I was leading in the last 8 years were no joke, in terms
 
 As a Software Engineer at my core, I am deeply invested in honing my craft. I do want to practice and get better at driving complex architectural changes, which can bring value to the customer, and which would not leave victims behind, but rather bring everyone on the same boat, fighting for the same goal, learning as they go and having fun while doing it.
 
-I care a lot about learning from mistakes and be able to replicate successes by being able to pin point exactly what worked, what didn't and why. Over the course of 16 years in the industry, I've cultivated my own frameworks, methodologies, and tailoring mechanisms, drawing from experiences with RUP and SDLC.
+I care a lot about learning from mistakes and be able to replicate successes by being able to pin point exactly what worked, what didn't and why. Over the course of 16 years in the industry, I've cultivated my own frameworks, methodologies, and tailoring mechanisms, drawing from experiences, RUP and SDLC.
 
 I do read a lot, I do practice a lot, I do fail a lot, I do learn a lot. Despite being aware of TOGAF, I had consistently dismissed the idea of exploring it.
 
