@@ -18,6 +18,10 @@ permalink: /learning_resources/
 
 - [AlphaSignal](https://alphasignal.substack.com/)
 
+- [SRE Weekly](https://sreweekly.com/)
+
+- [krebsonsecurity](https://krebsonsecurity.com/)
+
 
 #### Learning Resources
 
@@ -32,6 +36,12 @@ permalink: /learning_resources/
 - [EDX](https://www.edx.org/)
 
 - [educative.io](https://www.educative.io/)
+
+- [Coursera](https://www.coursera.org/)
+
+- [System Design Resources](https://github.com/ashishps1/awesome-system-design-resources)
+
+- [Data Engineer Handbook](https://github.com/DataEngineer-io/data-engineer-handbook)
 
 
 #### Blogs
@@ -53,3 +63,18 @@ permalink: /learning_resources/
 - [AWS Well Architected](https://aws.amazon.com/architecture/well-architected/)
 
 - [Martin Kleppmann's blog](https://martin.kleppmann.com/)
+
+- [AWS Architecture Blog](https://aws.amazon.com/blogs/architecture/)
+
+- [Netflix Technology Blog](https://netflixtechblog.medium.com/)
+
+
+#### Free Programming Books
+
+- [EbookFoundation](https://github.com/EbookFoundation/free-programming-books)
+
+
+#### Papers
+
+- [Paper we love](https://github.com/papers-we-love/papers-we-love)
+- 
