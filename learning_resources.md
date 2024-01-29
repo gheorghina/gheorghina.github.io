@@ -43,6 +43,10 @@ permalink: /learning_resources/
 
 - [Data Engineer Handbook](https://github.com/DataEngineer-io/data-engineer-handbook)
 
+- [CS 1332 Data Structures and Algorithms Visualization Tool](https://csvistool.com/)
+
+- [High Scalability All Times Favorites](http://highscalability.com/all-time-favorites/)
+
 
 #### Blogs
 
