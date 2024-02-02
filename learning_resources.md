@@ -81,4 +81,4 @@ permalink: /learning_resources/
 #### Papers
 
 - [Paper we love](https://github.com/papers-we-love/papers-we-love)
-- 
+- [Google Scholar](https://scholar.google.com/)
