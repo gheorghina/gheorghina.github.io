@@ -78,7 +78,8 @@ permalink: /learning_resources/
 - [EbookFoundation](https://github.com/EbookFoundation/free-programming-books)
 
 
-#### Papers
+#### Research Papers & Resources
 
 - [Paper we love](https://github.com/papers-we-love/papers-we-love)
 - [Google Scholar](https://scholar.google.com/)
+- [ieeexplore](https://ieeexplore.ieee.org/browse/books/title)
