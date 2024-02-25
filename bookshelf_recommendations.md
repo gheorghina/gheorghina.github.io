@@ -120,6 +120,12 @@ Therefore in the bellow lists, you will find books that I have read and that I c
 
 - [The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change](https://www.goodreads.com/book/show/36072.The_7_Habits_of_Highly_Effective_People) by Stephen R. Covey
 
+- [The Five Dysfunctions of a Team: A Leadership Fable" by Patrick Lencioni](https://www.goodreads.com/book/show/21343.The_Five_Dysfunctions_of_a_Team)
+
+- [Crucial Conversations: Tools for Talking When Stakes Are High by Kerry Patterson, Joseph Grenny, Ron McMillan, and Al Switzler](https://www.goodreads.com/book/show/15014.Crucial_Conversations)
+
+- [The Culture Map: Breaking Through the Invisible Boundaries of Global Business by Erin Meyer](https://www.goodreads.com/book/show/22085568-the-culture-map)
+
 - [Surely You're Joking, Mr. Feynman!: Adventures of a Curious Character](https://www.goodreads.com/book/show/5544.Surely_You_re_Joking_Mr_Feynman_) by Richard Feynman
 
 - [Nice Girls Don't Get the Corner Office: 101 Unconscious Mistakes Women Make That Sabotage Their Careers](https://www.goodreads.com/book/show/97641.Nice_Girls_Don_t_Get_the_Corner_Office) by Lois P. Frankel
