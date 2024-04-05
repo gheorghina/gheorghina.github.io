@@ -63,7 +63,12 @@ In both cases, Oprah Winfrey and Michelle Obama demonstrate the transformative p
 
 ## The Power of Mentorship for Staff Plus Roles
 
+Through my career I often saw that once one has reached the Staff Plus level, it is easy for them to forget the struggles and the mechanics around what got them there. Therefore its easy to create confusion for the folks that are trying to get there.
 
- 
+At the same time, I saw many struggling engineers, who  did not have full visibility on what their Staff peers did, did not understand why they were not getting promoted, or why they were not getting the recognition they deserved. 
+
+In this context, mentorship can be a powerful tool to bridge and fill the gap between the Staff Plus and the engineers. It can help the engineers understand what is expected from them, and it can help the Staff Plus engineers understand the struggles of the engineers, and it can help both sides complement each other and grow.
+
+
 
 In essence, mentorship is a powerful force that holds the potential to transform careers, empower individuals, and shape the future of entire industries. Whether you're seeking guidance as a mentee or eager to make a difference as a mentor, the journey of mentorship is one filled with growth, learning, and profound impact.
