@@ -116,6 +116,8 @@ Therefore in the bellow lists, you will find books that I have read and that I c
 
 - [97 Things Every Software Architect Should Know: Collective Wisdom from the Experts](https://www.goodreads.com/book/show/6621178-97-things-every-software-architect-should-know) by Richard Monson-Haefel, Kevlin Henney 
 
+- [Team Topologies: Organizing Business and Technology Teams for Fast Flow](https://www.goodreads.com/book/show/44135420-team-topologies) by Matthew Skelton, Manuel Pais
+
 ## For Leaders
 
 - [The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change](https://www.goodreads.com/book/show/36072.The_7_Habits_of_Highly_Effective_People) by Stephen R. Covey
@@ -153,6 +155,11 @@ Therefore in the bellow lists, you will find books that I have read and that I c
 - [Race for the South Pole: The Expedition Diaries of Scott and Amundsen](https://www.goodreads.com/book/show/8637511-race-for-the-south-pole) by Roland Huntford
 
 - [Talking to Strangers: What We Should Know about the People We Don't Know]( ) by Malcolm Gladwell
+
+- [Turn the Ship Around!: A True Story of Turning Followers into Leaders](https://www.goodreads.com/book/show/16158601-turn-the-ship-around) by L. David Marquet
+
+- [Corruptible: Who Gets Power and How It Changes Us](https://www.goodreads.com/book/show/56898187-corruptible) by Brian Klaas
+
 
 
 

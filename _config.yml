@@ -32,8 +32,6 @@ share:
 urls:
     - text: About Me
       url: /about/
-    - text: Goodreads Challenges
-      url: /goodreads_challenges/
     - text: Bookshelf Recommendations
       url: /bookshelf_recommendations/
     - text: Learning Resources
