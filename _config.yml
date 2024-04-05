@@ -38,10 +38,8 @@ urls:
       url: /bookshelf_recommendations/
     - text: Learning Resources
       url: /learning_resources/
-    - text: Tech Radar
-      url: /tech_radar/
-    - text: Talks and Workshops
-      url: /workshops
+    - text: Mentorship
+      url: /mentorship/
 
 url: "https://gheorghina.github.io"
 baseurl: ""
