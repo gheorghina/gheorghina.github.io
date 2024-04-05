@@ -14,11 +14,11 @@ The mentorship program is designed to provide a personalized guidance. As every 
 
 Getting started with the mentorship program is easy:
 
-    Initial Consultation: Schedule a free consultation to discuss your goals, challenges, and areas of focus.
+**Initial Consultation**: Schedule a free consultation to discuss your goals, challenges, and areas of focus.
 
-    Customized Plan: Based on your consultation, I'll create a personalized mentorship plan tailored to your needs and objectives.
+**Customized Plan**: Based on your consultation, I'll create a personalized mentorship plan tailored to your needs and objectives.
 
-    Mentorship Sessions: Meet regularly with me for one-on-one coaching sessions, architecture reviews, and guidance.
+**Mentorship Sessions**: Meet regularly with me for one-on-one coaching sessions, architecture reviews, and guidance.
  
 
 If you are ready to get started, contact me to schedule your free consultation and take the first step towards your growth.
