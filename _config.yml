@@ -38,7 +38,7 @@ urls:
       url: /bookshelf_recommendations/
     - text: Learning Resources
       url: /learning_resources/
-    - text: Mentorship
+    - text: Mentorship Program for Staff Plus
       url: /mentorship/
 
 url: "https://gheorghina.github.io"
