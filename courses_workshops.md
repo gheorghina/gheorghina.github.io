@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Courses and Workshops Details
+title: Courses and Workshops
 permalink: /courses_workshops/
 ---
 
@@ -8,6 +8,7 @@ I am excited to introduce my new educational services designed to elevate expert
 an Online Course in Enterprise Architecture and an engaging Enterprise Architecture Case Study Workshop. 
 
 Both offerings leverage the globally recognized TOGAF framework and include real-world applications, ensuring practical knowledge that can be applied immediately in professional settings.
+
 
 
 ## Online Course in Enterprise Architecture
@@ -30,6 +31,7 @@ Table of Contents
     Future Trends in Enterprise Architecture 
 
 
+
 ## Enterprise Architecture Case Study Workshop
 
 The Case Study Workshop offers a dynamic, interactive environment where participants tackle real-world business scenarios using Event Driven Design and TOGAF’s comprehensive framework. Attendees will work through case studies tailored to industries like retail, healthcare, and finance, applying TOGAF standards to address and solve actual business challenges. This workshop is perfect for those who thrive in hands-on learning environments and wish to enhance their problem-solving skills in enterprise architecture.
@@ -48,8 +50,11 @@ Table of Contents
     Q&A and Open Discussion
     Workshop Wrap-Up
 
+
 Both programs are crafted to not only impart knowledge but also to cultivate the skills necessary for participants to effect significant digital transformation in their respective roles and organizations.
+
 
 For organizations interested in more detailed information or customized sessions tailored specifically to your company's needs, please feel free to reach out directly to gheorghina.gligor@gmail.com. 
 
-We are eager to discuss how we can assist your team in mastering enterprise architecture to drive business success. Reach out today to learn more about our offerings and how we can facilitate your journey in enterprise architecture excellence.
+
+I am eager to discuss how I can assist your team in mastering enterprise architecture to drive business success. Reach out to learn more about the above offerings and how I can facilitate your journey in enterprise architecture excellence.
