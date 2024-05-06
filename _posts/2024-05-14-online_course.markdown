@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Stereotypes and Misconceptions on TOGAF® Enterprise Architecture Certifications"
+title:  "Online Course in Enterprise Architecture and Enterprise Architecture Case Study Workshop"
 date:   2024-01-16 00:18:23 +0700
 categories: [architecture, enterprise, togaf]
 ---
