@@ -26,5 +26,3 @@ I am an adept trainer and mentor, often leading workshops and sessions on softwa
 In this blog space I will mainly keep my notes but I will also try to write advices and recommendations that may also help you.
 
 You may find posts on books, courses, practices, career advices or even some details working with various technologies and frameworks.
-
-Leave a comment or reach out to gligor.gheorghina@gmail.com if you see areas in which improvements can be made.
