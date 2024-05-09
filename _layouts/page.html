@@ -9,4 +9,16 @@ layout: default
   <div class="post-content">
     {{ content }}
   </div>
+
+  <form   action="https://formspree.io/f/xwkgzkaj" method="POST">
+    <label>
+      Your email:
+      <input type="email" name="email">
+    </label>
+    <label>
+      Your message:
+      <textarea name="message"></textarea>
+    </label>
+    <button type="submit">Send</button>
+  </form>
 </article>
