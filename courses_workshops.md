@@ -4,16 +4,37 @@ title: Courses and Workshops
 permalink: /courses_workshops/
 ---
 
-I am excited to introduce my new educational services designed to elevate expertise in enterprise architecture with two programs:
-an Online Course in Enterprise Architecture and an engaging Enterprise Architecture Case Study Workshop. 
+I am excited to introduce my new educational services designed to elevate expertise in software and enterprise architectures with three programs:
+one Software Architecture Workshop, one course in Enterprise Architecture and an engaging Enterprise Architecture Case Study Workshop. 
 
-Both offerings leverage the globally recognized TOGAF framework and include real-world applications, ensuring practical knowledge that can be applied immediately in professional settings.
+All offerings leverage the globally recognized frameworks and include real-world applications, ensuring practical knowledge that can be applied immediately in professional settings.
+
+## Software Architecture Workshop
+
+If you are looking to deepen your understanding of software architecture and gain practical experience with real-world systems, join the group for an immersive two-day on-site workshop designed to equip you with the essential skills and knowledge needed to excel in the field of software architecture. The workshop covers both foundational principles and advanced topics, ensuring a holistic learning experience.
+
+Table of Contents
+
+    Introduction to Software Architecture
+    Software Development Life Cycle
+    Foundations and Principles
+    Architectural Patterns and Styles
+    Design Principles and Best Practices
+    Technology and Data Architecture
+    Designing for Availability
+    Designing for Resiliency
+    Designing for Scalability
+    Designing for Security
+    Case Studies and Real-World Applications
+    Practical Tools and Techniques
+    Trends in Software Architecture 
+    Q&A and Open Discussion
+    Workshop Wrap-Up
 
 
+## Course in Enterprise Architecture
 
-## Online Course in Enterprise Architecture
-
-The Online Course meticulously covers all facets of enterprise architecture. It starts with the basics of TOGAF, advancing through complex subjects such as integration of technology and data architecture, security, and compliance. This course provides a robust foundation for understanding and applying enterprise architecture principles effectively within any organization. It's ideal for those new to enterprise architecture or professionals seeking to formalize and expand their knowledge with a certification-oriented approach.
+The Course meticulously covers all facets of enterprise architecture. It starts with the basics of TOGAF, advancing through complex subjects such as integration of technology and data architecture, security, and compliance. This course provides a robust foundation for understanding and applying enterprise architecture principles effectively within any organization. It's ideal for those new to enterprise architecture or professionals seeking to formalize and expand their knowledge with a certification-oriented approach.
 
 Table of Contents
 
@@ -28,11 +49,10 @@ Table of Contents
     Implementation and Governance
     Case Studies and Real-World Applications
     Practical Tools and Techniques
-    Future Trends in Enterprise Architecture 
+    Future Trends in Enterprise Architecture
 
 
-
-## Enterprise Architecture Case Study Workshop
+## Enterprise Architecture Case Studies Workshop
 
 The Case Study Workshop offers a dynamic, interactive environment where participants tackle real-world business scenarios using Event Driven Design and TOGAF’s comprehensive framework. Attendees will work through case studies tailored to industries like retail, healthcare, and finance, applying TOGAF standards to address and solve actual business challenges. This workshop is perfect for those who thrive in hands-on learning environments and wish to enhance their problem-solving skills in enterprise architecture.
 
