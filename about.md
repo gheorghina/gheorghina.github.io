@@ -6,8 +6,7 @@ permalink: /about/
 
 Hi,
 
-I am Gheorghina, a passionate, results driven  Senior Software Architect and Certified Enterprise Architecture Practitioner by the Open Group with over 17 years of experience in designing and implementing large-scale distributed systems. Specializing in solution architecture and technical leadership, I have a proven track record in the Home Automation, Life Sciences, Cloud Collaboration, Banking, Logistics and IOT sectors. 
-
+I am Gheorghina, a passionate, results driven Senior Software Architect and Certified Enterprise Architecture Practitioner by the Open Group with over 17 years of experience in designing and implementing large-scale distributed systems. Specializing in software architecture and technical leadership, I have a proven track record in the Home Automation, Life Sciences, Cloud Collaboration, Banking, Logistics and IOT sectors. 
  
 ## Training and Mentoring
 
@@ -16,6 +15,4 @@ I am an adept trainer and mentor, often leading workshops and sessions on softwa
 
 ## Blog Purpose
 
-In this blog space I will mainly keep my notes but I will also try to write advices and recommendations that may also help you.
-
-You may find posts on books, courses, practices, career advices or even some details working with various technologies and frameworks.
+In this blog space I will mainly keep my notes but I will also try to write advices and recommendations that may also help you. You will find here: thoughts on coding, software architecture design, ideas for solving business problems, advices for growing as an engineer and more importantly, advices for growing as a leader.
