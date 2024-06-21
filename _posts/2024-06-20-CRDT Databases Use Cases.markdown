@@ -28,9 +28,7 @@ Conflict-free Replicated Data Types (CRDTs) are used in systems with optimistic 
 
 Implementations for CRDTs can be found here [CRDT Implementations](https://crdt.tech/implementations)
 
-## Use Cases
-
-Conflict-free Replicated Data Types (CRDTs) are specialized data structures that enable safe and efficient data replication across distributed systems. They ensure eventual consistency without requiring coordination, making them ideal for applications that need to handle concurrent updates and offline functionality. Here are some use cases for CRDT databases:
+## Use Cases 
 
 1. **Collaborative Editing**
 
