@@ -87,8 +87,11 @@ Be open to change and be willing to adapt to new roles, projects, and technologi
 
 8. **Contribute. Be an Enabler**
 
-If all the above are lacking in your company, maybe you are the key to raise the awareness and highlight the need. 
+If all the above are lacking in your company, maybe you are the key to raise the awareness and highlight the need. Stop blaming external factors, take ownership and focus on action.
 
 Enable everyone around you to see this, and contribute together towards making it happen. 
 
-It is also in our power to bring the change, we shall not only wait for change to happen alone. 
+It is also in our power to bring in the change, we shall not only wait for change to be made by others. 
+
+
+
