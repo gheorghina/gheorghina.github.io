@@ -7,6 +7,8 @@ categories: [career management, growth]
 
 ## Detătător(in Romanian) aka The EverythingMaker(in English)
 
+![]({{ site.url }}/static/img/20130701-minions-afp.jpg) 
+
 How did we end-up in the situation in which the industries are trying to make us do anything at anytime? Can this be a cause for burnout as well?
 
 Have you checked the role descriptions on job boards lately? 
