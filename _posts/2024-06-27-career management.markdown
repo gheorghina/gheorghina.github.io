@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Take Charge of Your Career!"
-date:   2024-06-20 00:18:23 +0700
+title:  "Why bothering about career management or consistent job descriptions?"
+date:   2024-06-26 00:18:23 +0700
 categories: [career management, growth]
 ---
 
