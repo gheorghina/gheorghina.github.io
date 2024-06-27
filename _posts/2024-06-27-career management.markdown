@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Lack of sanity in role descriptions can bring you also fast to burnout!"
+title:  "Take Charge of Your Career!"
 date:   2024-06-20 00:18:23 +0700
 categories: [career management, growth]
 ---
