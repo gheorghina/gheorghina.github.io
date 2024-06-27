@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why bothering about career management or consistent job descriptions?"
+title:  "Why bother about career management or consistent job descriptions?"
 date:   2024-06-26 00:18:23 +0700
 categories: [career management, growth]
 ---
