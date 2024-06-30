@@ -35,23 +35,23 @@ Therefore, a proper career management is crucial in the software industry due to
 
 I do think an industry standard would not be difficult to put in place.
 
-1. **Seek clarity in Role Descriptions, but mostly Your Mind!**
+**Seek clarity in Role Descriptions, but mostly Your Mind!**
 
 Each company shall have a list of role descriptions, ideally in form of responsibilities which can allow a level of freedom and adaptation, not fixed exact frameworks to know.
 
 Even if that is or not your case, seek to have the roles and responsibilities you aspire clearly defined in your mind as well. There are plenty of resources out there to help you out.
 
-2. **Set Clear Goals and Expectations**
+**Set Clear Goals and Expectations**
 
 There is no point in setting goals for the sake of a process. It has to be meaningful to you. It has to ring a bell in your manager's brain as well. 
 
-3. **Opportunities**
+**Opportunities**
 
 Nothing can teach you better than doing the job. Finding good suited opportunity will give meaning to your work, bringing a double reward, keeping your mind healthy.
 
 It matters to work with purpose, as without, it will be easier to loose the grip. 
 
-4. **Conscious Continuous Learning**
+**Conscious Continuous Learning**
 
 Once the above points are checked, it would be a lot easier to focus the energy on a continuous learning without drowning in the vast amount of possibilities.
 
@@ -59,7 +59,7 @@ This will help you stay true to yourself, and later on be able to spot opportuni
 
 Seek opportunities to work on different types of projects within your organization. Volunteer for challenging assignments to broaden your experience.
 
-4. **Seek Mentorship**
+**Seek Mentorship**
 
 Now is the time to give my gardening example. 
 
@@ -69,23 +69,23 @@ Only then I learned that they were cool, but this is not how you shall grow toma
 
 Having a mentor can help you opening your eyes towards directions you did not even think about and will speed up the process of learning for you.
 
-5. **Seek Feedback** 
+**Seek Feedback** 
 
 Regularly seek feedback from supervisors, peers, and subordinates. 
 
 Sometimes, if you are too focused on your way, you may loose sight of important matters related to working in a community, especially around the area of soft skills.
 
-6. **Work-Life Balance**
+**Work-Life Balance**
 
 Never forget, career matters, but what matters the most is family and your health.
 
 Prioritize and manage your time effectively. Take breaks and ensure you have time for personal interests as well.
 
-7. **Adaptability**
+**Adaptability**
 
 Be open to change and be willing to adapt to new roles, projects, and technologies. Develop a growth mindset and embrace lifelong learning.
 
-8. **Contribute. Be an Enabler**
+**Contribute. Be an Enabler**
 
 If all the above are lacking in your company, maybe you are the key to raise the awareness and highlight the need. Stop blaming external factors, take ownership and focus on action.
 
