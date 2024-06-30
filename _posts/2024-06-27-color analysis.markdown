@@ -12,7 +12,7 @@ categories: [professional color analysis]
 
 I have tried to find other activities besides my daily professional work, in a completely different field but within the realm of passions and knowledge acquired over time: color analysis!
 
-I am happy to announce that I have obtained a Certificate in Personal Color Analysis!
+I am happy to announce that I have obtained a Certificate in Professional Personal Color Analysis!
 
 For more details about color theory, for information on the science behind the theoretical concepts (Johannes Itten's studies: https://en.wikipedia.org/wiki/Johannes_Itten, Munsell Catalogs: https://en.wikipedia.org/wiki/Munsell_color_system), for recommendations, or to book a consultation, you can contact me directly or follow my color blog: https://virtualstylecompanion.com/blog/about-color-analysis.html.
 
