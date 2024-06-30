@@ -7,6 +7,9 @@ categories: [workflow, orchestrators, BPM]
 
 ### When Hobbies Become Support for the Community
 
+
+![]({{ site.url }}/static/img/Munsell-system.svg.png)
+
 I have tried to find other activities besides my daily professional work, in a completely different field but within the realm of passions and knowledge acquired over time: color analysis!
 
 I am happy to announce that I have obtained a Certificate in Personal Color Analysis!
@@ -19,7 +22,9 @@ I am currently working on developing an application that provides support in cre
 What is Color Analysis:
 
 Personal color analysis, also known as seasonal color analysis, is a method used to determine which colors are most flattering for a person based on their skin tone, eye color, and natural hair color. This analysis helps classify a person into a specific "season" or sub-season (spring, summer, autumn, winter), each with a corresponding palette of colors that complement their natural characteristics.
-Why Someone Might Want a Color Analysis:
+
+
+**Why Someone Might Want a Color Analysis:**
 
 **Improve Appearance:** Wearing the right colors can enhance natural beauty, making the skin look healthier and more radiant, and the eyes and hair more vibrant.
 
