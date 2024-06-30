@@ -2,7 +2,7 @@
 layout: post
 title:  "Professional Color Analysis"
 date:   2024-06-26 00:18:23 +0700
-categories: [workflow, orchestrators, BPM]
+categories: [professional color analysis]
 ---
 
 ### When Hobbies Become Support for the Community
