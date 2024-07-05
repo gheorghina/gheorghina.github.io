@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dealing with Legacy Systems, Layered Architectures and Monoliths before or even instead of moving them to Microservices"
-date:   2024-05-21 00:18:23 +0700
+date:   2024-06-21 00:18:23 +0700
 categories: [architecture, legacy, monolith, layered architecture]
 ---
 
