@@ -154,7 +154,21 @@ layout: compress
             {% for i in site.urls %}
               <li><a class="about" href="{{ i.url }}">{{ i.text }}</a></li>
             {% endfor %}
+            <li>
+              <form action="https://formspree.io/f/xrgndgrw" method="POST">
+
+                <h2>Subscribe to new posts:</h2>
+              
+                <h3>Email address:</h3>
+                <input type="email" name="email" class="input form-control">
+                
+                <br>
+                
+                <button type="submit">Subscribe</button>
+              </form>
+            </li>
           </ul>
+
         </div>
         <!-- end /.fixed-condition -->
       </div>
