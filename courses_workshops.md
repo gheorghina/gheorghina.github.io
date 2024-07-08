@@ -46,10 +46,18 @@ Table of Contents
     Technology and Data Architecture
     Security Architecture and Compliance
     Stakeholder Engagement and Management
-    Implementation and Governance
-    Case Studies and Real-World Applications
+    Implementation and Governance    
     Practical Tools and Techniques
-    Future Trends in Enterprise Architecture
+    Designing Modern Systems
+        - Distributed Caching Solutions
+        - Distributed Monitoring and Logging Solutions
+        - Distributed Messaging Systems
+        - Distributed Search Solutions
+        - Distributed Task Scheduler
+    Case Studies and Real-World Applications
+        - Case Study 1: Digital Transformation in IOT
+        - Case Study 2: Healthcare System Integration
+        - Case Study 3: Financial Services Modernization
 
 
 ## Enterprise Architecture Case Studies Workshop
