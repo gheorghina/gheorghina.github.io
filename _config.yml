@@ -32,11 +32,11 @@ share:
 urls:
     - text: About Me
       url: /about/
-    - text: Bookshelf Recommendations
+    - text: Books Are Your Best Mentors
       url: /bookshelf_recommendations/
     - text: Learning Resources
       url: /learning_resources/
-    - text: Mentorship Program for Staff Plus
+    - text: Mentorship Program for Staff+
       url: /mentorship/
     - text: Courses and Workshops
       url: /courses_workshops/
