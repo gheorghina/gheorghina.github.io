@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Books are your best mentors
+title: Books Are Your Best Mentors
 permalink: /bookshelf_recommendations/
 ---
 
