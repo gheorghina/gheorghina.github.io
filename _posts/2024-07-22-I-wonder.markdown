@@ -34,6 +34,7 @@ The common patterns I see repeating in projects which fail, get stuck, burn peop
 7. The coworkers would spin the wheel in clarity of the vision and the end goals. Those who would like to take more ownership and grow would have clarity on the open opportunities.
 8. The deadlines would be guidelines to be used for understanding where the team is going and where it is at one point.
 9. Then management can focus constructively on how to enable and support teams instead of endless frictions topped with pressure to achieve unreasonable targets.
+10. Check out the bellow resources on continuous delivery and best practices for software delivery
 
 If you are the leader, of any of the above steps, make sure you don't make everyone depend on you verbally having to explain the same things over and over again.
 
@@ -83,6 +84,10 @@ Stakeholder Misalignment:
 ## Additional Interesting Resources
 
 - [Siliconned: How the tech industry solves fake problems, hoards idle workers, and makes doomed bets with other people's money](https://www.goodreads.com/book/show/215041537-siliconned?ac=1&from_search=true&qid=K6mEK9RW3J&rank=1)
+
+- [Modern Software Engineering: Doing What Works to Build Better Software Faster, David Farley, Trisha Gee](https://www.goodreads.com/book/show/57345270-modern-software-engineering)
+
+- [Continuous delivery](https://www.goodreads.com/book/show/8686650-continuous-delivery)
 
 
 
