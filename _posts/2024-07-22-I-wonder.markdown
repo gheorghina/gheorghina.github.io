@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "I Often Wonder Why Projects Fail & People Burnout"
+title:  "I Wonder Why Projects Still Fail Today"
 date:   2024-07-22 00:18:23 +0700
 categories: [architecture, failing-projects]
 ---
