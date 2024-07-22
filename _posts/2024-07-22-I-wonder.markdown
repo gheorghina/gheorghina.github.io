@@ -23,6 +23,11 @@ The common patterns I see repeating in projects which fail, get stuck, burn peop
 9. Hope based project delivery, while making sure the risk of not hitting the fictionally deadlines is stated multiple times.
 10. The surprise when after 6 months, 12 months or even longer, the projects still linger, while huge amounts of money were spent.
 
+Did I mention collaboration? 
+
+When structures, systems, mindsets are of nature to rank, compete against each other for earning money, deliver more, destroy, ensure the other sinks, redirect focus on other problems or "having" to gate keep secrets, no process, approach or good will can help. 
+The sad truth with those approaches is that everyone looses in the end: the people, the company, the business.
+
 ## How would I change the above?
 
 1. Make sure you understand the existing solutions, with their good and poor sides.
@@ -36,7 +41,9 @@ The common patterns I see repeating in projects which fail, get stuck, burn peop
 9. Then management can focus constructively on how to enable and support teams instead of endless frictions topped with pressure to achieve unreasonable targets.
 10. Check out the bellow resources on continuous delivery and best practices for software delivery
 
-If you are the leader, of any of the above steps, make sure you don't make everyone depend on you verbally having to explain the same things over and over again.
+If you are the leader, of any of the above steps, make sure you don't make everyone depend on you verbally having to explain the same things over and over again. 
+
+Encourage the culture of trust, feedback, safety and collaboration. It will take one miles away, on paths in which you will not have to be alone.
 
 ## Many Other Reasons Why Projects Fail
 
