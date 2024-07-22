@@ -33,9 +33,12 @@ I saw in all:
 8. The deadlines would be guidelines to be used for understanding where the team is going and where it is at one point.
 9. Then management can focus constructively on how to enable and support teams instead of endless frictions topped with pressure to achieve unreasonable targets.
 
-The above is just very brief frameworks tailoring on how I like to approach things and how I managed to support in complex projects successful deliveries.
+The above is just very brief framework tailoring on how I like to approach things and how I managed to support in complex projects successful deliveries.
 
-The above is not rocket science, it sounds so logical and obvious to me. There are amazing teams, leaders and managers out there who do exactly this. 
-Yet I am still amazed today about how many teams are skipping all the steps just for the illusion of going fast and "agile".  
+The above is not rocket science, it should sound logical, obvious and clear. 
+
+There are amazing teams, leaders and managers out there who do exactly this. 
+
+Yet, I am still amazed today about how many teams are skipping all the steps just for the illusion of going fast and "agile".  
 
 How can it be that after so many years of successful projects being delivered, hundreds, if not thousands of books being written on the topic, frameworks being shaped based on the learnings of the giants, half of the group are still learning/discovering the above?
