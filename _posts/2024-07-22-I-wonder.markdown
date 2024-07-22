@@ -17,14 +17,14 @@ I saw in all:
 5. A roadmap scribbled on a sheet of paper based on thin air understandings, which forgets about any risk topic that has to be addressed.
 6. Endless discussions around how 5 is a bad plan, and asks to shrink the efforts.
 7. No one cares to answer questions which address 1 to 4 points, as long as time and money can be shrunk in 5 due to pressure.
-8. Poor coworkers spinning the wheel, burning out, without understanding any of the above, without being able to make an impact, grow and learn while doing the work.
+8. Coworkers with very low morale, spinning the wheel, burning out, without understanding any of the above, without being able to make an impact, grow and learn while doing the work.
 9. Hope based project delivery, while making sure the risk of not hitting the fictionally deadlines is repeated multiple times.
 10. The surprise after 6 months, 12 months or even longer of projects which still linger, while huge amounts of money were spent.
 
 ## HOW would I change the above?
 
 1. Make sure you understand the existing solutions, with their good and poor sides.
-2. Make sure the needs are understood, and at least high level documented, to reduce the risks of misunderstanding each other.
+2. Make sure the needs are understood, and at least high level documented, to reduce the risks of misunderstanding each other. A problem well defined, is a problem half solved.
 3. Work on a solution, allow others the chance to participate. Brainstorming and solution spaces can bring so many benefits from getting clarity, to enabled learning and also for more robust solutions in a forum which enables the buy in.
 4. Once Status Quo and Target Architectures are aligned, the gap represents only the transition steps required.
 5. The transition steps can be added to a roadmap definition with clarity on work which can be parallelized or which has to be kept sequential.
