@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "I Often Wonder Why Projects Fail"
+date:   2024-07-22 00:18:23 +0700
+categories: [architecture, failing-projects]
+---
+
+I see a pattern in projects which fail/get stuck/burn people out/create frictions and make businesses lose trust in tech.
+The projects you know are bound to fail even before they start.
+
+I saw in all:
+
+1. The lack of detailed understanding of the status quo
+2. The lack of understanding of the needs
+3. The lack of detailed solution covering the needs
+4. The lack of gap analysis from the status quo to the desired solution
+5. A roadmap scribbled on a sheet of paper based on thin air understandings, which forgets about any risk topic that has to be addressed.
+6. Endless discussions around how 5 is a bad plan, and asks to shrink the efforts.
+7. No one cares to answer questions which address 1 to 4 points, as long as time and money can be shrunk in 5 due to pressure.
+8. Poor coworkers spinning the wheel, burning out, without understanding any of the above, without being able to make an impact, grow and learn while doing the work.
+9. Hope based project delivery, while making sure the risk of not hitting the fictionally deadlines is repeated multiple times.
+10. The surprise after 6 months, 12 months or even longer of projects which still linger, while huge amounts of money were spent.
+
+## HOW would I change the above?
+
+1. Make sure you understand the existing solutions, with their good and poor sides.
+2. Make sure the needs are understood, and at least high level documented, to reduce the risks of misunderstanding each other.
+3. Work on a solution, allow others the chance to participate. Brainstorming and solution spaces can bring so many benefits from getting clarity, to enabled learning and also for more robust solutions in a forum which enables the buy in.
+4. Once Status Quo and Target Architectures are aligned, the gap represents only the transition steps required.
+5. The transition steps can be added to a roadmap definition with clarity on work which can be parallelized or which has to be kept sequential.
+6. The plan discussions for adjustments and optimizations would have a consistent basis which can enable healthy strategic alignments towards making things happen. Or at least bring clarity and transparency on why some area would require more time and effort.
+7. The coworkers would spin the wheel in clarity of the vision and the end goals. Those who would like to take more ownership and grow would have clarity on the open opportunities.
+8. The deadlines would be guidelines to be used for understanding where the team is going and where it is at one point.
+9. Then management can focus constructively on how to enable and support teams instead of endless frictions topped with pressure to achieve unreasonable targets.
+
+The above is just very brief frameworks tailoring on how I like to approach things and how I managed to support in complex projects successful deliveries.
+
+The above is not rocket science, it sounds so logical and obvious to me. There are amazing teams, leaders and managers out there who do exactly this. 
+Yet I am still amazed today about how many teams are skipping all the steps just for the illusion of going fast and "agile".  
+
+How can it be that after so many years of successful projects being delivered, hundreds, if not thousands of books being written on the topic, frameworks being shaped based on the learnings of the giants, half of the group are still learning/discovering the above?
