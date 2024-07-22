@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "I Often Wonder Why Projects Fail"
+title:  "I Often Wonder Why Projects Fail & People Burnout"
 date:   2024-07-22 00:18:23 +0700
 categories: [architecture, failing-projects]
 ---
@@ -42,3 +42,7 @@ There are amazing teams, leaders and managers out there who do exactly this.
 Yet, I am still amazed today about how many teams are skipping all the steps just for the illusion of going fast and "agile".  
 
 How can it be that after so many years of successful projects being delivered, hundreds, if not thousands of books being written on the topic, frameworks being shaped based on the learnings of the giants, half of the group are still learning/discovering the above?
+
+## Additional Interesting Resources
+
+- [Siliconned: How the tech industry solves fake problems, hoards idle workers, and makes doomed bets with other people's money](https://www.goodreads.com/book/show/215041537-siliconned?ac=1&from_search=true&qid=K6mEK9RW3J&rank=1)
