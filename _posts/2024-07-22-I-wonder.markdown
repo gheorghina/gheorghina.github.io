@@ -23,7 +23,7 @@ The common patterns I see repeating in projects which fail, get stuck, burn peop
 9. Hope based project delivery, while making sure the risk of not hitting the fictionally deadlines is stated multiple times.
 10. The surprise when after 6 months, 12 months or even longer, the projects still linger, while huge amounts of money were spent.
 
-## HOW would I change the above?
+## How would I change the above?
 
 1. Make sure you understand the existing solutions, with their good and poor sides.
 2. Make sure the needs are understood and at least high level documented, to reduce the risks of misunderstanding each other. A problem well defined, is a problem half solved.
