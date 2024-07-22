@@ -36,7 +36,7 @@ The sad truth with those approaches is that everyone looses in the end: the peop
 4. Once Status Quo and Target Architectures are aligned, the gap represents only the transition steps required.
 5. The transition steps can be added to a roadmap definition with clarity on work which can be parallelized or which has to be kept sequential.
 6. The plan discussions for adjustments and optimizations would have a consistent basis which can enable healthy strategic alignments towards making things happen. Or at least bring clarity and transparency on why some area would require more time and effort.
-7. The coworkers would spin the wheel in clarity of the vision and the end goals. Those who would like to take more ownership and grow would have clarity on the open opportunities.
+7. The coworkers would work with the clarity of the vision and of the end goals. Those who would like to take more ownership and grow would have clarity on the open opportunities.
 8. The deadlines would be guidelines to be used for understanding where the team is going and where it is at one point.
 9. Then management can focus constructively on how to enable and support teams instead of endless frictions topped with pressure to achieve unreasonable targets.
 10. Check out the bellow resources on continuous delivery and best practices for software delivery
