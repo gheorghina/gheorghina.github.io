@@ -82,7 +82,7 @@ Table of Contents
 Both programs are crafted to not only impart knowledge but also to cultivate the skills necessary for participants to effect significant digital transformation in their respective roles and organizations.
 
 
-For organizations interested in more detailed information or customized sessions tailored specifically to your company's needs, please feel free to reach out directly to gheorghina.gligor@gmail.com. 
+For organizations interested in more detailed information or customized sessions tailored specifically to your company's needs, please feel free to reach out directly.
 
 
 I am eager to discuss how I can assist your team in mastering enterprise architecture to drive business success. Reach out to learn more about the above offerings and how I can facilitate your journey in enterprise architecture excellence.
