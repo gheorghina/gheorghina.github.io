@@ -32,7 +32,7 @@ share:
 urls:
     - text: About Me
       url: /about/
-    - text: Books Are Your Best Mentors
+    - text: Books Are The Best Mentors
       url: /bookshelf_recommendations/
     - text: Learning Resources
       url: /learning_resources/
