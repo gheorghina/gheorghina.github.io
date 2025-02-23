@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Designing Resilient and Scalable BPM Orchestration Systems"
-date:   2024-15-10 00:18:23 +0700
+date:   2024-10-15 00:18:23 +0700
 categories: [distributed systems, architecture, fault tolerance, resiliency]
 ---
 
