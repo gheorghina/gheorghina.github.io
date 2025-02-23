@@ -152,45 +152,45 @@ Tools like [PropEr](http://proper.softlab.ntua.gr/) (property-based testing in E
 
 ### Collaborative Editing
 
-    Example: Google Docs, Microsoft Office 365
-    Description: CRDTs power real-time collaboration by letting multiple users edit documents simultaneously—even offline. Each user’s local copy can diverge, then seamlessly converge when connected again.
-    Benefit: Provides a fluid, real-time experience where conflicts are transparently resolved. No central server arbitration is necessary to prevent inconsistent states.
+Example: Google Docs, Microsoft Office 365
+Description: CRDTs power real-time collaboration by letting multiple users edit documents simultaneously—even offline. Each user’s local copy can diverge, then seamlessly converge when connected again.
+Benefit: Provides a fluid, real-time experience where conflicts are transparently resolved. No central server arbitration is necessary to prevent inconsistent states.
 
 ### Messaging and Chat Applications
 
-    Example: Slack, WhatsApp, Microsoft Teams
-    Description: CRDTs ensure consistent replication of messages, edits, or deletions across clients. If a user goes offline, local message changes are integrated correctly upon reconnection.
-    Benefit: Ensures everyone sees a coherent conversation, regardless of network reliability or client offline periods.
+Example: Slack, WhatsApp, Microsoft Teams
+Description: CRDTs ensure consistent replication of messages, edits, or deletions across clients. If a user goes offline, local message changes are integrated correctly upon reconnection.
+Benefit: Ensures everyone sees a coherent conversation, regardless of network reliability or client offline periods.
 
 ### Distributed File Systems
 
-    Example: Dropbox, Google Drive
-    Description: CRDTs can track file versions across distributed nodes. Users can work offline; when they reconnect, file modifications merge automatically.
-    Benefit: Minimizes data conflicts and version chaos, ensuring users have the most up-to-date and consistent file copies.
+Example: Dropbox, Google Drive
+Description: CRDTs can track file versions across distributed nodes. Users can work offline; when they reconnect, file modifications merge automatically.
+Benefit: Minimizes data conflicts and version chaos, ensuring users have the most up-to-date and consistent file copies.
 
 ### E-Commerce Platforms
 
-    Example: Amazon, eBay
-    Description: Distributed inventory systems, shopping carts, and order processing benefit from CRDT-based merges when updates happen in multiple regions.
-    Benefit: Prevents double-selling, stale cart states, or lost orders by automatically reconciling concurrent modifications to inventory or user sessions.
+Example: Amazon, eBay
+Description: Distributed inventory systems, shopping carts, and order processing benefit from CRDT-based merges when updates happen in multiple regions.
+Benefit: Prevents double-selling, stale cart states, or lost orders by automatically reconciling concurrent modifications to inventory or user sessions.
 
 ### Social Media Applications
 
-    Example: Facebook, Twitter
-    Description: User posts, comments, and interactions (likes, shares) replicate across multiple data centers. CRDTs provide a robust way to merge event timelines.
-    Benefit: Maintains consistent, up-to-date feeds for every user, even under heavy traffic or partial outages.
+ Example: Facebook, Twitter
+Description: User posts, comments, and interactions (likes, shares) replicate across multiple data centers. CRDTs provide a robust way to merge event timelines.
+Benefit: Maintains consistent, up-to-date feeds for every user, even under heavy traffic or partial outages.
 
 ### IoT and Edge Computing
 
-    Example: Smart homes, industrial IoT platforms
-    Description: Edge devices that intermittently connect to the cloud can store local updates in CRDT form. Once back online, data merges seamlessly into the global state.
-    Benefit: Guarantees that sensor readings, device settings, or logs remain accurate despite frequent disconnections or network partitions.
+Example: Smart homes, industrial IoT platforms
+Description: Edge devices that intermittently connect to the cloud can store local updates in CRDT form. Once back online, data merges seamlessly into the global state.
+Benefit: Guarantees that sensor readings, device settings, or logs remain accurate despite frequent disconnections or network partitions.
 
 ### Gaming
 
-    Example: Multiplayer online games
-    Description: CRDTs manage real-time game state (positions, inventories, scores) across distributed servers and clients.
-    Benefit: Provides a consistent experience with minimal lag-induced conflicts. Local changes get merged as soon as a node reconnects.
+Example: Multiplayer online games
+Description: CRDTs manage real-time game state (positions, inventories, scores) across distributed servers and clients.
+Benefit: Provides a consistent experience with minimal lag-induced conflicts. Local changes get merged as soon as a node reconnects.
 
 How CRDTs Solve Brain-Split Issues
 
