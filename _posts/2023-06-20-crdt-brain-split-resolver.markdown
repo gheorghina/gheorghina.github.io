@@ -32,10 +32,6 @@ A notorious problem in distributed systems is the split-brain scenario. This hap
 **Inconsistent State** Even after rejoining, data might remain out of sync, causing bugs and confusion for end-users.
 
 CRDTs address these challenges gracefully. They allow concurrent updates on all partitions (even in a split-brain scenario) and automatically merge them back into a single coherent state—no manual conflict resolution needed.
-CRDT Implementations
-
-If you’re ready to try out CRDTs, check out CRDT Implementations. You’ll find libraries and frameworks in various languages (e.g., JavaScript, Go, Erlang, Rust) that implement counters, sets, maps, and sequence data structures with built-in conflict-free merges.
-Use Cases
 
 ## Handling of brain splits in Elixir
 
