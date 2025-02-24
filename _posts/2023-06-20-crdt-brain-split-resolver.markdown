@@ -189,6 +189,19 @@ Split-Brain Savior: With CRDTs, even severe partitions can be tolerated; each si
 
 Broad Use Cases: From chat apps to enterprise-scale e-commerce, CRDTs fit where local writes must remain possible under poor connectivity.
 
+##  As per Wiki, Examples of Industry Use
+
+- [Fluid Framework](https://fluidframework.com/) is an open-source collaborative platform built by Microsoft that provides both server reference implementations and client-side SDKs for creating modern real-time web applications using CRDTs.
+- [Nimbus Note](https://en.wikipedia.org/wiki/Nimbus_Note) is a collaborative note-taking application that uses the Yjs CRDT for collaborative editing
+- [Redis](https://redis.io/blog/diving-into-crdts/) is a distributed, highly available, and scalable in-memory database with a "CRDT-enabled database" feature.
+- [SoundCloud open-sourced Roshi](https://github.com/soundcloud/roshi), a LWW-element-set CRDT for the SoundCloud stream implemented on top of Redis.
+- [Riak](https://riak.com/index.html) is a distributed NoSQL key-value data store based on CRDTs. League of Legends uses the Riak CRDT implementation for its in-game chat system, which handles 7.5 million concurrent users and 11,000 messages per second.
+- [Phoenix](https://hexdocs.pm/phoenix/overview.html), a web framework written in Elixir, uses CRDTs to support real-time multi-node information sharing in version 1.2.
+- Facebook implements CRDTs in their Apollo low-latency "consistency at scale" database.
+- Facebook uses CRDTs in their FlightTracker system for managing the Facebook graph internally.
+- [Teletype for Atom employs CRDTs](https://github.com/atom/teletype-crdt) to enable developers share their workspace with team members and collaborate on code in real time.
+- Apple implements CRDTs in the Notes app for syncing offline edits between multiple devices.
+
 ## References 
 
 - [CRDT](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type)
