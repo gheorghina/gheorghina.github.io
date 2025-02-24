@@ -33,7 +33,7 @@ A notorious problem in distributed systems is the split-brain scenario. This hap
 
 CRDTs address these challenges gracefully. They allow concurrent updates on all partitions (even in a split-brain scenario) and automatically merge them back into a single coherent state—no manual conflict resolution needed.
 
-## Handling of brain splits in Elixir
+## Handling of brain splits in Elixir without CRDTs
 
 ### Mnesia Database Netsplits
 
@@ -140,49 +140,47 @@ If there’s an actual partition, each half will do something different. On reco
 
 ## Use Cases for CRDTs
 
-### Collaborative Editing
+### Collaborative Editing  in Google Docs, Microsoft Office 365
 
-Example: Google Docs, Microsoft Office 365
-Description: CRDTs power real-time collaboration by letting multiple users edit documents simultaneously—even offline. Each user’s local copy can diverge, then seamlessly converge when connected again.
-Benefit: Provides a fluid, real-time experience where conflicts are transparently resolved. No central server arbitration is necessary to prevent inconsistent states.
+CRDTs power real-time collaboration by letting multiple users edit documents simultaneously—even offline. Each user’s local copy can diverge, then seamlessly converge when connected again.
 
-### Messaging and Chat Applications
+Provides a fluid, real-time experience where conflicts are transparently resolved. No central server arbitration is necessary to prevent inconsistent states.
 
-Example: Slack, WhatsApp, Microsoft Teams
-Description: CRDTs ensure consistent replication of messages, edits, or deletions across clients. If a user goes offline, local message changes are integrated correctly upon reconnection.
-Benefit: Ensures everyone sees a coherent conversation, regardless of network reliability or client offline periods.
+### Messaging and Chat Applications: Slack, WhatsApp, Microsoft Teams
 
-### Distributed File Systems
+CRDTs ensure consistent replication of messages, edits, or deletions across clients. If a user goes offline, local message changes are integrated correctly upon reconnection.
 
-Example: Dropbox, Google Drive
-Description: CRDTs can track file versions across distributed nodes. Users can work offline; when they reconnect, file modifications merge automatically.
-Benefit: Minimizes data conflicts and version chaos, ensuring users have the most up-to-date and consistent file copies.
+Ensures everyone sees a coherent conversation, regardless of network reliability or client offline periods.
 
-### E-Commerce Platforms
+### Distributed File Systems: Dropbox, Google Drive
 
-Example: Amazon, eBay
-Description: Distributed inventory systems, shopping carts, and order processing benefit from CRDT-based merges when updates happen in multiple regions.
-Benefit: Prevents double-selling, stale cart states, or lost orders by automatically reconciling concurrent modifications to inventory or user sessions.
+CRDTs can track file versions across distributed nodes. Users can work offline; when they reconnect, file modifications merge automatically.
 
-### Social Media Applications
+Minimizes data conflicts and version chaos, ensuring users have the most up-to-date and consistent file copies.
 
- Example: Facebook, Twitter
-Description: User posts, comments, and interactions (likes, shares) replicate across multiple data centers. CRDTs provide a robust way to merge event timelines.
-Benefit: Maintains consistent, up-to-date feeds for every user, even under heavy traffic or partial outages.
+### E-Commerce Platforms: Amazon, eBay
+ 
+Distributed inventory systems, shopping carts, and order processing benefit from CRDT-based merges when updates happen in multiple regions.
+Prevents double-selling, stale cart states, or lost orders by automatically reconciling concurrent modifications to inventory or user sessions.
 
-### IoT and Edge Computing
+### Social Media Applications: Facebook, Twitter
 
-Example: Smart homes, industrial IoT platforms
-Description: Edge devices that intermittently connect to the cloud can store local updates in CRDT form. Once back online, data merges seamlessly into the global state.
-Benefit: Guarantees that sensor readings, device settings, or logs remain accurate despite frequent disconnections or network partitions.
+User posts, comments, and interactions (likes, shares) replicate across multiple data centers. CRDTs provide a robust way to merge event timelines.
+Maintains consistent, up-to-date feeds for every user, even under heavy traffic or partial outages.
 
-### Gaming
+### IoT and Edge Computing: Smart homes, industrial IoT platforms
 
-Example: Multiplayer online games
-Description: CRDTs manage real-time game state (positions, inventories, scores) across distributed servers and clients.
-Benefit: Provides a consistent experience with minimal lag-induced conflicts. Local changes get merged as soon as a node reconnects.
+Edge devices that intermittently connect to the cloud can store local updates in CRDT form. Once back online, data merges seamlessly into the global state.
+Guarantees that sensor readings, device settings, or logs remain accurate despite frequent disconnections or network partitions.
 
-How CRDTs Solve Brain-Split Issues
+### Gaming: Multiplayer online games
+
+CRDTs manage real-time game state (positions, inventories, scores) across distributed servers and clients.
+
+Provides a consistent experience with minimal lag-induced conflicts. Local changes get merged as soon as a node reconnects.
+
+
+## How CRDTs Solve Brain-Split Issues
 
 In a typical split-brain scenario, multiple replicas might keep accepting writes, leading to divergent states. CRDT-based data models inherently support:
 
