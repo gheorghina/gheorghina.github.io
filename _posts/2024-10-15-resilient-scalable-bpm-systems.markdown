@@ -152,7 +152,7 @@ By focusing on fault tolerance, automation, monitoring, and continuous improveme
 
 In the end, resilient systems truly do lead to resilient (and more productive) teams.
 
-**For a deep dive into building reliable distributed systems, see Martin Kleppmann’s Designing Data-Intensive Applications** 
+*For a deep dive into building reliable distributed systems, see Martin Kleppmann’s Designing Data-Intensive Applications*
 
 Explore the Fallacies of Distributed Computing to understand common assumptions that break in production environments.
 
