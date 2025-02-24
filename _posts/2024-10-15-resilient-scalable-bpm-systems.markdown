@@ -9,13 +9,13 @@ In the rapidly evolving landscape of technology, distributed systems are a backb
 
 Designing distributed systems comes with inherent complexities due to the decentralized nature of such architectures. Key challenges include:
 
-**Communication Overhead**: As components communicate over a network, the system must handle the overhead of data transmission and latency.
+*Communication Overhead*: As components communicate over a network, the system must handle the overhead of data transmission and latency.
 
-**Concurrency**: Managing data consistency with concurrent processes requires intricate coordination, often complicating the system design.
+*Concurrency*: Managing data consistency with concurrent processes requires intricate coordination, often complicating the system design.
 
-**Scalability Issues**: Scaling a distributed system involves not just handling more data or requests, but also managing increased communication and coordination across distributed components.
+*Scalability Issues*: Scaling a distributed system involves not just handling more data or requests, but also managing increased communication and coordination across distributed components.
 
-**Heterogeneity**: Distributed systems often involve a mix of technologies, which can vary in hardware, operating systems, and network capabilities, requiring careful integration and testing.
+*Heterogeneity*: Distributed systems often involve a mix of technologies, which can vary in hardware, operating systems, and network capabilities, requiring careful integration and testing.
 
 
 ## Correctness in Distributed Systems
@@ -24,11 +24,11 @@ Distributed systems, by nature, involve multiple components located across diffe
 
 The correctness of a distributed system is not just about individual components working correctly but also about how these components interact.
 
-**Partition tolerance**: In a distributed environment, data must travel between different nodes, which can lead to unpredictable latency and network partitions. A system that can maintain consistency and availability despite arbitrary message loss or failure of part of the system, is considered partition-tolerant.
+*Partition tolerance*: In a distributed environment, data must travel between different nodes, which can lead to unpredictable latency and network partitions. A system that can maintain consistency and availability despite arbitrary message loss or failure of part of the system, is considered partition-tolerant.
 
-**Availability**: Components in distributed systems can fail independently, making fault tolerance a critical consideration. Availability implies that the system remains operational, even when one or more components fail.
+*Availability*: Components in distributed systems can fail independently, making fault tolerance a critical consideration. Availability implies that the system remains operational, even when one or more components fail.
 
-**Consistency**: Refers to the ability for all clients see the same data at the same time, crucial for data integrity across distributed nodes. Ensuring data consistency across distributed nodes can be challenging due to the asynchronous nature of these systems.
+*Consistency*: Refers to the ability for all clients see the same data at the same time, crucial for data integrity across distributed nodes. Ensuring data consistency across distributed nodes can be challenging due to the asynchronous nature of these systems.
 
 
 ## The Challenge of Distributed Systems
@@ -175,101 +175,101 @@ Consider chaos engineering as a proactive approach to discovering weaknesses bef
 ## Study Cases
 
 ### Google File System (GFS)
-- **Original Paper**: “The Google File System” (Sanjay Ghemawat, Howard Gobioff, and Shun-Tak Leung, 2003)
-- **Link**: [Google File System](https://research.google.com/archive/gfs.html)
-- **Description**: Explains how GFS handles large-scale data storage with fault tolerance using chunk servers, replication, and a master for metadata.
+- *Original Paper*: “The Google File System” (Sanjay Ghemawat, Howard Gobioff, and Shun-Tak Leung, 2003)
+- *Link*: [Google File System](https://research.google.com/archive/gfs.html)
+- *Description*: Explains how GFS handles large-scale data storage with fault tolerance using chunk servers, replication, and a master for metadata.
 
 ### Hadoop Distributed File System (HDFS)
-- **Documentation**: [Apache Hadoop Documentation](https://hadoop.apache.org/docs)
-- **Book**: *Hadoop: The Definitive Guide* (Tom White)
-- **Description**: Covers design, writing/reading files in HDFS, replication factors, and the NameNode/DataNode architecture.
+- *Documentation*: [Apache Hadoop Documentation](https://hadoop.apache.org/docs)
+- *Book*: *Hadoop: The Definitive Guide* (Tom White)
+- *Description*: Covers design, writing/reading files in HDFS, replication factors, and the NameNode/DataNode architecture.
 
 ### GFS Consistency Model
-- **Description**: Discussion in the original GFS paper about how GFS ensures consistency across replicas and handles file mutations.
+- *Description*: Discussion in the original GFS paper about how GFS ensures consistency across replicas and handles file mutations.
 
 ### ZooKeeper
-- **Documentation**: [ZooKeeper](https://zookeeper.apache.org)
-- **Paper**: “ZooKeeper: Wait-free Coordination for Internet-scale Systems” (Patrick Hunt, Mahadev Konar, Flavio P. Junqueira, Benjamin Reed)
-- **Link**: [ZooKeeper Paper (ACM)](https://dl.acm.org/doi/10.1145/1855840.1855851)
-- **Description**: Discusses the ZAB protocol for leader election, guarantees, and coordination primitives.
+- *Documentation*: [ZooKeeper](https://zookeeper.apache.org)
+- *Paper*: “ZooKeeper: Wait-free Coordination for Internet-scale Systems” (Patrick Hunt, Mahadev Konar, Flavio P. Junqueira, Benjamin Reed)
+- *Link*: [ZooKeeper Paper (ACM)](https://dl.acm.org/doi/10.1145/1855840.1855851)
+- *Description*: Discusses the ZAB protocol for leader election, guarantees, and coordination primitives.
 
 ### BigTable
-- **Paper**: “Bigtable: A Distributed Storage System for Structured Data” (Fay Chang, Jeffrey Dean, et al.)
-- **Link**: [Bigtable Paper (Google Research)](https://research.google.com/archive/bigtable.html)
+- *Paper*: “Bigtable: A Distributed Storage System for Structured Data” (Fay Chang, Jeffrey Dean, et al.)
+- *Link*: [Bigtable Paper (Google Research)](https://research.google.com/archive/bigtable.html)
 
 ### Apache HBase
-- **Documentation**: [Apache HBase](https://hbase.apache.org)
-- **Description**: Explores HBase architecture, reads/writes, append operations, and consistency guarantees.
+- *Documentation*: [Apache HBase](https://hbase.apache.org)
+- *Description*: Explores HBase architecture, reads/writes, append operations, and consistency guarantees.
 
 ### Cassandra
-- **Paper**: “Cassandra: A Decentralized Structured Storage System” (Avinash Lakshman, Prashant Malik)
-- **Link**: [Cassandra Paper (Facebook)](https://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf)
-- **Description**: Explains Cassandra’s ring-based architecture, consistency levels, linearizability issues, and solutions.
+- *Paper*: “Cassandra: A Decentralized Structured Storage System” (Avinash Lakshman, Prashant Malik)
+- *Link*: [Cassandra Paper (Facebook)](https://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf)
+- *Description*: Explains Cassandra’s ring-based architecture, consistency levels, linearizability issues, and solutions.
 
 ### Apache Kafka
-- **Book**: *Kafka: The Definitive Guide* (Gwen Shapira, Todd Palino, Rajini Sivaram, and Krishna Sankar)
-- **Documentation**: [Apache Kafka](https://kafka.apache.org)
-- **Description**: Covers Kafka internals (brokers, partitions), reliability guarantees, transactions, and exactly-once semantics.
+- *Book*: *Kafka: The Definitive Guide* (Gwen Shapira, Todd Palino, Rajini Sivaram, and Krishna Sankar)
+- *Documentation*: [Apache Kafka](https://kafka.apache.org)
+- *Description*: Covers Kafka internals (brokers, partitions), reliability guarantees, transactions, and exactly-once semantics.
 
 ### Messaging Guarantees & Storage Layout
-- **Resources**: [Confluent Blog & White Papers](https://www.confluent.io/resources/)
-- **Description**: Deep dives into Kafka’s log-based architecture, offsets, and how it handles high-throughput stream processing.
+- *Resources*: [Confluent Blog & White Papers](https://www.confluent.io/resources/)
+- *Description*: Deep dives into Kafka’s log-based architecture, offsets, and how it handles high-throughput stream processing.
 
 ### Kubernetes
-- **Documentation**: [Kubernetes](https://kubernetes.io/docs)
-- **Books**: *Kubernetes in Action* (Marko Lukša) or *The Kubernetes Book* (Nigel Poulton)
-- **Description**: Explains core components (Master & Worker nodes), scheduling, and cluster state management.
+- *Documentation*: [Kubernetes](https://kubernetes.io/docs)
+- *Books*: *Kubernetes in Action* (Marko Lukša) or *The Kubernetes Book* (Nigel Poulton)
+- *Description*: Explains core components (Master & Worker nodes), scheduling, and cluster state management.
 
 ### Google Borg
-- **Paper**: “Large-scale cluster management at Google with Borg” (Abhishek Verma, Luis Pedrosa, Madhukar Korupolu, et al.)
-- **Link**: [Borg Paper (ACM)](https://dl.acm.org/doi/10.1145/2741948.2741964)
-- **Description**: Influential system that inspired Kubernetes; discusses scheduling, isolation, and cluster operations.
+- *Paper*: “Large-scale cluster management at Google with Borg” (Abhishek Verma, Luis Pedrosa, Madhukar Korupolu, et al.)
+- *Link*: [Borg Paper (ACM)](https://dl.acm.org/doi/10.1145/2741948.2741964)
+- *Description*: Influential system that inspired Kubernetes; discusses scheduling, isolation, and cluster operations.
 
 ### Corda
-- **Documentation**: [Corda](https://docs.r3.com/en/platform/corda/)
-- **Description**: Explains the ledger model, data partitions (not global broadcast), node architecture, and backwards compatibility approach.
+- *Documentation*: [Corda](https://docs.r3.com/en/platform/corda/)
+- *Description*: Explains the ledger model, data partitions (not global broadcast), node architecture, and backwards compatibility approach.
 
 ### Blockchain & DLT Overviews
-- **Book**: *Mastering Blockchain* (Imran Bashir)
-- **Documentation**: [Hyperledger Fabric](https://www.hyperledger.org/use/fabric)
-- **Description**: Though not Corda-specific, it’s helpful for contrasting alternative distributed ledger platforms.
+- *Book*: *Mastering Blockchain* (Imran Bashir)
+- *Documentation*: [Hyperledger Fabric](https://www.hyperledger.org/use/fabric)
+- *Description*: Though not Corda-specific, it’s helpful for contrasting alternative distributed ledger platforms.
 
 ### MapReduce
-- **Paper**: “MapReduce: Simplified Data Processing on Large Clusters” (Jeffrey Dean and Sanjay Ghemawat)
-- **Link**: [MapReduce Paper (Google Research)](https://research.google.com/archive/mapreduce.html)
-- **Description**: Explains the master-worker architecture, fault tolerance, and the shuffle phase.
+- *Paper*: “MapReduce: Simplified Data Processing on Large Clusters” (Jeffrey Dean and Sanjay Ghemawat)
+- *Link*: [MapReduce Paper (Google Research)](https://research.google.com/archive/mapreduce.html)
+- *Description*: Explains the master-worker architecture, fault tolerance, and the shuffle phase.
 
 ### Apache Spark
-- **Paper**: “Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing” (Matei Zaharia, et al.)
-- **Link**: [Spark Paper (USENIX)](https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/zaharia)
-- **Documentation**: [Apache Spark](https://spark.apache.org/docs)
-- **Description**: Covers Spark’s DAG-based stages, RDDs, and performance considerations.
+- *Paper*: “Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing” (Matei Zaharia, et al.)
+- *Link*: [Spark Paper (USENIX)](https://www.usenix.org/conference/nsdi12/technical-sessions/presentation/zaharia)
+- *Documentation*: [Apache Spark](https://spark.apache.org/docs)
+- *Description*: Covers Spark’s DAG-based stages, RDDs, and performance considerations.
 
 ### Apache Flink
-- **Documentation**: [Apache Flink](https://nightlies.apache.org/flink/flink-docs-release-1.14/)
-- **Paper**: “Apache Flink: Stream and Batch Processing in a Single Engine” (Aljoscha Krettek, et al.)
-- **Description**: Discusses Flink’s event-time processing, watermarks, and failure recovery mechanisms.
+- *Documentation*: [Apache Flink](https://nightlies.apache.org/flink/flink-docs-release-1.14/)
+- *Paper*: “Apache Flink: Stream and Batch Processing in a Single Engine” (Aljoscha Krettek, et al.)
+- *Description*: Discusses Flink’s event-time processing, watermarks, and failure recovery mechanisms.
 
 ### Event Sourcing & Change Data Capture (CDC)
-- **Blog**: [Martin Fowler’s blog on Event Sourcing and CDC](https://martinfowler.com/eaaDev/EventSourcing.html)
-- **Documentation**: [Debezium](https://debezium.io)
-- **Description**: Real-time CDC from various databases.
+- *Blog*: [Martin Fowler’s blog on Event Sourcing and CDC](https://martinfowler.com/eaaDev/EventSourcing.html)
+- *Documentation*: [Debezium](https://debezium.io)
+- *Description*: Real-time CDC from various databases.
 
 ### Distributed Locking & Coordination
-- **Paper**: “Chubby: The lock service for loosely coupled distributed systems” (Mike Burrows) by Google
-- **Documentation**: ZooKeeper and etcd docs (both commonly used for distributed locks, leases, coordination).
+- *Paper*: “Chubby: The lock service for loosely coupled distributed systems” (Mike Burrows) by Google
+- *Documentation*: ZooKeeper and etcd docs (both commonly used for distributed locks, leases, coordination).
 
 ### Backpressure and Failure Handling
-- **Initiative**: [Reactive Streams Initiative](https://www.reactive-streams.org)
-- **Tools**: Netflix OSS (Hystrix, now in maintenance) for circuit breakers and backpressure patterns.
+- *Initiative*: [Reactive Streams Initiative](https://www.reactive-streams.org)
+- *Tools*: Netflix OSS (Hystrix, now in maintenance) for circuit breakers and backpressure patterns.
 
 ### Distributed Tracing
-- **Documentation**: [OpenTelemetry](https://opentelemetry.io), [Zipkin](https://zipkin.io), [Jaeger](https://www.jaegertracing.io)
-- **Description**: Provide instrumentation and visualization of call chains across microservices.
+- *Documentation*: [OpenTelemetry](https://opentelemetry.io), [Zipkin](https://zipkin.io), [Jaeger](https://www.jaegertracing.io)
+- *Description*: Provide instrumentation and visualization of call chains across microservices.
 
 ### Coordination & Communication Patterns
-- **Books**: *Enterprise Integration Patterns* (Gregor Hohpe, Bobby Woolf), *Microservices Patterns* (Chris Richardson)
-- **Description**: Summaries of communication, saga orchestration, and API gateway patterns.
+- *Books*: *Enterprise Integration Patterns* (Gregor Hohpe, Bobby Woolf), *Microservices Patterns* (Chris Richardson)
+- *Description*: Summaries of communication, saga orchestration, and API gateway patterns.
 
 
 # ANNEX
@@ -280,23 +280,23 @@ Consider chaos engineering as a proactive approach to discovering weaknesses bef
 
 Splitting large data sets or workloads into smaller shards distributed across nodes. Helps scale reads and writes, reduce latency, and contain failures.
 
-**Replication** Maintaining multiple copies of data for fault tolerance and improved read performance. Can be single-master (leader-follower) or multi-master, depending on write patterns.
+*Replication* Maintaining multiple copies of data for fault tolerance and improved read performance. Can be single-master (leader-follower) or multi-master, depending on write patterns.
 
-**Single-Master vs. Multi-Master Replication** Single-master replication centralizes writes to one leader node. Multi-master allows writes on multiple nodes, which often requires conflict resolution.
+*Single-Master vs. Multi-Master Replication* Single-master replication centralizes writes to one leader node. Multi-master allows writes on multiple nodes, which often requires conflict resolution.
 
-**Quorums in Distributed Systems** A majority-like mechanism where operations (e.g., reads or writes) need agreement from a certain subset (e.g., majority) of nodes, ensuring data consistency even if some nodes fail.
+*Quorums in Distributed Systems* A majority-like mechanism where operations (e.g., reads or writes) need agreement from a certain subset (e.g., majority) of nodes, ensuring data consistency even if some nodes fail.
 
-**Safety Guarantees** Conditions that the system must never violate (e.g., no data corruption). Often involves coordination (consensus) to avoid conflicting writes.
+*Safety Guarantees* Conditions that the system must never violate (e.g., no data corruption). Often involves coordination (consensus) to avoid conflicting writes.
 
-**ACID Transactions** Stands for Atomicity, Consistency, Isolation, Durability. Ensures reliable database transactions, though in distributed settings, it’s more complex to guarantee all four properties at scale.
+*ACID Transactions* Stands for Atomicity, Consistency, Isolation, Durability. Ensures reliable database transactions, though in distributed settings, it’s more complex to guarantee all four properties at scale.
 
-**The CAP Theorem** States that in the presence of a network partition, you must choose between Consistency and Availability. All distributed systems make trade-offs among these properties.
+*The CAP Theorem* States that in the presence of a network partition, you must choose between Consistency and Availability. All distributed systems make trade-offs among these properties.
 
-**Consistency Models** Defines how and when data updates become visible to readers. Examples include strong consistency, eventual consistency, and causal consistency.
+*Consistency Models* Defines how and when data updates become visible to readers. Examples include strong consistency, eventual consistency, and causal consistency.
 
-**Isolation Levels and Anomalies** Refers to controlling concurrency side effects (e.g., dirty reads, lost updates). Higher isolation reduces anomalies but can impact performance.
+*Isolation Levels and Anomalies* Refers to controlling concurrency side effects (e.g., dirty reads, lost updates). Higher isolation reduces anomalies but can impact performance.
 
-**Prevention of Anomalies & Hierarchy of Models** Techniques (like locking or multi-version concurrency) prevent anomalies such as write skew or phantom reads. Systems choose a balance based on performance and correctness needs.
+*Prevention of Anomalies & Hierarchy of Models* Techniques (like locking or multi-version concurrency) prevent anomalies such as write skew or phantom reads. Systems choose a balance based on performance and correctness needs.
 
 ### Distributed Transactions
 
@@ -306,31 +306,31 @@ When transactions take hours or days, a Saga pattern with compensating actions i
 
 ### Achieving Atomicity
 
-**Hard to Guarantee Atomicity** Atomicity ensures “all or nothing” behavior. In distributed environments, ensuring no partial commits can be tricky when nodes crash mid-transaction.
+*Hard to Guarantee Atomicity* Atomicity ensures “all or nothing” behavior. In distributed environments, ensuring no partial commits can be tricky when nodes crash mid-transaction.
 
-**2-Phase Commit (2PC) & 3-Phase Commit (3PC)** Protocols to coordinate commits across nodes. 2PC is simpler but can block if the coordinator fails. 3PC attempts to mitigate blocking by adding an extra step for agreement.
+*2-Phase Commit (2PC) & 3-Phase Commit (3PC)* Protocols to coordinate commits across nodes. 2PC is simpler but can block if the coordinator fails. 3PC attempts to mitigate blocking by adding an extra step for agreement.
 
-**Quorum-Based Commit Protocol** Instead of relying on a single coordinator, a quorum (majority) of nodes must confirm commits, providing fault tolerance at the cost of some overhead.
+*Quorum-Based Commit Protocol* Instead of relying on a single coordinator, a quorum (majority) of nodes must confirm commits, providing fault tolerance at the cost of some overhead.
    
 ### Consensus
 
-**Defining the Consensus Problem & FLP Impossibility** Achieving agreement among multiple nodes in the presence of failures is provably impossible under certain conditions (Fischer-Lynch-Paterson result). In practice, protocols make trade-offs to achieve “good enough” consensus.
+*Defining the Consensus Problem & FLP Impossibility* Achieving agreement among multiple nodes in the presence of failures is provably impossible under certain conditions (Fischer-Lynch-Paterson result). In practice, protocols make trade-offs to achieve “good enough” consensus.
 
-**The Paxos Algorithm & Paxos in Real Life** A foundational algorithm for reaching distributed consensus. Often seen as complex; real-world systems sometimes use Paxos variants or alternative protocols.
+*The Paxos Algorithm & Paxos in Real Life* A foundational algorithm for reaching distributed consensus. Often seen as complex; real-world systems sometimes use Paxos variants or alternative protocols.
 
-**Replicated State Machine via Consensus** Replicating logs across nodes so they execute state transitions in the same order, ensuring a consistent system state even if some nodes fail.
+*Replicated State Machine via Consensus* Replicating logs across nodes so they execute state transitions in the same order, ensuring a consistent system state even if some nodes fail.
 
-**Distributed Transactions via Consensus** Coordination for transaction commits can leverage consensus to ensure correct ordering and completion.
+*Distributed Transactions via Consensus* Coordination for transaction commits can leverage consensus to ensure correct ordering and completion.
 
-**Raft** A more approachable consensus protocol than Paxos, using a leader-based approach for log replication and simplified understanding.
+*Raft* A more approachable consensus protocol than Paxos, using a leader-based approach for log replication and simplified understanding.
 
 ### Time and Order
 
-**What is Different in a Distributed System?** Clocks can drift, messages can be delayed, so global ordering of events is non-trivial.
+*What is Different in a Distributed System?* Clocks can drift, messages can be delayed, so global ordering of events is non-trivial.
 
-**Logical Clocks** Mechanisms (like Lamport clocks, vector clocks) track causality rather than real-world time, helping determine which events happened “before” others.
+*Logical Clocks* Mechanisms (like Lamport clocks, vector clocks) track causality rather than real-world time, helping determine which events happened “before” others.
 
-**Total and Partial Ordering, Causality** Some systems need strict ordering (total), while others only require partial ordering based on causal relationships.
+*Total and Partial Ordering, Causality* Some systems need strict ordering (total), while others only require partial ordering based on causal relationships.
 
-**Distributed Snapshot Problem** Capturing a consistent global state across distributed nodes requires coordinated algorithms (e.g., Chandy–Lamport). 
+*Distributed Snapshot Problem* Capturing a consistent global state across distributed nodes requires coordinated algorithms (e.g., Chandy–Lamport). 
      
