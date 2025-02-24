@@ -173,11 +173,11 @@ Provides a consistent experience with minimal lag-induced conflicts. Local chang
 
 In a typical split-brain scenario, multiple replicas might keep accepting writes, leading to divergent states. CRDT-based data models inherently support:
 
-**Concurrent Updates**  Each partition can make local changes without blocking or waiting on a central coordinator.
+*Concurrent Updates*:  Each partition can make local changes without blocking or waiting on a central coordinator.
 
-**Automated Merging** When partitions rejoin, CRDT merges are commutative and idempotent. No need for manual conflict resolution or overshadowing one partition’s writes.
+*Automated Merging*: When partitions rejoin, CRDT merges are commutative and idempotent. No need for manual conflict resolution or overshadowing one partition’s writes.
 
-**High Availability** The system continues to function even if certain regions lose connectivity (e.g., in offline or partitioned mode). Once connectivity is restored, the data converges.
+*High Availability*: The system continues to function even if certain regions lose connectivity (e.g., in offline or partitioned mode). Once connectivity is restored, the data converges.
 
 
 CRDTs are a compelling solution for distributed applications that value availability and concurrency. While they can’t solve every single challenge of distributed systems (e.g., strict global invariants might still require stronger consistency protocols), they significantly reduce the overhead of conflict resolution, especially in split-brain or offline-first scenarios.
