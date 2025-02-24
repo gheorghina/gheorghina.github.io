@@ -122,8 +122,7 @@ If there’s an actual partition, each half will do something different. On reco
 
 **Resources**
 
-- [Erlang :net_kernel module](https
-- [Erlang :erlang.monitor_node/2 function](https://erlang.org
+- [Erlang :net_kernel module](https://www.erlang.org/docs/25/man/net_kernel)
 - [Erlang Distribution Docs](https://erlang.org/doc/reference_manual/distributed.html)
 - [How to deal with partial netsplits?](https://elixirforum.com/t/how-to-deal-with-partial-netsplits/69060)
 
