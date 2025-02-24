@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Tackling CRDTs and Brain Splits in Distributed Systems. How does Elixir/Erlang handle it?"
+title:  "Tackling CRDTs and Brain Splits in Distributed Systems. How does Elixir/Erlang handle them?"
 date:   2023-06-20 00:18:23 +0700
 categories: [architecture, CRDT, brain split]
 ---
