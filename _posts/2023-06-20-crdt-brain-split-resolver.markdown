@@ -10,17 +10,6 @@ In distributed systems and multi-user applications, handling concurrent updates 
 
 Conflict-free Replicated Data Types (CRDTs) offer a simpler, more robust approach. As per the CRDT.tech resources, a CRDT is a data structure designed for optimistic replication: multiple replicas can independently make updates—even offline—and still automatically merge to a correct, consistent state once reconnected. This eliminates the need for special-case conflict resolution code or user intervention.
 
-## Typical Scenarios That Need CRDTs
-
-Mobile apps with local data (calendars, notes, contacts) that later sync to the cloud.
-
-Distributed databases that keep multiple replicas in different regions for fault tolerance and high availability.
-
-
-Collaborative software (e.g., Google Docs, Figma), where multiple users simultaneously modify shared files.
-
-Large-scale data storage setups that replicate data globally for performance and reliability.
-
 ## The Split-Brain (Brain-Split) Challenge
 
 A notorious problem in distributed systems is the split-brain scenario. This happens when a network partition (or severe communication failure) divides a cluster into two or more subsets—each “subset” believes it is fully in charge of the data, continuing to accept writes. When the network heals, these now-divergent replicas must merge.
