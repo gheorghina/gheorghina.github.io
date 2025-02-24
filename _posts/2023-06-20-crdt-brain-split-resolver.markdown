@@ -191,6 +191,7 @@ Broad Use Cases: From chat apps to enterprise-scale e-commerce, CRDTs fit where 
 
 ## References 
 
+- [CRDT](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type)
 - [CRDT Resources](https://crdt.tech/resources)
 - [Martin Kleppmann's Blog on CRDTs: A comprehensive overview of the state of CRDTs and their applications](https://martin.kleppmann.com/2020/07/06/crdt-hard-parts-hydra.html)
 - [Conflict-free Replicated Data Types (CRDTs) in Depth: An in-depth article on how CRDTs work and their use cases in collaborative editing](https://pages.lip6.fr/Marc.Shapiro/papers/RR-7687.pdf)
