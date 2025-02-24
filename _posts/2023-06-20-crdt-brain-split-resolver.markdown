@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Tackling CRDTs and Brain Splits in Distributed Systems. How does Elixir handle it?"
+title:  "Tackling CRDTs and Brain Splits in Distributed Systems. How does Elixir/Erlang handle it?"
 date:   2023-06-20 00:18:23 +0700
 categories: [architecture, CRDT, brain split]
 ---
@@ -22,7 +22,7 @@ A notorious problem in distributed systems is the split-brain scenario. This hap
 
 CRDTs address these challenges gracefully. They allow concurrent updates on all partitions (even in a split-brain scenario) and automatically merge them back into a single coherent state—no manual conflict resolution needed.
 
-## Handling of brain splits in Elixir without CRDTs
+## Handling of brain splits in Elixir/Erlang
 
 ### Mnesia Database Netsplits
 
