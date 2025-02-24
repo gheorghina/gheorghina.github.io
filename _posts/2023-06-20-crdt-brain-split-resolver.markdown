@@ -138,12 +138,6 @@ If there’s an actual partition, each half will do something different. On reco
 - [Erlang Distribution Docs](https://erlang.org/doc/reference_manual/distributed.html)
 - [How to deal with partial netsplits?](https://elixirforum.com/t/how-to-deal-with-partial-netsplits/69060)
 
-
-## Testing with Chaos
-
-Tools like [PropEr](http://proper.softlab.ntua.gr/) (property-based testing in Elixir/Erlang) or Chaos Engineering approaches can inject network failures. This ensures an app can handle partial disconnections gracefully.
-
-
 ## Use Cases for CRDTs
 
 ### Collaborative Editing
