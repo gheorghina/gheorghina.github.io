@@ -2,9 +2,28 @@
 layout: post
 title:  "Designing Distributed Business Process Models"
 date:   2023-02-15 00:18:23 +0700
-categories: [workflows, distributed workflows, scalability, resiliency, orchestration, choreography]
+updated: 2026-06-21 00:00:00 +0700
+categories: [workflows, distributed workflows, scalability, resiliency, orchestration, choreography, BPMN, FEEL, DMN]
 ---
 
+> **Updated 2026**: Added Jobs to be Done framework, FEEL/BPMN decision modeling, Kestra orchestration platform, and comprehensive tool comparison (Camunda, Temporal, AWS Step Functions). 
+
+
+## Understanding Your Workflow Needs: Jobs to be Done Framework
+
+Before diving into orchestration vs. choreography, consider the **Jobs to be Done (JTBD)** framework. This helps identify the actual jobs your workflow needs to accomplish—not just the features or processes, but the underlying outcomes users are trying to achieve.
+
+**Three perspectives on workflow design**:
+
+1. **Functional Job**: The core task (e.g., "process an order", "approve a payment")
+2. **Emotional Job**: The feeling users want (e.g., "confidence in system reliability", "peace of mind")
+3. **Social Job**: The impression users want to make (e.g., "be seen as compliant", "demonstrate innovation")
+
+Understanding these jobs helps you:
+- Design workflows that serve actual business outcomes, not just process automation
+- Identify which interactions require orchestration vs. choreography
+- Recognize when workflows need human intervention points
+- Define success metrics beyond task completion
 
 ## Designing Distributed Workflows
 
@@ -161,6 +180,58 @@ At first glance, the choreography solution seems simpler—fewer services (no or
 - When most of the above orchestration use cases are not met.
 
 
+## Modeling Workflows: BPMN and Decision Logic with FEEL
+
+When designing executable workflows, distinguish between **process flow** and **business decision logic**.
+
+### Business Process Model and Notation (BPMN)
+
+BPMN provides a standardized visual language for modeling business processes. It focuses on:
+- **Sequence of tasks**: What needs to be done and in what order
+- **Events and gateways**: When processes start/stop and how they branch
+- **Lanes and pools**: Who (which system/team) performs each task
+
+### Decision Model and Notation (DMN) with FEEL
+
+**FEEL (Friendly Enough Expression Language)** is a standard language within the DMN (Decision Model and Notation) framework. It's designed specifically for modeling business decisions:
+
+**Key characteristics**:
+- **Readable by business and technical teams**: Simple, natural language-like syntax
+- **Executable**: FEEL expressions can be directly executed by decision engines
+- **Focused on decisions**: Captures business rules and logic independent of process flow
+- **Well-defined semantics**: Clear, unambiguous meaning for automation
+
+**FEEL vs BPMN**:
+
+| Aspect | BPMN | FEEL/DMN |
+|--------|------|----------|
+| **Purpose** | Models process flow and sequence | Models decision logic and rules |
+| **Focus** | What happens next in the process | How to decide at decision points |
+| **Visualization** | Flowcharts and diagrams | Decision tables, expressions |
+| **Execution** | Defines workflow orchestration | Drives decision outcomes |
+| **Complexity** | Process structure and parallelism | Business rule logic |
+
+**How They Work Together**:
+
+1. **Separation of Concerns**: BPMN shows the overall process flow, while FEEL defines specific decision logic
+2. **Business Rule Tasks**: BPMN contains "Business Rule Task" elements that invoke DMN models
+3. **Cleaner Processes**: Moving complex decision logic to FEEL/DMN keeps BPMN diagrams simple and maintainable
+4. **Independent Changes**: Business rules can be updated without modifying the process flow
+
+**Example Scenario**:
+```
+BPMN Process: "Order Processing"
+  ├── Receive Order → [Business Rule Task] → Determine Discount
+  │     └── DMN Model with FEEL: 
+  │         If customer_type == "Premium" AND order_amount > 1000
+  │         Then discount = 0.15
+  │         Else discount = 0.05
+  ├── Calculate Total
+  ├── [Business Rule Task] → Check Fraud Risk
+  │     └── DMN Model with FEEL: Complex fraud detection rules
+  └── Process Payment
+```
+
 ## Design Principles for Ensuring Flexibility
 
 Irrespective of the communication model, it is vital to ensure a standardized manner for shaping integrations so that increased visibility and transparent communication can be put in place for the interaction points.
@@ -190,18 +261,86 @@ For long running processes the async approach ensures immediate retake of activi
 
 ## Existing Solutions in the Market (if you don't want to build your own)
 
-- [Camunda](https://camunda.com/)
+### Core Orchestration Platforms
 
-- [AWS Step Functions](https://aws.amazon.com/step-functions/?step-functions.sort-by=item.additionalFields.postDateTime&step-functions.sort-order=desc)
+- [Camunda](https://camunda.com/) - BPMN-focused, DMN-integrated, enterprise-grade
+- [Temporal](https://temporal.io/) - Durable execution platform, fault-tolerant workflows
+- [AWS Step Functions](https://aws.amazon.com/step-functions/) - AWS-native, serverless orchestration
+- [Apache Airflow](https://airflow.apache.org/) - DAG-based, data pipeline focus
+- [Conductor](https://conductor.netflix.com/) - Netflix's workflow orchestrator
+- [Kestra](https://kestra.io/) - Modern, event-driven orchestration platform
 
-- [Apache Airflow](https://airflow.apache.org/)
+### Tool Comparison Matrix
 
-- Use frontend apps as orchestrators
+| Feature | Camunda | Temporal | AWS Step Functions | Kestra | Airflow |
+|---------|---------|----------|-------------------|--------|----------|
+| **BPMN Support** | ✓ Native | Limited | ✗ | ✗ | ✗ |
+| **DMN/Decision Logic** | ✓ Full FEEL support | ✗ | ✗ | Partial | ✗ |
+| **Event-Driven** | ✓ | ✓ High-level | ✓ | ✓ Native | Limited |
+| **Long-Running Workflows** | ✓ Excellent | ✓ Excellent (core strength) | ✓ Good | ✓ Good | Limited |
+| **Durability/Replay** | ✓ | ✓ Core feature | ✓ | ✓ | Limited |
+| **Learning Curve** | Moderate | Steep | Low | Low | Moderate |
+| **Community/Enterprise** | Both | Strong community | Enterprise | Growing | Strong community |
+| **Cost Model** | Self-hosted/SaaS | Self-hosted/SaaS | Pay-per-execution | Open-source/SaaS | Open-source |
+| **Scalability** | High | Extremely high | Very high | High | Good for DAGs |
+| **Use Case Sweet Spot** | Complex business processes with decisions | Long-running, distributed systems | AWS-native applications | Modern, microservices-friendly | Data orchestration, ETL |
 
-- [Conductor](https://conductor.netflix.com/)
+### Detailed Comparison
+
+**Camunda**
+- Best for: Complex business processes requiring BPMN/DMN modeling
+- Strengths: Visual process modeling, decision logic separation, enterprise features
+- Weaknesses: Steeper learning curve, more complex setup
+- When to use: Enterprise workflows with business stakeholder involvement
+
+**Temporal**
+- Best for: Durable, fault-tolerant distributed systems
+- Strengths: Exceptional durability, event sourcing, automatic retry/replay
+- Weaknesses: Different programming model (code-as-workflow), not BPMN-based
+- When to use: Mission-critical workflows requiring guaranteed execution
+
+**AWS Step Functions**
+- Best for: AWS-native applications
+- Strengths: Simple JSON-based workflow definition, tight AWS integration, low operational overhead
+- Weaknesses: AWS lock-in, limited flexibility for complex logic
+- When to use: Rapid AWS-based workflows, serverless architectures
+
+**Kestra**
+- Best for: Modern, containerized microservices
+- Strengths: Event-driven architecture, simple YAML-based definitions, cloud-native
+- Weaknesses: Newer, smaller ecosystem
+- When to use: Microservices environments, event-driven architectures
+
+**Apache Airflow**
+- Best for: Data pipeline and ETL orchestration
+- Strengths: Excellent DAG visualization, large community, flexible
+- Weaknesses: Not ideal for long-running processes, callback-heavy workflows
+- When to use: Scheduled batch jobs, data engineering workflows
 
 
 ## References
 
+**Books**:
 - [Software Architecture: The hard parts](https://www.goodreads.com/book/show/58153482-software-architecture?ac=1&from_search=true&qid=pe9Z1j918i&rank=1)
-- [Manage Distributed Locking](https://martin.kleppmann.com/2016/02/08/how-to-do-distributed-locking.html) 
+- [Building Microservices by Sam Newman](https://www.goodreads.com/book/show/22512931-building-microservices)
+
+**Jobs to be Done Framework**:
+- [Jobs to be Done Framework - Nielsen Norman Group](https://www.nngroup.com/articles/personas-jobs-be-done/)
+- [Jobs to be Done Product Strategy](https://www.linkedin.com/pulse/jobs-to-be-done/)
+
+**BPMN and DMN Standards**:
+- [Object Management Group - BPMN Standard](https://www.omg.org/spec/BPMN/2.0/)
+- [Object Management Group - DMN Standard](https://www.omg.org/spec/DMN/)
+- [FEEL Language Specification](https://www.omg.org/spec/FEEL/)
+
+**Workflow Orchestration Tools**:
+- [Camunda - BPMN Platform](https://camunda.com/)
+- [Temporal - Durable Execution](https://temporal.io/)
+- [Kestra - Event-Driven Orchestration](https://kestra.io/)
+- [AWS Step Functions - Serverless Workflows](https://aws.amazon.com/step-functions/)
+- [Apache Airflow - Data Orchestration](https://airflow.apache.org/)
+- [Netflix Conductor - Distributed Orchestration](https://conductor.netflix.com/)
+
+**Distributed Systems**:
+- [Manage Distributed Locking](https://martin.kleppmann.com/2016/02/08/how-to-do-distributed-locking.html)
+- [Designing Event-Driven Systems](https://www.oreilly.com/library/view/designing-event-driven-systems/9781492038252/) 
