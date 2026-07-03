@@ -38,8 +38,8 @@ urls:
       url: /learning_resources/
     - text: Mentorship Program for Staff+
       url: /mentorship/
-    - text: Courses and Workshops
-      url: /courses_workshops/
+    # - text: Courses and Workshops
+    #   url: /courses_workshops/
 
 url: "https://gheorghina.github.io"
 baseurl: ""
