@@ -6,11 +6,15 @@ permalink: /about/
 
 Hi,
 
-I am Gheorghina, a passionate, results driven Senior Software Architect and Certified Enterprise Architecture Practitioner by the Open Group with two decades years of experience in designing and implementing large-scale distributed systems. Specializing in software architecture and technical leadership, I have a proven track record in the Home Automation, Life Sciences, Cloud Collaboration, Banking, Logistics and IOT sectors. 
- 
+I am Gheorghina, a passionate, results-driven Senior Software Architect and Certified Enterprise Architecture Practitioner by The Open Group with nearly two decades of experience designing and delivering large-scale distributed systems. I specialize in software architecture, enterprise architecture, and technical leadership, with a proven track record across the Home Automation, Life Sciences, Cloud Collaboration, Banking, Logistics, and IoT sectors.
+
+Throughout my career, I have worked extensively in highly regulated environments, designing secure, resilient, and compliant systems that meet demanding business, operational, and regulatory requirements. My background includes architecting cloud-native platforms, modernizing legacy systems, and leading digital transformation initiatives while balancing scalability, reliability, security, and governance.
+
+Information security has been a consistent focus throughout my career. As a Certified Information Systems Security Professional (CISSP), I apply security-by-design principles and risk-based decision making across the software development lifecycle, integrating cybersecurity considerations into enterprise and solution architectures from the earliest design stages.
+
 ## Training and Mentoring
 
-I am an adept trainer and mentor, often leading workshops and sessions on software architecture, enterprise architecture best practices, and technical strategy development or career growth. I have successfully coached and mentored multiple tech leaders, helping them to excel in their careers and projects.
+I am an experienced trainer and mentor, regularly leading workshops and technical sessions on software architecture, enterprise architecture best practices, secure software design, technical strategy, and career development. I have successfully coached software engineers, architects, and technical leaders, helping them grow into impactful engineering and architecture roles while fostering collaborative, high-performing teams. 
 
 
 ## Blog Purpose
